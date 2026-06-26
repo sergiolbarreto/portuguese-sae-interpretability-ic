@@ -1,0 +1,1055 @@
+{
+  "experiment": "gemma9b_probes_multilayer",
+  "model": "gemma-2-9b",
+  "sae_release": "gemma-scope-9b-pt-res-canonical",
+  "layers": [
+    20,
+    31
+  ],
+  "n_model_layers": 42,
+  "d_sae": 16384,
+  "phenomena": [
+    "gender",
+    "crase",
+    "clitics"
+  ],
+  "regime_thresholds": {
+    "localized": 0.45,
+    "semi_localized": 0.25
+  },
+  "probes": {
+    "gender": {
+      "positive": [
+        "A menina bonita correu pelo parque.",
+        "A professora dedicada ensinou a lição.",
+        "A diretora nova chegou na escola.",
+        "A médica experiente atendeu o paciente.",
+        "A engenheira brasileira projetou a ponte.",
+        "A menina inteligente resolveu o problema.",
+        "A advogada famosa venceu o caso.",
+        "A cantora talentosa encantou a plateia.",
+        "A cozinheira habilidosa preparou o jantar.",
+        "A estudante aplicada passou no exame."
+      ],
+      "negative": [
+        "O menino bonito correu pelo parque.",
+        "O professor dedicado ensinou a lição.",
+        "O diretor novo chegou na escola.",
+        "O médico experiente atendeu o paciente.",
+        "O engenheiro brasileiro projetou a ponte.",
+        "O menino inteligente resolveu o problema.",
+        "O advogado famoso venceu o caso.",
+        "O cantor talentoso encantou a plateia.",
+        "O cozinheiro habilidoso preparou o jantar.",
+        "O estudante aplicado passou no exame."
+      ]
+    },
+    "crase": {
+      "positive": [
+        "Ele foi à escola todos os dias.",
+        "Ela se referiu à diretora do colégio.",
+        "O aluno entregou o trabalho à professora.",
+        "Nós fomos à praia no fim de semana.",
+        "Ele assistiu à palestra com atenção.",
+        "Ela voltou à cidade natal depois de anos.",
+        "O diretor respondeu à carta do ministro.",
+        "Nós nos dirigimos à saída de emergência.",
+        "Ela se dedicou à pesquisa por décadas.",
+        "O turista foi à catedral mais antiga."
+      ],
+      "negative": [
+        "Ele foi ao mercado todos os dias.",
+        "Ela se referiu ao diretor do colégio.",
+        "O aluno entregou o trabalho ao professor.",
+        "Nós fomos ao parque no fim de semana.",
+        "Ele assistiu ao jogo com atenção.",
+        "Ele voltou ao escritório depois de anos.",
+        "O diretor respondeu ao ofício do ministro.",
+        "Nós nos dirigimos ao portão de emergência.",
+        "Ele se dedicou ao estudo por décadas.",
+        "O turista foi ao museu mais antigo."
+      ]
+    },
+    "clitics": {
+      "positive": [
+        "Ele me disse a verdade ontem.",
+        "O professor nos explicou a matéria.",
+        "Ela se arrumou para a festa.",
+        "Ele lhe entregou o presente.",
+        "Eles nos convidaram para o jantar.",
+        "A mãe me chamou para almoçar.",
+        "O chefe nos pediu para ficar.",
+        "Ela se preparou cuidadosamente.",
+        "Ele lhe prometeu que voltaria.",
+        "Eles nos avisaram do perigo."
+      ],
+      "negative": [
+        "He told me the truth yesterday.",
+        "The teacher explained the subject to us.",
+        "She got ready for the party.",
+        "He gave her the present.",
+        "They invited us for dinner.",
+        "Mom called me for lunch.",
+        "The boss asked us to stay.",
+        "She prepared herself carefully.",
+        "He promised her he would return.",
+        "They warned us of the danger."
+      ]
+    }
+  },
+  "probe_results": {
+    "gender": {
+      "20": {
+        "top_features": [
+          {
+            "feature_id": 3595,
+            "diff": 8.444540023803711,
+            "effect_size": 6.9402055740356445,
+            "mean_pos": 8.444540023803711,
+            "mean_neg": 0.0
+          },
+          {
+            "feature_id": 12440,
+            "diff": -6.646575927734375,
+            "effect_size": -0.17666688561439514,
+            "mean_pos": 279.1299743652344,
+            "mean_neg": 285.77655029296875
+          },
+          {
+            "feature_id": 9016,
+            "diff": -2.522797107696533,
+            "effect_size": -10.038278579711914,
+            "mean_pos": 0.0,
+            "mean_neg": 2.522797107696533
+          },
+          {
+            "feature_id": 8180,
+            "diff": 2.5068492889404297,
+            "effect_size": 1.3829163312911987,
+            "mean_pos": 3.8692784309387207,
+            "mean_neg": 1.3624290227890015
+          },
+          {
+            "feature_id": 1115,
+            "diff": 2.4314351081848145,
+            "effect_size": 6.152123928070068,
+            "mean_pos": 2.6720032691955566,
+            "mean_neg": 0.24056819081306458
+          },
+          {
+            "feature_id": 4361,
+            "diff": 2.129293203353882,
+            "effect_size": 11.086586952209473,
+            "mean_pos": 2.129293203353882,
+            "mean_neg": 0.0
+          },
+          {
+            "feature_id": 12237,
+            "diff": -1.2350006103515625,
+            "effect_size": -0.17887943983078003,
+            "mean_pos": 50.69257354736328,
+            "mean_neg": 51.927574157714844
+          },
+          {
+            "feature_id": 7470,
+            "diff": -1.1767433881759644,
+            "effect_size": -4.730149269104004,
+            "mean_pos": 1.1095415353775024,
+            "mean_neg": 2.286284923553467
+          },
+          {
+            "feature_id": 12008,
+            "diff": -1.1580350399017334,
+            "effect_size": -1.7633694410324097,
+            "mean_pos": 0.14250001311302185,
+            "mean_neg": 1.3005350828170776
+          },
+          {
+            "feature_id": 15949,
+            "diff": -1.0905841588974,
+            "effect_size": -10.038274765014648,
+            "mean_pos": 0.0,
+            "mean_neg": 1.0905841588974
+          },
+          {
+            "feature_id": 2873,
+            "diff": 1.0846083164215088,
+            "effect_size": 0.48587653040885925,
+            "mean_pos": 3.555413007736206,
+            "mean_neg": 2.4708046913146973
+          },
+          {
+            "feature_id": 10243,
+            "diff": -0.9854676127433777,
+            "effect_size": -10.038272857666016,
+            "mean_pos": 0.0,
+            "mean_neg": 0.9854676127433777
+          },
+          {
+            "feature_id": 7839,
+            "diff": -0.9592971801757812,
+            "effect_size": -0.10849697887897491,
+            "mean_pos": 65.26412963867188,
+            "mean_neg": 66.22342681884766
+          },
+          {
+            "feature_id": 9154,
+            "diff": -0.9552552700042725,
+            "effect_size": -0.33586880564689636,
+            "mean_pos": 3.0137526988983154,
+            "mean_neg": 3.969007968902588
+          },
+          {
+            "feature_id": 9249,
+            "diff": 0.9510282278060913,
+            "effect_size": 1.063126564025879,
+            "mean_pos": 1.1300054788589478,
+            "mean_neg": 0.17897728085517883
+          },
+          {
+            "feature_id": 10841,
+            "diff": -0.9407386779785156,
+            "effect_size": -1.0810861587524414,
+            "mean_pos": 2.048603057861328,
+            "mean_neg": 2.9893417358398438
+          },
+          {
+            "feature_id": 10448,
+            "diff": -0.9149825572967529,
+            "effect_size": -0.4380929172039032,
+            "mean_pos": 1.9418156147003174,
+            "mean_neg": 2.8567981719970703
+          },
+          {
+            "feature_id": 9140,
+            "diff": 0.8497946858406067,
+            "effect_size": 2.2139623165130615,
+            "mean_pos": 0.8497946858406067,
+            "mean_neg": 0.0
+          },
+          {
+            "feature_id": 10528,
+            "diff": -0.8474366664886475,
+            "effect_size": -2.159147024154663,
+            "mean_pos": 2.424316167831421,
+            "mean_neg": 3.2717528343200684
+          },
+          {
+            "feature_id": 4835,
+            "diff": 0.795210063457489,
+            "effect_size": 1.8061575889587402,
+            "mean_pos": 1.0274803638458252,
+            "mean_neg": 0.23227031528949738
+          }
+        ],
+        "max_abs_diff": 8.444540023803711,
+        "max_effect_size": 6.9402055740356445
+      },
+      "31": {
+        "top_features": [
+          {
+            "feature_id": 9886,
+            "diff": -7.521111488342285,
+            "effect_size": -8.683262825012207,
+            "mean_pos": 0.18211805820465088,
+            "mean_neg": 7.7032294273376465
+          },
+          {
+            "feature_id": 15383,
+            "diff": -6.899588108062744,
+            "effect_size": -6.255075454711914,
+            "mean_pos": 1.4243348836898804,
+            "mean_neg": 8.323923110961914
+          },
+          {
+            "feature_id": 1444,
+            "diff": 5.983661651611328,
+            "effect_size": 3.5059263706207275,
+            "mean_pos": 7.599828243255615,
+            "mean_neg": 1.6161668300628662
+          },
+          {
+            "feature_id": 9765,
+            "diff": 5.649620532989502,
+            "effect_size": 4.09116792678833,
+            "mean_pos": 5.747347831726074,
+            "mean_neg": 0.09772727638483047
+          },
+          {
+            "feature_id": 12623,
+            "diff": 5.428735733032227,
+            "effect_size": 7.0853590965271,
+            "mean_pos": 8.004091262817383,
+            "mean_neg": 2.575355291366577
+          },
+          {
+            "feature_id": 8367,
+            "diff": 5.380596160888672,
+            "effect_size": 1.3211065530776978,
+            "mean_pos": 8.696256637573242,
+            "mean_neg": 3.3156604766845703
+          },
+          {
+            "feature_id": 7162,
+            "diff": -5.09945821762085,
+            "effect_size": -2.620523691177368,
+            "mean_pos": 0.2661111056804657,
+            "mean_neg": 5.365569114685059
+          },
+          {
+            "feature_id": 10526,
+            "diff": -5.072685241699219,
+            "effect_size": -1.4218515157699585,
+            "mean_pos": 4.9546003341674805,
+            "mean_neg": 10.0272855758667
+          },
+          {
+            "feature_id": 761,
+            "diff": 4.397584438323975,
+            "effect_size": 3.3486812114715576,
+            "mean_pos": 7.419685363769531,
+            "mean_neg": 3.0221009254455566
+          },
+          {
+            "feature_id": 3121,
+            "diff": 4.337597370147705,
+            "effect_size": 0.6754880547523499,
+            "mean_pos": 10.923158645629883,
+            "mean_neg": 6.585561275482178
+          },
+          {
+            "feature_id": 1004,
+            "diff": 3.8666553497314453,
+            "effect_size": 1.778411626815796,
+            "mean_pos": 18.188783645629883,
+            "mean_neg": 14.322128295898438
+          },
+          {
+            "feature_id": 2246,
+            "diff": 3.7541275024414062,
+            "effect_size": 9.168196678161621,
+            "mean_pos": 4.470233917236328,
+            "mean_neg": 0.7161065340042114
+          },
+          {
+            "feature_id": 1388,
+            "diff": -3.713648796081543,
+            "effect_size": -4.820405960083008,
+            "mean_pos": 1.8435121774673462,
+            "mean_neg": 5.5571608543396
+          },
+          {
+            "feature_id": 14579,
+            "diff": 3.4120001792907715,
+            "effect_size": 11.086587905883789,
+            "mean_pos": 3.4120001792907715,
+            "mean_neg": 0.0
+          },
+          {
+            "feature_id": 15938,
+            "diff": 3.360691785812378,
+            "effect_size": 11.086588859558105,
+            "mean_pos": 3.360691785812378,
+            "mean_neg": 0.0
+          },
+          {
+            "feature_id": 1892,
+            "diff": 3.180859088897705,
+            "effect_size": 6.017518043518066,
+            "mean_pos": 5.348887920379639,
+            "mean_neg": 2.1680288314819336
+          },
+          {
+            "feature_id": 2262,
+            "diff": -3.1143274307250977,
+            "effect_size": -4.040655136108398,
+            "mean_pos": 2.1800413131713867,
+            "mean_neg": 5.294368743896484
+          },
+          {
+            "feature_id": 15967,
+            "diff": 3.0887393951416016,
+            "effect_size": 2.707645893096924,
+            "mean_pos": 4.131397247314453,
+            "mean_neg": 1.0426578521728516
+          },
+          {
+            "feature_id": 4413,
+            "diff": -3.0056114196777344,
+            "effect_size": -0.8438185453414917,
+            "mean_pos": 4.224359035491943,
+            "mean_neg": 7.229970455169678
+          },
+          {
+            "feature_id": 10504,
+            "diff": -2.992340326309204,
+            "effect_size": -6.991997718811035,
+            "mean_pos": 0.8242971301078796,
+            "mean_neg": 3.8166375160217285
+          }
+        ],
+        "max_abs_diff": 7.521111488342285,
+        "max_effect_size": -8.683262825012207
+      }
+    },
+    "crase": {
+      "20": {
+        "top_features": [
+          {
+            "feature_id": 8180,
+            "diff": 3.2137043476104736,
+            "effect_size": 4.62901496887207,
+            "mean_pos": 3.411759853363037,
+            "mean_neg": 0.19805556535720825
+          },
+          {
+            "feature_id": 3595,
+            "diff": 2.90623140335083,
+            "effect_size": 0.6974042057991028,
+            "mean_pos": 3.6352086067199707,
+            "mean_neg": 0.7289773225784302
+          },
+          {
+            "feature_id": 14101,
+            "diff": 1.7512753009796143,
+            "effect_size": 3.009976387023926,
+            "mean_pos": 2.228942632675171,
+            "mean_neg": 0.47766733169555664
+          },
+          {
+            "feature_id": 10841,
+            "diff": -1.1947345733642578,
+            "effect_size": -1.8067666292190552,
+            "mean_pos": 2.2697415351867676,
+            "mean_neg": 3.4644761085510254
+          },
+          {
+            "feature_id": 9447,
+            "diff": -1.1649305820465088,
+            "effect_size": -0.4805302023887634,
+            "mean_pos": 0.0,
+            "mean_neg": 1.1649305820465088
+          },
+          {
+            "feature_id": 2638,
+            "diff": 0.9334756135940552,
+            "effect_size": 0.5083185434341431,
+            "mean_pos": 2.3298707008361816,
+            "mean_neg": 1.3963950872421265
+          },
+          {
+            "feature_id": 9154,
+            "diff": 0.9174308776855469,
+            "effect_size": 0.2455982267856598,
+            "mean_pos": 3.2830936908721924,
+            "mean_neg": 2.3656628131866455
+          },
+          {
+            "feature_id": 9493,
+            "diff": 0.8774305582046509,
+            "effect_size": 0.4162299633026123,
+            "mean_pos": 0.940625011920929,
+            "mean_neg": 0.06319444626569748
+          },
+          {
+            "feature_id": 15506,
+            "diff": -0.877275824546814,
+            "effect_size": -1.5708013772964478,
+            "mean_pos": 0.21437501907348633,
+            "mean_neg": 1.0916508436203003
+          },
+          {
+            "feature_id": 11180,
+            "diff": -0.8421964645385742,
+            "effect_size": -0.15700607001781464,
+            "mean_pos": 13.900758743286133,
+            "mean_neg": 14.742955207824707
+          },
+          {
+            "feature_id": 9446,
+            "diff": -0.8395991325378418,
+            "effect_size": -0.1079220399260521,
+            "mean_pos": 2.4542298316955566,
+            "mean_neg": 3.2938289642333984
+          },
+          {
+            "feature_id": 12440,
+            "diff": -0.807861328125,
+            "effect_size": -0.02583790384232998,
+            "mean_pos": 272.06976318359375,
+            "mean_neg": 272.87762451171875
+          },
+          {
+            "feature_id": 519,
+            "diff": 0.793055534362793,
+            "effect_size": 0.34479185938835144,
+            "mean_pos": 1.7421464920043945,
+            "mean_neg": 0.9490909576416016
+          },
+          {
+            "feature_id": 12008,
+            "diff": -0.7844033241271973,
+            "effect_size": -0.4273616373538971,
+            "mean_pos": 1.2125000953674316,
+            "mean_neg": 1.996903419494629
+          },
+          {
+            "feature_id": 6135,
+            "diff": -0.7743055820465088,
+            "effect_size": -0.4472135901451111,
+            "mean_pos": 0.0,
+            "mean_neg": 0.7743055820465088
+          },
+          {
+            "feature_id": 11706,
+            "diff": -0.7591540217399597,
+            "effect_size": -0.40457236766815186,
+            "mean_pos": 0.4259154200553894,
+            "mean_neg": 1.1850694417953491
+          },
+          {
+            "feature_id": 9140,
+            "diff": 0.7439061999320984,
+            "effect_size": 0.4970507025718689,
+            "mean_pos": 1.0907812118530273,
+            "mean_neg": 0.34687501192092896
+          },
+          {
+            "feature_id": 15721,
+            "diff": 0.6844768524169922,
+            "effect_size": 0.161627396941185,
+            "mean_pos": 19.61667823791504,
+            "mean_neg": 18.932201385498047
+          },
+          {
+            "feature_id": 10699,
+            "diff": -0.6830808520317078,
+            "effect_size": -1.5012305974960327,
+            "mean_pos": 0.0,
+            "mean_neg": 0.6830808520317078
+          },
+          {
+            "feature_id": 14238,
+            "diff": -0.6534895896911621,
+            "effect_size": -0.6454378962516785,
+            "mean_pos": 0.8376325368881226,
+            "mean_neg": 1.4911221265792847
+          }
+        ],
+        "max_abs_diff": 3.2137043476104736,
+        "max_effect_size": 4.62901496887207
+      },
+      "31": {
+        "top_features": [
+          {
+            "feature_id": 3121,
+            "diff": 8.873194694519043,
+            "effect_size": 5.548235893249512,
+            "mean_pos": 11.081686019897461,
+            "mean_neg": 2.208491086959839
+          },
+          {
+            "feature_id": 4413,
+            "diff": -7.809431076049805,
+            "effect_size": -2.0017342567443848,
+            "mean_pos": 3.782083511352539,
+            "mean_neg": 11.591514587402344
+          },
+          {
+            "feature_id": 10526,
+            "diff": -7.598459720611572,
+            "effect_size": -1.3332997560501099,
+            "mean_pos": 6.4237189292907715,
+            "mean_neg": 14.022178649902344
+          },
+          {
+            "feature_id": 8367,
+            "diff": 6.814268112182617,
+            "effect_size": 2.8490889072418213,
+            "mean_pos": 8.198396682739258,
+            "mean_neg": 1.3841288089752197
+          },
+          {
+            "feature_id": 11868,
+            "diff": 3.487272262573242,
+            "effect_size": 2.212952136993408,
+            "mean_pos": 7.294166564941406,
+            "mean_neg": 3.806894302368164
+          },
+          {
+            "feature_id": 11727,
+            "diff": 3.110088348388672,
+            "effect_size": 1.856095552444458,
+            "mean_pos": 8.390227317810059,
+            "mean_neg": 5.280138969421387
+          },
+          {
+            "feature_id": 7162,
+            "diff": -2.900972366333008,
+            "effect_size": -0.7364786863327026,
+            "mean_pos": 2.7661805152893066,
+            "mean_neg": 5.6671528816223145
+          },
+          {
+            "feature_id": 1444,
+            "diff": 2.2153689861297607,
+            "effect_size": 0.6766374111175537,
+            "mean_pos": 4.381038188934326,
+            "mean_neg": 2.1656692028045654
+          },
+          {
+            "feature_id": 9005,
+            "diff": 1.9514389038085938,
+            "effect_size": 0.20370972156524658,
+            "mean_pos": 127.88914489746094,
+            "mean_neg": 125.93770599365234
+          },
+          {
+            "feature_id": 11023,
+            "diff": -1.9385417699813843,
+            "effect_size": -0.45846855640411377,
+            "mean_pos": 0.17249999940395355,
+            "mean_neg": 2.111041784286499
+          },
+          {
+            "feature_id": 4535,
+            "diff": 1.8472223281860352,
+            "effect_size": 0.4472135901451111,
+            "mean_pos": 1.8472223281860352,
+            "mean_neg": 0.0
+          },
+          {
+            "feature_id": 8968,
+            "diff": -1.824419379234314,
+            "effect_size": -2.832890748977661,
+            "mean_pos": 0.23729166388511658,
+            "mean_neg": 2.061711072921753
+          },
+          {
+            "feature_id": 15383,
+            "diff": -1.6650722026824951,
+            "effect_size": -0.3915272653102875,
+            "mean_pos": 3.002307653427124,
+            "mean_neg": 4.667379856109619
+          },
+          {
+            "feature_id": 2620,
+            "diff": -1.618560552597046,
+            "effect_size": -0.506411612033844,
+            "mean_pos": 0.0798611119389534,
+            "mean_neg": 1.6984217166900635
+          },
+          {
+            "feature_id": 11849,
+            "diff": 1.5836553573608398,
+            "effect_size": 0.5317851305007935,
+            "mean_pos": 2.2972917556762695,
+            "mean_neg": 0.7136363983154297
+          },
+          {
+            "feature_id": 15185,
+            "diff": -1.5808583498001099,
+            "effect_size": -0.5273990631103516,
+            "mean_pos": 1.461912989616394,
+            "mean_neg": 3.042771339416504
+          },
+          {
+            "feature_id": 13875,
+            "diff": -1.5645203590393066,
+            "effect_size": -0.7814610004425049,
+            "mean_pos": 6.302279472351074,
+            "mean_neg": 7.866799831390381
+          },
+          {
+            "feature_id": 9765,
+            "diff": 1.5133334398269653,
+            "effect_size": 0.9161797165870667,
+            "mean_pos": 1.5758334398269653,
+            "mean_neg": 0.0625
+          },
+          {
+            "feature_id": 2413,
+            "diff": 1.4555110931396484,
+            "effect_size": 0.25970259308815,
+            "mean_pos": 5.9660444259643555,
+            "mean_neg": 4.510533332824707
+          },
+          {
+            "feature_id": 8129,
+            "diff": 1.4337730407714844,
+            "effect_size": 0.19049210846424103,
+            "mean_pos": 54.00757598876953,
+            "mean_neg": 52.57380294799805
+          }
+        ],
+        "max_abs_diff": 8.873194694519043,
+        "max_effect_size": 5.548235893249512
+      }
+    },
+    "clitics": {
+      "20": {
+        "top_features": [
+          {
+            "feature_id": 12440,
+            "diff": -46.562286376953125,
+            "effect_size": -1.2076575756072998,
+            "mean_pos": 319.3696594238281,
+            "mean_neg": 365.93194580078125
+          },
+          {
+            "feature_id": 15721,
+            "diff": 17.12802505493164,
+            "effect_size": 6.454493999481201,
+            "mean_pos": 17.12802505493164,
+            "mean_neg": 0.0
+          },
+          {
+            "feature_id": 7839,
+            "diff": -11.241020202636719,
+            "effect_size": -1.2469482421875,
+            "mean_pos": 72.83834075927734,
+            "mean_neg": 84.07936096191406
+          },
+          {
+            "feature_id": 10166,
+            "diff": 7.349220275878906,
+            "effect_size": 4.971142292022705,
+            "mean_pos": 15.57030200958252,
+            "mean_neg": 8.221081733703613
+          },
+          {
+            "feature_id": 12237,
+            "diff": -6.978729248046875,
+            "effect_size": -0.9697993993759155,
+            "mean_pos": 58.78992462158203,
+            "mean_neg": 65.7686538696289
+          },
+          {
+            "feature_id": 5547,
+            "diff": 6.532584190368652,
+            "effect_size": 5.296511173248291,
+            "mean_pos": 6.532584190368652,
+            "mean_neg": 0.0
+          },
+          {
+            "feature_id": 11180,
+            "diff": 4.847301483154297,
+            "effect_size": 1.1100735664367676,
+            "mean_pos": 9.912480354309082,
+            "mean_neg": 5.065178871154785
+          },
+          {
+            "feature_id": 12668,
+            "diff": -4.2946014404296875,
+            "effect_size": -0.9697992205619812,
+            "mean_pos": 36.17841339111328,
+            "mean_neg": 40.47301483154297
+          },
+          {
+            "feature_id": 6550,
+            "diff": -3.6470508575439453,
+            "effect_size": -0.7910470366477966,
+            "mean_pos": 27.938129425048828,
+            "mean_neg": 31.585180282592773
+          },
+          {
+            "feature_id": 6666,
+            "diff": -3.5441558361053467,
+            "effect_size": -1.8736456632614136,
+            "mean_pos": 3.1221392154693604,
+            "mean_neg": 6.666295051574707
+          },
+          {
+            "feature_id": 14992,
+            "diff": 3.245872974395752,
+            "effect_size": 3.57197904586792,
+            "mean_pos": 3.245872974395752,
+            "mean_neg": 0.0
+          },
+          {
+            "feature_id": 1390,
+            "diff": -2.8395252227783203,
+            "effect_size": -0.9698001146316528,
+            "mean_pos": 23.920595169067383,
+            "mean_neg": 26.760120391845703
+          },
+          {
+            "feature_id": 9154,
+            "diff": -2.334623336791992,
+            "effect_size": -0.3949697017669678,
+            "mean_pos": 2.6487412452697754,
+            "mean_neg": 4.983364582061768
+          },
+          {
+            "feature_id": 10418,
+            "diff": 2.3325815200805664,
+            "effect_size": 1.8871748447418213,
+            "mean_pos": 8.989327430725098,
+            "mean_neg": 6.656745910644531
+          },
+          {
+            "feature_id": 16004,
+            "diff": -2.313417911529541,
+            "effect_size": -1.319587230682373,
+            "mean_pos": 0.0,
+            "mean_neg": 2.313417911529541
+          },
+          {
+            "feature_id": 7265,
+            "diff": 2.196723699569702,
+            "effect_size": 2.1424856185913086,
+            "mean_pos": 4.443375587463379,
+            "mean_neg": 2.2466518878936768
+          },
+          {
+            "feature_id": 6344,
+            "diff": -2.190491199493408,
+            "effect_size": -4.209441184997559,
+            "mean_pos": 2.4298462867736816,
+            "mean_neg": 4.62033748626709
+          },
+          {
+            "feature_id": 3313,
+            "diff": -2.1603622436523438,
+            "effect_size": -1.3018741607666016,
+            "mean_pos": 0.7627777457237244,
+            "mean_neg": 2.923140048980713
+          },
+          {
+            "feature_id": 3967,
+            "diff": -2.1473007202148438,
+            "effect_size": -0.9697992205619812,
+            "mean_pos": 18.08920669555664,
+            "mean_neg": 20.236507415771484
+          },
+          {
+            "feature_id": 7229,
+            "diff": -2.1346282958984375,
+            "effect_size": -0.7149723172187805,
+            "mean_pos": 7.549151420593262,
+            "mean_neg": 9.6837797164917
+          }
+        ],
+        "max_abs_diff": 46.562286376953125,
+        "max_effect_size": -1.2076575756072998
+      },
+      "31": {
+        "top_features": [
+          {
+            "feature_id": 6782,
+            "diff": -56.37336730957031,
+            "effect_size": -3.035903215408325,
+            "mean_pos": 157.97286987304688,
+            "mean_neg": 214.3462371826172
+          },
+          {
+            "feature_id": 8129,
+            "diff": 52.20281219482422,
+            "effect_size": 9.821805000305176,
+            "mean_pos": 52.20281219482422,
+            "mean_neg": 0.0
+          },
+          {
+            "feature_id": 4921,
+            "diff": 34.71253967285156,
+            "effect_size": 20.214481353759766,
+            "mean_pos": 34.71253967285156,
+            "mean_neg": 0.0
+          },
+          {
+            "feature_id": 263,
+            "diff": -30.8822021484375,
+            "effect_size": -1.8182586431503296,
+            "mean_pos": 132.35385131835938,
+            "mean_neg": 163.23605346679688
+          },
+          {
+            "feature_id": 6804,
+            "diff": 19.859439849853516,
+            "effect_size": 5.64073371887207,
+            "mean_pos": 21.415454864501953,
+            "mean_neg": 1.5560144186019897
+          },
+          {
+            "feature_id": 9005,
+            "diff": -19.8052978515625,
+            "effect_size": -1.7307562828063965,
+            "mean_pos": 142.99862670898438,
+            "mean_neg": 162.80392456054688
+          },
+          {
+            "feature_id": 319,
+            "diff": 13.54190444946289,
+            "effect_size": 3.12542724609375,
+            "mean_pos": 15.235357284545898,
+            "mean_neg": 1.6934524774551392
+          },
+          {
+            "feature_id": 12110,
+            "diff": 13.414852142333984,
+            "effect_size": 5.6624040603637695,
+            "mean_pos": 13.525566101074219,
+            "mean_neg": 0.11071429401636124
+          },
+          {
+            "feature_id": 1126,
+            "diff": -11.716049194335938,
+            "effect_size": -1.027406096458435,
+            "mean_pos": 166.7441864013672,
+            "mean_neg": 178.46023559570312
+          },
+          {
+            "feature_id": 7007,
+            "diff": -10.537765502929688,
+            "effect_size": -1.2886266708374023,
+            "mean_pos": 79.13526153564453,
+            "mean_neg": 89.67302703857422
+          },
+          {
+            "feature_id": 7029,
+            "diff": 8.976847648620605,
+            "effect_size": 4.162580966949463,
+            "mean_pos": 11.855890274047852,
+            "mean_neg": 2.879042625427246
+          },
+          {
+            "feature_id": 553,
+            "diff": 8.735342025756836,
+            "effect_size": 4.761192798614502,
+            "mean_pos": 15.159101486206055,
+            "mean_neg": 6.423759460449219
+          },
+          {
+            "feature_id": 1877,
+            "diff": -8.275508880615234,
+            "effect_size": -3.0521392822265625,
+            "mean_pos": 50.671714782714844,
+            "mean_neg": 58.94722366333008
+          },
+          {
+            "feature_id": 2156,
+            "diff": 7.021897315979004,
+            "effect_size": 0.9205144047737122,
+            "mean_pos": 9.39684772491455,
+            "mean_neg": 2.374950408935547
+          },
+          {
+            "feature_id": 7221,
+            "diff": 6.8144426345825195,
+            "effect_size": 3.042083501815796,
+            "mean_pos": 10.675355911254883,
+            "mean_neg": 3.860913038253784
+          },
+          {
+            "feature_id": 4267,
+            "diff": 6.728307247161865,
+            "effect_size": 1.791786551475525,
+            "mean_pos": 6.728307247161865,
+            "mean_neg": 0.0
+          },
+          {
+            "feature_id": 9712,
+            "diff": 6.645323276519775,
+            "effect_size": 3.2981369495391846,
+            "mean_pos": 6.645323276519775,
+            "mean_neg": 0.0
+          },
+          {
+            "feature_id": 1444,
+            "diff": -6.52384614944458,
+            "effect_size": -0.7750122547149658,
+            "mean_pos": 4.779881000518799,
+            "mean_neg": 11.303727149963379
+          },
+          {
+            "feature_id": 1004,
+            "diff": -6.5209455490112305,
+            "effect_size": -1.4316517114639282,
+            "mean_pos": 10.045870780944824,
+            "mean_neg": 16.566816329956055
+          },
+          {
+            "feature_id": 5139,
+            "diff": -6.479461669921875,
+            "effect_size": -1.18012535572052,
+            "mean_pos": 47.60139846801758,
+            "mean_neg": 54.08086013793945
+          }
+        ],
+        "max_abs_diff": 56.37336730957031,
+        "max_effect_size": -3.035903215408325
+      }
+    }
+  },
+  "locality_analysis": {
+    "gender": {
+      "20": {
+        "top1": 8.444540023803711,
+        "top5": 22.552197456359863,
+        "top20": 38.62567311525345,
+        "conc_1_5": 0.3744442215176621,
+        "regime": "semi-localized"
+      },
+      "31": {
+        "top1": 7.521111488342285,
+        "top5": 31.482717514038086,
+        "top20": 89.25964021682739,
+        "conc_1_5": 0.23889651465441858,
+        "regime": "distributed"
+      }
+    },
+    "crase": {
+      "20": {
+        "top1": 3.2137043476104736,
+        "top5": 10.230876207351685,
+        "top20": 22.202017962932587,
+        "conc_1_5": 0.31411819274677505,
+        "regime": "semi-localized"
+      },
+      "31": {
+        "top1": 8.873194694519043,
+        "top5": 34.58262586593628,
+        "top20": 62.78596234321594,
+        "conc_1_5": 0.2565795531649695,
+        "regime": "semi-localized"
+      }
+    },
+    "clitics": {
+      "20": {
+        "top1": 46.562286376953125,
+        "top5": 89.25928115844727,
+        "top20": 136.0205020904541,
+        "conc_1_5": 0.521652042985673,
+        "regime": "localized"
+      },
+      "31": {
+        "top1": 56.37336730957031,
+        "top5": 194.0303611755371,
+        "top20": 335.76815271377563,
+        "conc_1_5": 0.29053889795970933,
+        "regime": "semi-localized"
+      }
+    }
+  },
+  "generic_features_by_layer": {
+    "20": [],
+    "31": []
+  },
+  "refs_2b": {
+    "gender": {
+      "9": "semi-localized",
+      "13": "semi-localized",
+      "17": "semi-localized"
+    },
+    "crase": {
+      "9": "semi-localized",
+      "13": "semi-localized",
+      "17": "distributed"
+    },
+    "clitics": {
+      "9": "localized",
+      "13": "localized",
+      "17": "semi-localized"
+    }
+  }
+}

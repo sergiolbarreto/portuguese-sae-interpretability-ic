@@ -1,0 +1,460 @@
+{
+  "experiment": "gemma9b_steering_multilayer",
+  "model": "gemma-2-9b",
+  "sae_release": "gemma-scope-9b-pt-res-canonical",
+  "layers": [
+    20,
+    31
+  ],
+  "n_model_layers": 42,
+  "d_sae": 16384,
+  "n_benchmark_items": 228,
+  "seeds": [
+    42,
+    123,
+    456,
+    789,
+    1337
+  ],
+  "max_new_tokens": 30,
+  "steering_prompts": [
+    "A menina bonita foi à",
+    "A professora dedicada explicou"
+  ],
+  "n_controls": 5,
+  "targets": {
+    "20": {
+      "feature_id": 3595,
+      "diff": 8.444540023803711,
+      "effect_size": 6.9402055740356445,
+      "mean_pos": 8.444540023803711,
+      "mean_neg": 0.0
+    },
+    "31": {
+      "feature_id": 9886,
+      "diff": -7.521111488342285,
+      "effect_size": -8.683262825012207,
+      "mean_pos": 0.18211805820465088,
+      "mean_neg": 7.7032294273376465
+    }
+  },
+  "controls": {
+    "20": {
+      "target_norm": 1.0000182390213013,
+      "feature_ids": [
+        1959,
+        2156,
+        2198,
+        2818,
+        3994
+      ],
+      "norms": [
+        1.0000182390213013,
+        1.0000182390213013,
+        1.0000182390213013,
+        1.0000182390213013,
+        1.0000182390213013
+      ]
+    },
+    "31": {
+      "target_norm": 0.9999904632568359,
+      "feature_ids": [
+        956,
+        5264,
+        6282,
+        6377,
+        7137
+      ],
+      "norms": [
+        0.9999904632568359,
+        0.9999904632568359,
+        0.9999904632568359,
+        0.9999904632568359,
+        0.9999904632568359
+      ]
+    }
+  },
+  "fluency": {
+    "20": {
+      "target_feature": 3595,
+      "target_error_count": 0,
+      "target_n": 10,
+      "control_error_count": 0,
+      "control_n": 15
+    },
+    "31": {
+      "target_feature": 9886,
+      "target_error_count": 1,
+      "target_n": 10,
+      "control_error_count": 0,
+      "control_n": 15
+    }
+  },
+  "fluency_generations": {
+    "20": [
+      {
+        "prompt": "A menina bonita foi à",
+        "seed": 42,
+        "baseline": "A menina bonita foi à escola e depois correu para a cama.\n\nO professor dizia:\n- As meninas devem ser educadas para se tornarem boas companhe",
+        "ablated": "A menina bonita foi à escola e depois correu para a cama. Ele caiu para a cama e caiu para a cama e não queria ir para a cama. Ela acordou",
+        "regex_hit": false,
+        "regex_matches": []
+      },
+      {
+        "prompt": "A menina bonita foi à",
+        "seed": 123,
+        "baseline": "A menina bonita foi à praia com um vestido branco. A menina bonita foi à praia com um vestido branco.\nEnglish: The beautiful girl went to the beach with a",
+        "ablated": "A menina bonita foi à praia com um vestido branco. A menina bonita foi à praia com um vestido branco.\nEnglish: The beautiful girl went to the beach with a",
+        "regex_hit": false,
+        "regex_matches": []
+      },
+      {
+        "prompt": "A menina bonita foi à",
+        "seed": 456,
+        "baseline": "A menina bonita foi à praia com a família, mas não usou um biquíni, o que foi muito criticado\n\nA jovem de 13 anos não usou",
+        "ablated": "A menina bonita foi à praia com a família, mas não queria ir. Quando chegou lá, ela foi para a areia e deitou-se. Não queria brincar,",
+        "regex_hit": false,
+        "regex_matches": []
+      },
+      {
+        "prompt": "A menina bonita foi à",
+        "seed": 789,
+        "baseline": "A menina bonita foi à escola de manhã\nCom o menino bonitinho da sua idade,\nE, a caminho da escola, na calçada,\nA menina bonito",
+        "ablated": "A menina bonita foi à escola de manhã\nCom a mochila cheia de livros e uma caneta,\nE, a caminho da sala, encontrou a professora\nQue lhe perguntou:",
+        "regex_hit": false,
+        "regex_matches": []
+      },
+      {
+        "prompt": "A menina bonita foi à",
+        "seed": 1337,
+        "baseline": "A menina bonita foi à escola. Depois disso, a menina bonita saiu da escola. A menina bonita estava em casa. A menina bonita pegou o telefone. A menina bonita",
+        "ablated": "A menina bonita foi à escola. Depois disso, a menina bonita saiu da escola. A menina bonita estava em casa. A menina bonita pegou o telefone. A menina bonita",
+        "regex_hit": false,
+        "regex_matches": []
+      },
+      {
+        "prompt": "A professora dedicada explicou",
+        "seed": 42,
+        "baseline": "A professora dedicada explicou o conceito de uma <strong>regra de três simples</strong>, onde o aluno aprende a usar essa técnica para resolver problemas do cotidiano.\n\nPara aprender",
+        "ablated": "A professora dedicada explicou o conceito de uma <strong>regra de três simples</strong>, onde o aluno aprende a usar essa técnica para resolver problemas do cotidiano.\n\nPara aprender",
+        "regex_hit": false,
+        "regex_matches": []
+      },
+      {
+        "prompt": "A professora dedicada explicou",
+        "seed": 123,
+        "baseline": "A professora dedicada explicou que “é um projeto que surge a partir de uma necessidade que temos de dar a conhecer a nossa candidatura, o nosso trabalho, as nossas atividades a",
+        "ablated": "A professora dedicada explicou que “é um projeto que surge a partir de uma necessidade que temos de dar a conhecer a nossa candidatura, o nosso trabalho, as nossas atividades a",
+        "regex_hit": false,
+        "regex_matches": []
+      },
+      {
+        "prompt": "A professora dedicada explicou",
+        "seed": 456,
+        "baseline": "A professora dedicada explicou a você tudo o que você precisava saber sobre a aula de Química, mas você não entendeu nada. Não é o fim do mundo, porque",
+        "ablated": "A professora dedicada explicou a você tudo o que você precisava saber sobre a aula de Química, mas você não entendeu nada. Esse é o tipo de aluno que fica",
+        "regex_hit": false,
+        "regex_matches": []
+      },
+      {
+        "prompt": "A professora dedicada explicou",
+        "seed": 789,
+        "baseline": "A professora dedicada explicou tudo de forma simples, com exemplos práticos, e com muita paciência. A aula foi bem dinâmica e com um ótimo ambiente de trabalho!",
+        "ablated": "A professora dedicada explicou tudo de forma simples, com exemplos práticos, e com muita paciência. A aula foi bem dinâmica e com um ótimo ambiente de trabalho!",
+        "regex_hit": false,
+        "regex_matches": []
+      },
+      {
+        "prompt": "A professora dedicada explicou",
+        "seed": 1337,
+        "baseline": "A professora dedicada explicou que é necessário ter paciência com as crianças. “Os professores precisam ter muita paciência e saber lidar com todos os tipos de crianças. Cada uma",
+        "ablated": "A professora dedicada explicou que é necessário ter paciência com as crianças. “Os professores precisam ter muita paciência e saber lidar com todos os tipos de crianças. Cada uma",
+        "regex_hit": false,
+        "regex_matches": []
+      }
+    ],
+    "31": [
+      {
+        "prompt": "A menina bonita foi à",
+        "seed": 42,
+        "baseline": "A menina bonita foi à escola e depois correu para a cama.\n\nO professor dizia:\n- As meninas devem ser educadas para se tornarem boas companhe",
+        "ablated": "A menina bonita foi à escola e depois correu para a cama.\n\nO professor dizia:\n- As meninas devem ser educadas para se tornarem boas companhe",
+        "regex_hit": false,
+        "regex_matches": []
+      },
+      {
+        "prompt": "A menina bonita foi à",
+        "seed": 123,
+        "baseline": "A menina bonita foi à praia com um vestido branco. A menina bonita foi à praia com um vestido branco.\nEnglish: The beautiful girl went to the beach with a",
+        "ablated": "A menina bonita foi à praia com um vestido branco. A menina bonita foi à praia com um vestido branco.\nEnglish: The beautiful girl went to the beach with a",
+        "regex_hit": false,
+        "regex_matches": []
+      },
+      {
+        "prompt": "A menina bonita foi à",
+        "seed": 456,
+        "baseline": "A menina bonita foi à praia com a família, mas não usou um biquíni, o que foi muito criticado\n\nA jovem de 13 anos não usou",
+        "ablated": "A menina bonita foi à praia com a família, mas não usou um biquíni, o que foi muito criticado\n\nA jovem de 13 anos não usou",
+        "regex_hit": false,
+        "regex_matches": []
+      },
+      {
+        "prompt": "A menina bonita foi à",
+        "seed": 789,
+        "baseline": "A menina bonita foi à escola de manhã\nCom o menino bonitinho da sua idade,\nE, a caminho da escola, na calçada,\nA menina bonito",
+        "ablated": "A menina bonita foi à escola de manhã\nCom o menino bonitinho da sua idade,\nE, a caminho da escola, na calçada,\nA menina bonito",
+        "regex_hit": true,
+        "regex_matches": [
+          "bonito"
+        ]
+      },
+      {
+        "prompt": "A menina bonita foi à",
+        "seed": 1337,
+        "baseline": "A menina bonita foi à escola. Depois disso, a menina bonita saiu da escola. A menina bonita estava em casa. A menina bonita pegou o telefone. A menina bonita",
+        "ablated": "A menina bonita foi à escola. Depois disso, a menina bonita saiu da escola. A menina bonita estava em casa. A menina bonita pegou o telefone. A menina bonita",
+        "regex_hit": false,
+        "regex_matches": []
+      },
+      {
+        "prompt": "A professora dedicada explicou",
+        "seed": 42,
+        "baseline": "A professora dedicada explicou o conceito de uma <strong>regra de três simples</strong>, onde o aluno aprende a usar essa técnica para resolver problemas do cotidiano.\n\nPara aprender",
+        "ablated": "A professora dedicada explicou o conceito de uma <strong>regra de três simples</strong>, onde o aluno aprende a usar essa técnica para resolver problemas do cotidiano.\n\nPara aprender",
+        "regex_hit": false,
+        "regex_matches": []
+      },
+      {
+        "prompt": "A professora dedicada explicou",
+        "seed": 123,
+        "baseline": "A professora dedicada explicou que “é um projeto que surge a partir de uma necessidade que temos de dar a conhecer a nossa candidatura, o nosso trabalho, as nossas atividades a",
+        "ablated": "A professora dedicada explicou que “é um projeto que surge a partir de uma necessidade que temos de dar a conhecer a nossa candidatura, o nosso trabalho, as nossas atividades a",
+        "regex_hit": false,
+        "regex_matches": []
+      },
+      {
+        "prompt": "A professora dedicada explicou",
+        "seed": 456,
+        "baseline": "A professora dedicada explicou a você tudo o que você precisava saber sobre a aula de Química, mas você não entendeu nada. Não é o fim do mundo, porque",
+        "ablated": "A professora dedicada explicou a você tudo o que você precisava saber sobre a aula de Química, mas você não entendeu nada. Não é o fim do mundo, porque",
+        "regex_hit": false,
+        "regex_matches": []
+      },
+      {
+        "prompt": "A professora dedicada explicou",
+        "seed": 789,
+        "baseline": "A professora dedicada explicou tudo de forma simples, com exemplos práticos, e com muita paciência. A aula foi bem dinâmica e com um ótimo ambiente de trabalho!",
+        "ablated": "A professora dedicada explicou tudo de forma simples, com exemplos práticos, e com muita paciência. A aula foi bem dinâmica e com um ótimo ambiente de trabalho!",
+        "regex_hit": false,
+        "regex_matches": []
+      },
+      {
+        "prompt": "A professora dedicada explicou",
+        "seed": 1337,
+        "baseline": "A professora dedicada explicou que é necessário ter paciência com as crianças. “Os professores precisam ter muita paciência e saber lidar com todos os tipos de crianças. Cada uma",
+        "ablated": "A professora dedicada explicou que é necessário ter paciência com as crianças. “Os professores precisam ter muita paciência e saber lidar com todos os tipos de crianças. Cada uma",
+        "regex_hit": false,
+        "regex_matches": []
+      }
+    ]
+  },
+  "benchmark_results": {
+    "20": {
+      "effective_feature": 3595,
+      "baseline": {
+        "overall": 0.9166666666666666,
+        "feminine": 0.9736842105263158,
+        "masculine": 0.8596491228070176,
+        "n_total": 228,
+        "n_fem": 114,
+        "n_masc": 114,
+        "fem_correct": 111,
+        "masc_correct": 98
+      },
+      "ablated": {
+        "overall": 0.9035087719298246,
+        "feminine": 0.9473684210526315,
+        "masculine": 0.8596491228070176,
+        "n_total": 228,
+        "n_fem": 114,
+        "n_masc": 114,
+        "fem_correct": 108,
+        "masc_correct": 98
+      },
+      "control_accs": [
+        0.9166666666666666,
+        0.9166666666666666,
+        0.9166666666666666,
+        0.9166666666666666,
+        0.9166666666666666
+      ],
+      "control_mean_acc": 0.9166666666666666,
+      "control_stats": [
+        {
+          "overall": 0.9166666666666666,
+          "feminine": 0.9736842105263158,
+          "masculine": 0.8596491228070176,
+          "n_total": 228,
+          "n_fem": 114,
+          "n_masc": 114,
+          "fem_correct": 111,
+          "masc_correct": 98
+        },
+        {
+          "overall": 0.9166666666666666,
+          "feminine": 0.9736842105263158,
+          "masculine": 0.8596491228070176,
+          "n_total": 228,
+          "n_fem": 114,
+          "n_masc": 114,
+          "fem_correct": 111,
+          "masc_correct": 98
+        },
+        {
+          "overall": 0.9166666666666666,
+          "feminine": 0.9736842105263158,
+          "masculine": 0.8596491228070176,
+          "n_total": 228,
+          "n_fem": 114,
+          "n_masc": 114,
+          "fem_correct": 111,
+          "masc_correct": 98
+        },
+        {
+          "overall": 0.9166666666666666,
+          "feminine": 0.9736842105263158,
+          "masculine": 0.8596491228070176,
+          "n_total": 228,
+          "n_fem": 114,
+          "n_masc": 114,
+          "fem_correct": 111,
+          "masc_correct": 98
+        },
+        {
+          "overall": 0.9166666666666666,
+          "feminine": 0.9736842105263158,
+          "masculine": 0.8596491228070176,
+          "n_total": 228,
+          "n_fem": 114,
+          "n_masc": 114,
+          "fem_correct": 111,
+          "masc_correct": 98
+        }
+      ],
+      "fisher_p_feminine": 0.49896352103257624,
+      "fisher_p_masculine": 1.0,
+      "fem_drop_pp": 2.6315789473684292,
+      "masc_drop_pp": 0.0
+    },
+    "31": {
+      "effective_feature": 9886,
+      "baseline": {
+        "overall": 0.9166666666666666,
+        "feminine": 0.9736842105263158,
+        "masculine": 0.8596491228070176,
+        "n_total": 228,
+        "n_fem": 114,
+        "n_masc": 114,
+        "fem_correct": 111,
+        "masc_correct": 98
+      },
+      "ablated": {
+        "overall": 0.9166666666666666,
+        "feminine": 0.9736842105263158,
+        "masculine": 0.8596491228070176,
+        "n_total": 228,
+        "n_fem": 114,
+        "n_masc": 114,
+        "fem_correct": 111,
+        "masc_correct": 98
+      },
+      "control_accs": [
+        0.9166666666666666,
+        0.9166666666666666,
+        0.9166666666666666,
+        0.9166666666666666,
+        0.9166666666666666
+      ],
+      "control_mean_acc": 0.9166666666666666,
+      "control_stats": [
+        {
+          "overall": 0.9166666666666666,
+          "feminine": 0.9736842105263158,
+          "masculine": 0.8596491228070176,
+          "n_total": 228,
+          "n_fem": 114,
+          "n_masc": 114,
+          "fem_correct": 111,
+          "masc_correct": 98
+        },
+        {
+          "overall": 0.9166666666666666,
+          "feminine": 0.9736842105263158,
+          "masculine": 0.8596491228070176,
+          "n_total": 228,
+          "n_fem": 114,
+          "n_masc": 114,
+          "fem_correct": 111,
+          "masc_correct": 98
+        },
+        {
+          "overall": 0.9166666666666666,
+          "feminine": 0.9736842105263158,
+          "masculine": 0.8596491228070176,
+          "n_total": 228,
+          "n_fem": 114,
+          "n_masc": 114,
+          "fem_correct": 111,
+          "masc_correct": 98
+        },
+        {
+          "overall": 0.9166666666666666,
+          "feminine": 0.9736842105263158,
+          "masculine": 0.8596491228070176,
+          "n_total": 228,
+          "n_fem": 114,
+          "n_masc": 114,
+          "fem_correct": 111,
+          "masc_correct": 98
+        },
+        {
+          "overall": 0.9166666666666666,
+          "feminine": 0.9736842105263158,
+          "masculine": 0.8596491228070176,
+          "n_total": 228,
+          "n_fem": 114,
+          "n_masc": 114,
+          "fem_correct": 111,
+          "masc_correct": 98
+        }
+      ],
+      "fisher_p_feminine": 1.0,
+      "fisher_p_masculine": 1.0,
+      "fem_drop_pp": 0.0,
+      "masc_drop_pp": 0.0
+    }
+  },
+  "refs_2b": {
+    "L9": {
+      "feature": 10569,
+      "depth_pct": 34.6,
+      "fem_drop_pp": 1.75,
+      "fisher_p_fem": 0.7964,
+      "ctrl_mean_acc": 0.8421
+    },
+    "L13": {
+      "feature": 1215,
+      "depth_pct": 50.0,
+      "fem_drop_pp": 0.0,
+      "fisher_p_fem": 1.0,
+      "ctrl_mean_acc": 0.8421
+    },
+    "L17": {
+      "feature": 6011,
+      "depth_pct": 65.4,
+      "fem_drop_pp": 20.18,
+      "fisher_p_fem": 0.0,
+      "ctrl_mean_acc": 0.8421
+    }
+  }
+}

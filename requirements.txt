@@ -1,0 +1,29 @@
+# Pinned dependencies for reproducibility.
+#
+# These are minimum tested versions for each library. Compatible-release
+# operators (~=) lock the minor version: torch~=2.5.0 allows 2.5.* but
+# blocks 2.6.0+ (which can break TransformerLens hooks across major bumps).
+#
+# For BIT-EXACT reproduction of the paper, replace this file with the output
+# of `pip freeze` from the Colab session that produced the published results.
+# See README.md "Reproducing" for the full procedure.
+
+# Core ML
+torch~=2.5.0
+numpy~=1.26.0
+scipy~=1.13.0
+tqdm~=4.66.0
+
+# SAE + interpretability
+sae-lens~=5.0.0
+transformer-lens~=2.13.0
+
+# Data
+datasets~=3.2.0
+huggingface-hub~=0.26.0
+
+# Validation LLM
+anthropic~=0.40.0
+
+# Plotting
+matplotlib~=3.9.0

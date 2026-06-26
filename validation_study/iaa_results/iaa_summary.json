@@ -1,0 +1,43 @@
+{
+  "n_annotators_complete": 9,
+  "n_features": 30,
+  "krippendorff_alpha_global_ordinal": 0.255,
+  "kappa_vs_anchor": {
+    "mean": 0.273,
+    "median": 0.317,
+    "min": 0.061,
+    "max": 0.392
+  },
+  "per_category": [
+    {
+      "category": "PT-specific",
+      "n_features": 15,
+      "krippendorff_alpha": 0.299,
+      "mean_score": 1.85,
+      "pct_agreement_geq2": 66.7,
+      "n_ratings": 135
+    },
+    {
+      "category": "Cross-lingual",
+      "n_features": 10,
+      "krippendorff_alpha": 0.126,
+      "mean_score": 1.99,
+      "pct_agreement_geq2": 71.9,
+      "n_ratings": 89
+    },
+    {
+      "category": "EN-specific",
+      "n_features": 5,
+      "krippendorff_alpha": 0.35,
+      "mean_score": 2.04,
+      "pct_agreement_geq2": 68.9,
+      "n_ratings": 45
+    }
+  ],
+  "score_distribution": {
+    "0": 5,
+    "1": 79,
+    "2": 115,
+    "3": 70
+  }
+}

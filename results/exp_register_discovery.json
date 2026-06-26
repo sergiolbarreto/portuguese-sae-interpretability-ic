@@ -1,0 +1,1088 @@
+{
+  "kruskal_wallis": {
+    "total_significant_p01": 129,
+    "total_new_features": 129,
+    "top_40": [
+      {
+        "feature_id": 16321,
+        "H_stat": 70.33057582551034,
+        "p_value": 1.93286459865892e-14,
+        "peak_condition": "legal",
+        "is_known": false
+      },
+      {
+        "feature_id": 9313,
+        "H_stat": 64.21112371665066,
+        "p_value": 3.7725291961627343e-13,
+        "peak_condition": "legal",
+        "is_known": false
+      },
+      {
+        "feature_id": 2897,
+        "H_stat": 51.182752869408894,
+        "p_value": 2.0443123305771e-10,
+        "peak_condition": "legal",
+        "is_known": false
+      },
+      {
+        "feature_id": 14110,
+        "H_stat": 49.52997571588166,
+        "p_value": 4.5261857296083874e-10,
+        "peak_condition": "legal",
+        "is_known": false
+      },
+      {
+        "feature_id": 7281,
+        "H_stat": 48.673111767497424,
+        "p_value": 6.83149335200429e-10,
+        "peak_condition": "legal",
+        "is_known": false
+      },
+      {
+        "feature_id": 5099,
+        "H_stat": 43.94011946789196,
+        "p_value": 6.602165625046079e-09,
+        "peak_condition": "legal",
+        "is_known": false
+      },
+      {
+        "feature_id": 3964,
+        "H_stat": 38.38668697606763,
+        "p_value": 9.324918967905876e-08,
+        "peak_condition": "legal",
+        "is_known": false
+      },
+      {
+        "feature_id": 7621,
+        "H_stat": 33.56872811310076,
+        "p_value": 9.134434122971861e-07,
+        "peak_condition": "legal",
+        "is_known": false
+      },
+      {
+        "feature_id": 5611,
+        "H_stat": 32.718532099651625,
+        "p_value": 1.3639309544578127e-06,
+        "peak_condition": "legal",
+        "is_known": false
+      },
+      {
+        "feature_id": 8094,
+        "H_stat": 32.30808012551073,
+        "p_value": 1.6548398110703155e-06,
+        "peak_condition": "legal",
+        "is_known": false
+      },
+      {
+        "feature_id": 14031,
+        "H_stat": 30.944104541832758,
+        "p_value": 3.1428292525899483e-06,
+        "peak_condition": "colloquial",
+        "is_known": false
+      },
+      {
+        "feature_id": 3219,
+        "H_stat": 30.867242849745626,
+        "p_value": 3.2583419322177703e-06,
+        "peak_condition": "legal",
+        "is_known": false
+      },
+      {
+        "feature_id": 2524,
+        "H_stat": 28.785835600524283,
+        "p_value": 8.64084412972437e-06,
+        "peak_condition": "legal",
+        "is_known": false
+      },
+      {
+        "feature_id": 15062,
+        "H_stat": 28.06300547475626,
+        "p_value": 1.2111507114427748e-05,
+        "peak_condition": "legal",
+        "is_known": false
+      },
+      {
+        "feature_id": 9208,
+        "H_stat": 27.90982274685157,
+        "p_value": 1.300896779972707e-05,
+        "peak_condition": "legal",
+        "is_known": false
+      },
+      {
+        "feature_id": 15604,
+        "H_stat": 27.017660790101512,
+        "p_value": 1.9716140593290118e-05,
+        "peak_condition": "legal",
+        "is_known": false
+      },
+      {
+        "feature_id": 8752,
+        "H_stat": 26.997853245117962,
+        "p_value": 1.9898782641421616e-05,
+        "peak_condition": "legal",
+        "is_known": false
+      },
+      {
+        "feature_id": 4096,
+        "H_stat": 26.532319362549856,
+        "p_value": 2.4710818745259824e-05,
+        "peak_condition": "legal",
+        "is_known": false
+      },
+      {
+        "feature_id": 10235,
+        "H_stat": 26.296921422250154,
+        "p_value": 2.756800004299024e-05,
+        "peak_condition": "legal",
+        "is_known": false
+      },
+      {
+        "feature_id": 1858,
+        "H_stat": 26.042845576478783,
+        "p_value": 3.102130197363403e-05,
+        "peak_condition": "legal",
+        "is_known": false
+      },
+      {
+        "feature_id": 231,
+        "H_stat": 25.657415662938664,
+        "p_value": 3.709749456971625e-05,
+        "peak_condition": "legal",
+        "is_known": false
+      },
+      {
+        "feature_id": 909,
+        "H_stat": 25.116805596388254,
+        "p_value": 4.766103785214691e-05,
+        "peak_condition": "legal",
+        "is_known": false
+      },
+      {
+        "feature_id": 4817,
+        "H_stat": 24.763852660282737,
+        "p_value": 5.611983095494532e-05,
+        "peak_condition": "legal",
+        "is_known": false
+      },
+      {
+        "feature_id": 2070,
+        "H_stat": 24.683565302645675,
+        "p_value": 5.824327121983982e-05,
+        "peak_condition": "journalistic",
+        "is_known": false
+      },
+      {
+        "feature_id": 4739,
+        "H_stat": 24.634235494004677,
+        "p_value": 5.9587335942035506e-05,
+        "peak_condition": "legal",
+        "is_known": false
+      },
+      {
+        "feature_id": 11293,
+        "H_stat": 24.35546605588948,
+        "p_value": 6.778263514827806e-05,
+        "peak_condition": "legal",
+        "is_known": false
+      },
+      {
+        "feature_id": 15084,
+        "H_stat": 24.258364499524873,
+        "p_value": 7.089257573967944e-05,
+        "peak_condition": "legal",
+        "is_known": false
+      },
+      {
+        "feature_id": 9695,
+        "H_stat": 24.013755308541526,
+        "p_value": 7.936926253572166e-05,
+        "peak_condition": "legal",
+        "is_known": false
+      },
+      {
+        "feature_id": 12053,
+        "H_stat": 23.880633085076663,
+        "p_value": 8.439783642754275e-05,
+        "peak_condition": "legal",
+        "is_known": false
+      },
+      {
+        "feature_id": 5510,
+        "H_stat": 23.875220909737454,
+        "p_value": 8.460883651242527e-05,
+        "peak_condition": "legal",
+        "is_known": false
+      },
+      {
+        "feature_id": 15319,
+        "H_stat": 23.07567681274918,
+        "p_value": 0.00012229342696204397,
+        "peak_condition": "legal",
+        "is_known": false
+      },
+      {
+        "feature_id": 939,
+        "H_stat": 23.053432350597745,
+        "p_value": 0.0001235514959276562,
+        "peak_condition": "colloquial",
+        "is_known": false
+      },
+      {
+        "feature_id": 3141,
+        "H_stat": 22.88023487998527,
+        "p_value": 0.00013379645408712873,
+        "peak_condition": "legal",
+        "is_known": false
+      },
+      {
+        "feature_id": 15998,
+        "H_stat": 22.64728125844001,
+        "p_value": 0.0001489170364932592,
+        "peak_condition": "legal",
+        "is_known": false
+      },
+      {
+        "feature_id": 4829,
+        "H_stat": 21.990658264011202,
+        "p_value": 0.00020128035978065313,
+        "peak_condition": "legal",
+        "is_known": false
+      },
+      {
+        "feature_id": 1617,
+        "H_stat": 21.60746554824651,
+        "p_value": 0.00023989314669062818,
+        "peak_condition": "legal",
+        "is_known": false
+      },
+      {
+        "feature_id": 9682,
+        "H_stat": 21.41944263001051,
+        "p_value": 0.0002614409960162493,
+        "peak_condition": "legal",
+        "is_known": false
+      },
+      {
+        "feature_id": 5943,
+        "H_stat": 21.323178572747736,
+        "p_value": 0.00027320481326940547,
+        "peak_condition": "legal",
+        "is_known": false
+      },
+      {
+        "feature_id": 10252,
+        "H_stat": 21.107608849037355,
+        "p_value": 0.0003014851929190068,
+        "peak_condition": "legal",
+        "is_known": false
+      },
+      {
+        "feature_id": 13383,
+        "H_stat": 21.067927224465034,
+        "p_value": 0.00030699853822495186,
+        "peak_condition": "legal",
+        "is_known": false
+      }
+    ]
+  },
+  "variance_ranking": {
+    "top_30": [
+      {
+        "feature_id": 15887,
+        "variance": 0.3223462700843811,
+        "per_condition": {
+          "baseline": 11.117061614990234,
+          "legal": 12.645347595214844,
+          "scientific": 11.2127103805542,
+          "colloquial": 11.258500099182129,
+          "journalistic": 11.738874435424805
+        },
+        "is_known": false
+      },
+      {
+        "feature_id": 11248,
+        "variance": 0.2391611635684967,
+        "per_condition": {
+          "baseline": 25.041332244873047,
+          "legal": 23.609853744506836,
+          "scientific": 24.560565948486328,
+          "colloquial": 24.711896896362305,
+          "journalistic": 24.199634552001953
+        },
+        "is_known": false
+      },
+      {
+        "feature_id": 15319,
+        "variance": 0.19080695509910583,
+        "per_condition": {
+          "baseline": 8.776786804199219,
+          "legal": 10.019179344177246,
+          "scientific": 9.22887897491455,
+          "colloquial": 8.993575096130371,
+          "journalistic": 9.555337905883789
+        },
+        "is_known": false
+      },
+      {
+        "feature_id": 15275,
+        "variance": 0.17865438759326935,
+        "per_condition": {
+          "baseline": 4.893335819244385,
+          "legal": 4.501720428466797,
+          "scientific": 4.9747514724731445,
+          "colloquial": 5.799132823944092,
+          "journalistic": 4.998982906341553
+        },
+        "is_known": false
+      },
+      {
+        "feature_id": 11449,
+        "variance": 0.13908931612968445,
+        "per_condition": {
+          "baseline": 3.4015073776245117,
+          "legal": 2.78692626953125,
+          "scientific": 3.7765204906463623,
+          "colloquial": 3.0883114337921143,
+          "journalistic": 3.704050302505493
+        },
+        "is_known": false
+      },
+      {
+        "feature_id": 843,
+        "variance": 0.13045771420001984,
+        "per_condition": {
+          "baseline": 1.5754019021987915,
+          "legal": 0.8330339193344116,
+          "scientific": 0.9345579743385315,
+          "colloquial": 1.3174937963485718,
+          "journalistic": 0.5555118322372437
+        },
+        "is_known": false
+      },
+      {
+        "feature_id": 11346,
+        "variance": 0.12579303979873657,
+        "per_condition": {
+          "baseline": 6.968433380126953,
+          "legal": 6.958275318145752,
+          "scientific": 6.377299785614014,
+          "colloquial": 6.990359306335449,
+          "journalistic": 6.150113582611084
+        },
+        "is_known": false
+      },
+      {
+        "feature_id": 939,
+        "variance": 0.09751792252063751,
+        "per_condition": {
+          "baseline": 5.159757614135742,
+          "legal": 4.831241607666016,
+          "scientific": 5.606916427612305,
+          "colloquial": 5.619731426239014,
+          "journalistic": 5.0498552322387695
+        },
+        "is_known": false
+      },
+      {
+        "feature_id": 10964,
+        "variance": 0.08892650902271271,
+        "per_condition": {
+          "baseline": 2.119706392288208,
+          "legal": 1.3977432250976562,
+          "scientific": 1.8057162761688232,
+          "colloquial": 2.1601552963256836,
+          "journalistic": 1.5730613470077515
+        },
+        "is_known": false
+      },
+      {
+        "feature_id": 657,
+        "variance": 0.08432337641716003,
+        "per_condition": {
+          "baseline": 7.863137245178223,
+          "legal": 7.052649974822998,
+          "scientific": 7.807995796203613,
+          "colloquial": 7.45442008972168,
+          "journalistic": 7.572531700134277
+        },
+        "is_known": false
+      },
+      {
+        "feature_id": 2647,
+        "variance": 0.08243434131145477,
+        "per_condition": {
+          "baseline": 5.229907035827637,
+          "legal": 4.569680690765381,
+          "scientific": 4.753055572509766,
+          "colloquial": 5.326458930969238,
+          "journalistic": 5.082895278930664
+        },
+        "is_known": false
+      },
+      {
+        "feature_id": 14908,
+        "variance": 0.06918022781610489,
+        "per_condition": {
+          "baseline": 2.527623176574707,
+          "legal": 1.8566731214523315,
+          "scientific": 1.9135046005249023,
+          "colloquial": 2.140134334564209,
+          "journalistic": 1.818365216255188
+        },
+        "is_known": false
+      },
+      {
+        "feature_id": 13363,
+        "variance": 0.06757303327322006,
+        "per_condition": {
+          "baseline": 0.7441041469573975,
+          "legal": 1.3022655248641968,
+          "scientific": 0.5501141548156738,
+          "colloquial": 0.8554224967956543,
+          "journalistic": 0.6604309678077698
+        },
+        "is_known": false
+      },
+      {
+        "feature_id": 13452,
+        "variance": 0.05685262009501457,
+        "per_condition": {
+          "baseline": 2.401801347732544,
+          "legal": 2.1670100688934326,
+          "scientific": 2.8056042194366455,
+          "colloquial": 2.7323496341705322,
+          "journalistic": 2.3717427253723145
+        },
+        "is_known": false
+      },
+      {
+        "feature_id": 3520,
+        "variance": 0.04508992284536362,
+        "per_condition": {
+          "baseline": 0.5402911305427551,
+          "legal": 0.7610206007957458,
+          "scientific": 0.3052446246147156,
+          "colloquial": 0.9206799864768982,
+          "journalistic": 0.5184087157249451
+        },
+        "is_known": false
+      },
+      {
+        "feature_id": 3517,
+        "variance": 0.044907163828611374,
+        "per_condition": {
+          "baseline": 16.886526107788086,
+          "legal": 16.779705047607422,
+          "scientific": 17.130050659179688,
+          "colloquial": 16.76849937438965,
+          "journalistic": 17.309492111206055
+        },
+        "is_known": false
+      },
+      {
+        "feature_id": 13137,
+        "variance": 0.0446818470954895,
+        "per_condition": {
+          "baseline": 2.1652870178222656,
+          "legal": 1.8928227424621582,
+          "scientific": 1.9359263181686401,
+          "colloquial": 2.0301690101623535,
+          "journalistic": 1.5320611000061035
+        },
+        "is_known": false
+      },
+      {
+        "feature_id": 1215,
+        "variance": 0.03799598291516304,
+        "per_condition": {
+          "baseline": 2.959385395050049,
+          "legal": 2.5838406085968018,
+          "scientific": 2.914651393890381,
+          "colloquial": 3.1512410640716553,
+          "journalistic": 3.0725021362304688
+        },
+        "is_known": false
+      },
+      {
+        "feature_id": 4189,
+        "variance": 0.03176285699009895,
+        "per_condition": {
+          "baseline": 0.9147444367408752,
+          "legal": 0.5848829746246338,
+          "scientific": 0.9345536231994629,
+          "colloquial": 0.5794380307197571,
+          "journalistic": 0.5261800289154053
+        },
+        "is_known": false
+      },
+      {
+        "feature_id": 15397,
+        "variance": 0.030681362375617027,
+        "per_condition": {
+          "baseline": 6.045643329620361,
+          "legal": 5.761871337890625,
+          "scientific": 6.286916732788086,
+          "colloquial": 5.914618492126465,
+          "journalistic": 5.922988414764404
+        },
+        "is_known": false
+      },
+      {
+        "feature_id": 5916,
+        "variance": 0.027564000338315964,
+        "per_condition": {
+          "baseline": 0.7707644104957581,
+          "legal": 0.7938490509986877,
+          "scientific": 0.8674260973930359,
+          "colloquial": 0.6408665180206299,
+          "journalistic": 1.1408790349960327
+        },
+        "is_known": false
+      },
+      {
+        "feature_id": 4096,
+        "variance": 0.02450210228562355,
+        "per_condition": {
+          "baseline": 1.0713434219360352,
+          "legal": 1.4997197389602661,
+          "scientific": 1.1704907417297363,
+          "colloquial": 1.0791130065917969,
+          "journalistic": 1.2357525825500488
+        },
+        "is_known": false
+      },
+      {
+        "feature_id": 4131,
+        "variance": 0.023016665130853653,
+        "per_condition": {
+          "baseline": 0.08980163931846619,
+          "legal": 0.46988445520401,
+          "scientific": 0.12767837941646576,
+          "colloquial": 0.09459521621465683,
+          "journalistic": 0.32703274488449097
+        },
+        "is_known": false
+      },
+      {
+        "feature_id": 8511,
+        "variance": 0.02219640091061592,
+        "per_condition": {
+          "baseline": 0.9815807938575745,
+          "legal": 1.045830488204956,
+          "scientific": 0.9202967882156372,
+          "colloquial": 0.6154873967170715,
+          "journalistic": 0.8403099179267883
+        },
+        "is_known": false
+      },
+      {
+        "feature_id": 16321,
+        "variance": 0.02209417149424553,
+        "per_condition": {
+          "baseline": 0.07801386713981628,
+          "legal": 0.47696518898010254,
+          "scientific": 0.2338823676109314,
+          "colloquial": 0.10140896588563919,
+          "journalistic": 0.33464741706848145
+        },
+        "is_known": false
+      },
+      {
+        "feature_id": 7655,
+        "variance": 0.021786890923976898,
+        "per_condition": {
+          "baseline": 2.302335500717163,
+          "legal": 1.8998379707336426,
+          "scientific": 2.113126277923584,
+          "colloquial": 2.2953155040740967,
+          "journalistic": 2.1230902671813965
+        },
+        "is_known": false
+      },
+      {
+        "feature_id": 707,
+        "variance": 0.021316155791282654,
+        "per_condition": {
+          "baseline": 1.0046887397766113,
+          "legal": 0.7040531039237976,
+          "scientific": 0.6299522519111633,
+          "colloquial": 0.8013080358505249,
+          "journalistic": 0.5997322201728821
+        },
+        "is_known": false
+      },
+      {
+        "feature_id": 2755,
+        "variance": 0.020371079444885254,
+        "per_condition": {
+          "baseline": 2.608464002609253,
+          "legal": 2.2587945461273193,
+          "scientific": 2.5714986324310303,
+          "colloquial": 2.6521129608154297,
+          "journalistic": 2.438124179840088
+        },
+        "is_known": false
+      },
+      {
+        "feature_id": 11257,
+        "variance": 0.02006741426885128,
+        "per_condition": {
+          "baseline": 1.0333211421966553,
+          "legal": 0.761382520198822,
+          "scientific": 0.7154240608215332,
+          "colloquial": 0.877590537071228,
+          "journalistic": 0.6232021450996399
+        },
+        "is_known": false
+      },
+      {
+        "feature_id": 3149,
+        "variance": 0.01951136253774166,
+        "per_condition": {
+          "baseline": 1.1692476272583008,
+          "legal": 1.4159222841262817,
+          "scientific": 1.1545718908309937,
+          "colloquial": 0.9859409928321838,
+          "journalistic": 1.1154239177703857
+        },
+        "is_known": false
+      }
+    ]
+  },
+  "steering_leakage": {
+    "legal": [
+      {
+        "feature_id": 15887,
+        "mean_diff": 1.5282845497131348,
+        "is_target": false
+      },
+      {
+        "feature_id": 15319,
+        "mean_diff": 1.2423932552337646,
+        "is_target": false
+      },
+      {
+        "feature_id": 13363,
+        "mean_diff": 0.5581613779067993,
+        "is_target": false
+      },
+      {
+        "feature_id": 4096,
+        "mean_diff": 0.42837628722190857,
+        "is_target": false
+      },
+      {
+        "feature_id": 16321,
+        "mean_diff": 0.39895138144493103,
+        "is_target": false
+      },
+      {
+        "feature_id": 4131,
+        "mean_diff": 0.3800828158855438,
+        "is_target": false
+      },
+      {
+        "feature_id": 9313,
+        "mean_diff": 0.37927111983299255,
+        "is_target": false
+      },
+      {
+        "feature_id": 4315,
+        "mean_diff": 0.34538906812667847,
+        "is_target": false
+      },
+      {
+        "feature_id": 9877,
+        "mean_diff": 0.31682726740837097,
+        "is_target": false
+      },
+      {
+        "feature_id": 53,
+        "mean_diff": 0.2581775486469269,
+        "is_target": false
+      },
+      {
+        "feature_id": 4412,
+        "mean_diff": 0.25569477677345276,
+        "is_target": false
+      },
+      {
+        "feature_id": 11206,
+        "mean_diff": 0.2525499761104584,
+        "is_target": false
+      },
+      {
+        "feature_id": 3149,
+        "mean_diff": 0.24667471647262573,
+        "is_target": false
+      },
+      {
+        "feature_id": 530,
+        "mean_diff": 0.24118834733963013,
+        "is_target": false
+      },
+      {
+        "feature_id": 5880,
+        "mean_diff": 0.24057190120220184,
+        "is_target": false
+      },
+      {
+        "feature_id": 8172,
+        "mean_diff": 0.22799061238765717,
+        "is_target": false
+      },
+      {
+        "feature_id": 4817,
+        "mean_diff": 0.22547155618667603,
+        "is_target": false
+      },
+      {
+        "feature_id": 3520,
+        "mean_diff": 0.22072942554950714,
+        "is_target": false
+      },
+      {
+        "feature_id": 13532,
+        "mean_diff": 0.2139127105474472,
+        "is_target": false
+      },
+      {
+        "feature_id": 5134,
+        "mean_diff": 0.21389909088611603,
+        "is_target": false
+      }
+    ],
+    "scientific": [
+      {
+        "feature_id": 15319,
+        "mean_diff": 0.45209261775016785,
+        "is_target": false
+      },
+      {
+        "feature_id": 939,
+        "mean_diff": 0.44715866446495056,
+        "is_target": false
+      },
+      {
+        "feature_id": 13452,
+        "mean_diff": 0.4038027822971344,
+        "is_target": false
+      },
+      {
+        "feature_id": 11449,
+        "mean_diff": 0.3750135898590088,
+        "is_target": false
+      },
+      {
+        "feature_id": 11256,
+        "mean_diff": 0.36709335446357727,
+        "is_target": false
+      },
+      {
+        "feature_id": 12613,
+        "mean_diff": 0.3232484459877014,
+        "is_target": false
+      },
+      {
+        "feature_id": 9468,
+        "mean_diff": 0.2816525399684906,
+        "is_target": false
+      },
+      {
+        "feature_id": 9433,
+        "mean_diff": 0.26670801639556885,
+        "is_target": false
+      },
+      {
+        "feature_id": 3517,
+        "mean_diff": 0.2435256391763687,
+        "is_target": false
+      },
+      {
+        "feature_id": 15397,
+        "mean_diff": 0.24127233028411865,
+        "is_target": false
+      },
+      {
+        "feature_id": 10166,
+        "mean_diff": 0.2331874519586563,
+        "is_target": false
+      },
+      {
+        "feature_id": 8370,
+        "mean_diff": 0.23197013139724731,
+        "is_target": false
+      },
+      {
+        "feature_id": 9939,
+        "mean_diff": 0.22336333990097046,
+        "is_target": false
+      },
+      {
+        "feature_id": 5880,
+        "mean_diff": 0.22251585125923157,
+        "is_target": true
+      },
+      {
+        "feature_id": 1860,
+        "mean_diff": 0.20864766836166382,
+        "is_target": false
+      },
+      {
+        "feature_id": 13054,
+        "mean_diff": 0.19014351069927216,
+        "is_target": false
+      },
+      {
+        "feature_id": 8303,
+        "mean_diff": 0.1864732801914215,
+        "is_target": false
+      },
+      {
+        "feature_id": 10612,
+        "mean_diff": 0.18269158899784088,
+        "is_target": false
+      },
+      {
+        "feature_id": 15015,
+        "mean_diff": 0.1793675273656845,
+        "is_target": false
+      },
+      {
+        "feature_id": 305,
+        "mean_diff": 0.17372487485408783,
+        "is_target": false
+      }
+    ],
+    "colloquial": [
+      {
+        "feature_id": 15275,
+        "mean_diff": 0.9057966470718384,
+        "is_target": false
+      },
+      {
+        "feature_id": 939,
+        "mean_diff": 0.4599739909172058,
+        "is_target": false
+      },
+      {
+        "feature_id": 3520,
+        "mean_diff": 0.3803888261318207,
+        "is_target": false
+      },
+      {
+        "feature_id": 13452,
+        "mean_diff": 0.3305480182170868,
+        "is_target": false
+      },
+      {
+        "feature_id": 12244,
+        "mean_diff": 0.26832741498947144,
+        "is_target": false
+      },
+      {
+        "feature_id": 11781,
+        "mean_diff": 0.26523852348327637,
+        "is_target": false
+      },
+      {
+        "feature_id": 5218,
+        "mean_diff": 0.24788670241832733,
+        "is_target": false
+      },
+      {
+        "feature_id": 5880,
+        "mean_diff": 0.23440343141555786,
+        "is_target": false
+      },
+      {
+        "feature_id": 2527,
+        "mean_diff": 0.21983979642391205,
+        "is_target": false
+      },
+      {
+        "feature_id": 11256,
+        "mean_diff": 0.2192213088274002,
+        "is_target": false
+      },
+      {
+        "feature_id": 8244,
+        "mean_diff": 0.21730536222457886,
+        "is_target": false
+      },
+      {
+        "feature_id": 15319,
+        "mean_diff": 0.21678896248340607,
+        "is_target": false
+      },
+      {
+        "feature_id": 10166,
+        "mean_diff": 0.20569200813770294,
+        "is_target": false
+      },
+      {
+        "feature_id": 1116,
+        "mean_diff": 0.20275066792964935,
+        "is_target": false
+      },
+      {
+        "feature_id": 11206,
+        "mean_diff": 0.20014218986034393,
+        "is_target": false
+      },
+      {
+        "feature_id": 8303,
+        "mean_diff": 0.19847728312015533,
+        "is_target": false
+      },
+      {
+        "feature_id": 1215,
+        "mean_diff": 0.19185562431812286,
+        "is_target": false
+      },
+      {
+        "feature_id": 14956,
+        "mean_diff": 0.18849758803844452,
+        "is_target": false
+      },
+      {
+        "feature_id": 13300,
+        "mean_diff": 0.18420453369617462,
+        "is_target": false
+      },
+      {
+        "feature_id": 4502,
+        "mean_diff": 0.17935162782669067,
+        "is_target": false
+      }
+    ],
+    "journalistic": [
+      {
+        "feature_id": 15319,
+        "mean_diff": 0.778551459312439,
+        "is_target": false
+      },
+      {
+        "feature_id": 15887,
+        "mean_diff": 0.6218109726905823,
+        "is_target": false
+      },
+      {
+        "feature_id": 3517,
+        "mean_diff": 0.42296653985977173,
+        "is_target": false
+      },
+      {
+        "feature_id": 5916,
+        "mean_diff": 0.3701145052909851,
+        "is_target": false
+      },
+      {
+        "feature_id": 11449,
+        "mean_diff": 0.3025430142879486,
+        "is_target": false
+      },
+      {
+        "feature_id": 11256,
+        "mean_diff": 0.29621124267578125,
+        "is_target": false
+      },
+      {
+        "feature_id": 2702,
+        "mean_diff": 0.2826076149940491,
+        "is_target": false
+      },
+      {
+        "feature_id": 16321,
+        "mean_diff": 0.2566335201263428,
+        "is_target": false
+      },
+      {
+        "feature_id": 4131,
+        "mean_diff": 0.2372310757637024,
+        "is_target": false
+      },
+      {
+        "feature_id": 9313,
+        "mean_diff": 0.22275452315807343,
+        "is_target": false
+      },
+      {
+        "feature_id": 5880,
+        "mean_diff": 0.2086515575647354,
+        "is_target": false
+      },
+      {
+        "feature_id": 11206,
+        "mean_diff": 0.20668484270572662,
+        "is_target": false
+      },
+      {
+        "feature_id": 8303,
+        "mean_diff": 0.1953272670507431,
+        "is_target": false
+      },
+      {
+        "feature_id": 4261,
+        "mean_diff": 0.18535928428173065,
+        "is_target": false
+      },
+      {
+        "feature_id": 10338,
+        "mean_diff": 0.18367598950862885,
+        "is_target": false
+      },
+      {
+        "feature_id": 664,
+        "mean_diff": 0.17617613077163696,
+        "is_target": false
+      },
+      {
+        "feature_id": 1409,
+        "mean_diff": 0.17523793876171112,
+        "is_target": false
+      },
+      {
+        "feature_id": 2817,
+        "mean_diff": 0.17242613434791565,
+        "is_target": false
+      },
+      {
+        "feature_id": 9810,
+        "mean_diff": 0.17174115777015686,
+        "is_target": false
+      },
+      {
+        "feature_id": 6957,
+        "mean_diff": 0.17130932211875916,
+        "is_target": false
+      }
+    ]
+  },
+  "coactivation": {
+    "legal": {
+      "legal": 0.06638110731728375,
+      "scientific": 0.24057193100452423,
+      "colloquial": -0.015071077272295952,
+      "journalistic": -0.11718704178929329
+    },
+    "scientific": {
+      "legal": 0.06859425362199545,
+      "scientific": 0.22251583635807037,
+      "colloquial": -0.000538242980837822,
+      "journalistic": -0.002009413205087185
+    },
+    "colloquial": {
+      "legal": 0.06228759326040745,
+      "scientific": 0.23440346121788025,
+      "colloquial": 0.008505025878548622,
+      "journalistic": 0.04694249853491783
+    },
+    "journalistic": {
+      "legal": -0.012611739337444305,
+      "scientific": 0.208651602268219,
+      "colloquial": -0.015589479095069692,
+      "journalistic": 0.03002422908321023
+    }
+  }
+}

@@ -1,0 +1,902 @@
+{
+  "10496": {
+    "description": "This feature activates strongly on Portuguese text containing the word \"é\" (third person singular present tense of the verb \"ser\" - to be), particularly when it appears in descriptive or definitional contexts.",
+    "phenomenon": "Portuguese copula verb \"ser\" (3rd person singular present)",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates strongly on Portuguese text containing the word \"é\" (third person singular present tense of the verb \"ser\" - to be), particularly when it appears in descriptive or definitional contexts.\n\nPHENOMENON: Portuguese copula verb \"ser\" (3rd person singular present)\n\nCONFIDENCE: HIGH"
+  },
+  "1906": {
+    "description": "This feature detects Portuguese text segments, particularly those containing formal or historical narrative prose with temporal markers and complex sentence structures.",
+    "phenomenon": "general",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature detects Portuguese text segments, particularly those containing formal or historical narrative prose with temporal markers and complex sentence structures.\nPHENOMENON: general\nCONFIDENCE: HIGH"
+  },
+  "8718": {
+    "description": "This feature activates strongly on Portuguese text containing formal or encyclopedic content, particularly sentences that define, describe, or explain concepts, places, or entities in an academic or reference work style.",
+    "phenomenon": "general",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates strongly on Portuguese text containing formal or encyclopedic content, particularly sentences that define, describe, or explain concepts, places, or entities in an academic or reference work style.\n\nPHENOMENON: general\n\nCONFIDENCE: HIGH"
+  },
+  "16057": {
+    "description": "This feature activates strongly on the Portuguese definite article \"o\" (masculine singular), particularly when it appears before nouns or in contexts where it functions as a determiner.",
+    "phenomenon": "Definite article (masculine singular)",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates strongly on the Portuguese definite article \"o\" (masculine singular), particularly when it appears before nouns or in contexts where it functions as a determiner.\n\nPHENOMENON: Definite article (masculine singular)\n\nCONFIDENCE: HIGH"
+  },
+  "4584": {
+    "description": "This feature detects the Portuguese contraction \"À\" (preposition \"a\" + definite article \"a\"), which appears consistently at the beginning of phrases or after punctuation marks in all examples.",
+    "phenomenon": "Contraction (preposition + article)",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature detects the Portuguese contraction \"À\" (preposition \"a\" + definite article \"a\"), which appears consistently at the beginning of phrases or after punctuation marks in all examples.\nPHENOMENON: Contraction (preposition + article)\nCONFIDENCE: HIGH"
+  },
+  "2294": {
+    "description": "This feature activates strongly on Portuguese text containing formal or academic language, particularly historical, geographical, and political content with references to Brazilian and Portuguese history, institutions, and cultural topics.",
+    "phenomenon": "general",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates strongly on Portuguese text containing formal or academic language, particularly historical, geographical, and political content with references to Brazilian and Portuguese history, institutions, and cultural topics.\n\nPHENOMENON: general\n\nCONFIDENCE: HIGH"
+  },
+  "15135": {
+    "description": "This feature detects the Portuguese indirect object pronoun \"lhe\" (to him/her/it), which appears consistently across all examples as a third-person singular dative pronoun.",
+    "phenomenon": "clitic pronouns (specifically indirect object pronoun)",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature detects the Portuguese indirect object pronoun \"lhe\" (to him/her/it), which appears consistently across all examples as a third-person singular dative pronoun.\nPHENOMENON: clitic pronouns (specifically indirect object pronoun)\nCONFIDENCE: HIGH"
+  },
+  "12649": {
+    "description": "This feature activates on Portuguese text containing proper nouns, particularly place names, institutions, and technical/administrative vocabulary, often appearing in encyclopedia-style or reference contexts.",
+    "phenomenon": "general",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on Portuguese text containing proper nouns, particularly place names, institutions, and technical/administrative vocabulary, often appearing in encyclopedia-style or reference contexts.\n\nPHENOMENON: general\n\nCONFIDENCE: HIGH"
+  },
+  "10478": {
+    "description": "This feature strongly activates on the Portuguese phrase \"Por\" (meaning \"By/For/Through\") when it appears at the beginning of sentences or after periods, particularly in formal or academic writing contexts.",
+    "phenomenon": "Preposition \"Por\" in sentence-initial position",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature strongly activates on the Portuguese phrase \"Por\" (meaning \"By/For/Through\") when it appears at the beginning of sentences or after periods, particularly in formal or academic writing contexts.\n\nPHENOMENON: Preposition \"Por\" in sentence-initial position\n\nCONFIDENCE: HIGH"
+  },
+  "16194": {
+    "description": "This feature activates on Portuguese text containing formal or academic language, particularly in scientific, historical, or encyclopedic contexts with complex sentence structures and technical vocabulary.",
+    "phenomenon": "general",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on Portuguese text containing formal or academic language, particularly in scientific, historical, or encyclopedic contexts with complex sentence structures and technical vocabulary.\nPHENOMENON: general\nCONFIDENCE: HIGH"
+  },
+  "2817": {
+    "description": "This feature activates strongly on Portuguese text, particularly in formal or academic contexts discussing scientific, historical, geographical, or institutional topics.",
+    "phenomenon": "general",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates strongly on Portuguese text, particularly in formal or academic contexts discussing scientific, historical, geographical, or institutional topics.\nPHENOMENON: general\nCONFIDENCE: HIGH"
+  },
+  "657": {
+    "description": "This feature detects Portuguese text, particularly formal/academic Portuguese contexts including references to Brazilian institutions (IBGE, universities), geographical locations, and scholarly citations.",
+    "phenomenon": "general",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature detects Portuguese text, particularly formal/academic Portuguese contexts including references to Brazilian institutions (IBGE, universities), geographical locations, and scholarly citations.\nPHENOMENON: general\nCONFIDENCE: HIGH"
+  },
+  "10126": {
+    "description": "This feature activates on Portuguese text containing prepositions and contractions, particularly \"ao\" (contraction of preposition \"a\" + article \"o\"), as well as other prepositions like \"pelo\", \"para\", and related prepositional phrases.",
+    "phenomenon": "Portuguese prepositions and prepositional contractions (especially \"ao\")",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on Portuguese text containing prepositions and contractions, particularly \"ao\" (contraction of preposition \"a\" + article \"o\"), as well as other prepositions like \"pelo\", \"para\", and related prepositional phrases.\n\nPHENOMENON: Portuguese prepositions and prepositional contractions (especially \"ao\")\n\nCONFIDENCE: HIGH"
+  },
+  "2909": {
+    "description": "This feature activates strongly on Portuguese text containing formal or academic content, particularly historical, geographical, and biographical information with proper nouns and dates.",
+    "phenomenon": "general",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates strongly on Portuguese text containing formal or academic content, particularly historical, geographical, and biographical information with proper nouns and dates.\nPHENOMENON: general\nCONFIDENCE: HIGH"
+  },
+  "3623": {
+    "description": "This feature activates on proper nouns and named entities in Portuguese text, particularly place names, personal names, and specific terms from various domains (martial arts, geology, historical movements, etc.).",
+    "phenomenon": "Proper nouns/Named entities",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on proper nouns and named entities in Portuguese text, particularly place names, personal names, and specific terms from various domains (martial arts, geology, historical movements, etc.).\n\nPHENOMENON: Proper nouns/Named entities\n\nCONFIDENCE: HIGH"
+  },
+  "12269": {
+    "description": "This feature activates strongly on Portuguese text, particularly in academic, technical, or encyclopedic contexts, often near punctuation marks (especially periods) and formatting elements that typically appear in reference materials, bibliographies, or structured documents.",
+    "phenomenon": "general",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates strongly on Portuguese text, particularly in academic, technical, or encyclopedic contexts, often near punctuation marks (especially periods) and formatting elements that typically appear in reference materials, bibliographies, or structured documents.\n\nPHENOMENON: general\n\nCONFIDENCE: HIGH"
+  },
+  "7079": {
+    "description": "This feature activates on Portuguese text containing formal or academic language, particularly sentences with statistical data, historical facts, or descriptive information about countries, institutions, and cultural topics.",
+    "phenomenon": "general",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on Portuguese text containing formal or academic language, particularly sentences with statistical data, historical facts, or descriptive information about countries, institutions, and cultural topics.\nPHENOMENON: general\nCONFIDENCE: HIGH"
+  },
+  "939": {
+    "description": "This feature activates on Portuguese text discussing academic, historical, or technical topics, particularly those involving descriptions of cultural heritage, scientific concepts, or historical events.",
+    "phenomenon": "general",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on Portuguese text discussing academic, historical, or technical topics, particularly those involving descriptions of cultural heritage, scientific concepts, or historical events.\nPHENOMENON: general\nCONFIDENCE: HIGH"
+  },
+  "138": {
+    "description": "This feature activates on Portuguese text segments containing past imperfect tense verbs (pretérito imperfeito), particularly those ending in \"-avam\" or \"-iam\" (third person plural), which describe habitual or continuous actions in the past.",
+    "phenomenon": "Past imperfect verb conjugation (pretérito imperfeito)",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on Portuguese text segments containing past imperfect tense verbs (pretérito imperfeito), particularly those ending in \"-avam\" or \"-iam\" (third person plural), which describe habitual or continuous actions in the past.\n\nPHENOMENON: Past imperfect verb conjugation (pretérito imperfeito)\n\nCONFIDENCE: HIGH"
+  },
+  "7262": {
+    "description": "This feature activates on Portuguese text containing formal or academic language, particularly in historical, geographical, or encyclopedic contexts with complex sentence structures and specialized vocabulary.",
+    "phenomenon": "general (formal/academic Portuguese register)",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on Portuguese text containing formal or academic language, particularly in historical, geographical, or encyclopedic contexts with complex sentence structures and specialized vocabulary.\n\nPHENOMENON: general (formal/academic Portuguese register)\n\nCONFIDENCE: HIGH"
+  },
+  "5880": {
+    "description": "This feature activates strongly on Portuguese text segments containing the preposition \"de\" and its contractions \"do/da/dos/das\" (de + o/a/os/as), particularly in formal or academic contexts describing relationships, origins, or classifications.",
+    "phenomenon": "Portuguese preposition \"de\" and its definite article contractions",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates strongly on Portuguese text segments containing the preposition \"de\" and its contractions \"do/da/dos/das\" (de + o/a/os/as), particularly in formal or academic contexts describing relationships, origins, or classifications.\n\nPHENOMENON: Portuguese preposition \"de\" and its definite article contractions\n\nCONFIDENCE: HIGH"
+  },
+  "16300": {
+    "description": "This feature activates strongly on Portuguese text containing formal or academic writing, particularly historical, scientific, or encyclopedic content with complex sentence structures and specialized vocabulary.",
+    "phenomenon": "general",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates strongly on Portuguese text containing formal or academic writing, particularly historical, scientific, or encyclopedic content with complex sentence structures and specialized vocabulary.\nPHENOMENON: general\nCONFIDENCE: HIGH"
+  },
+  "7827": {
+    "description": "This feature activates on Portuguese text that contains references to foreign place names, particularly European locations (Switzerland, Netherlands, Greece) and other international geographical references.",
+    "phenomenon": "general",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on Portuguese text that contains references to foreign place names, particularly European locations (Switzerland, Netherlands, Greece) and other international geographical references.\nPHENOMENON: general\nCONFIDENCE: HIGH"
+  },
+  "7763": {
+    "description": "This feature activates on the Portuguese preposition \"com\" (meaning \"with\"), particularly when it appears in contexts describing relationships, associations, or connections between entities.",
+    "phenomenon": "Portuguese preposition \"com\"",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on the Portuguese preposition \"com\" (meaning \"with\"), particularly when it appears in contexts describing relationships, associations, or connections between entities.\n\nPHENOMENON: Portuguese preposition \"com\"\n\nCONFIDENCE: HIGH"
+  },
+  "6423": {
+    "description": "This feature activates on Portuguese text containing formal or academic register, particularly in contexts discussing historical events, scientific/medical topics, or administrative/governmental matters.",
+    "phenomenon": "general",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on Portuguese text containing formal or academic register, particularly in contexts discussing historical events, scientific/medical topics, or administrative/governmental matters.\n\nPHENOMENON: general\n\nCONFIDENCE: HIGH"
+  },
+  "1082": {
+    "description": "This feature detects the Portuguese relative pronoun \"que se\" construction, specifically when \"que\" (meaning \"that/which\") is followed by the reflexive pronoun \"se\" in various grammatical contexts.",
+    "phenomenon": "Relative pronoun with reflexive pronoun construction",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature detects the Portuguese relative pronoun \"que se\" construction, specifically when \"que\" (meaning \"that/which\") is followed by the reflexive pronoun \"se\" in various grammatical contexts.\nPHENOMENON: Relative pronoun with reflexive pronoun construction\nCONFIDENCE: HIGH"
+  },
+  "5783": {
+    "description": "This feature activates on Portuguese text segments containing past tense verbs and historical narrative contexts, particularly those describing completed actions or states in formal/academic writing.",
+    "phenomenon": "Portuguese past tense verb forms (particularly preterite and imperfect tenses)",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on Portuguese text segments containing past tense verbs and historical narrative contexts, particularly those describing completed actions or states in formal/academic writing.\n\nPHENOMENON: Portuguese past tense verb forms (particularly preterite and imperfect tenses)\n\nCONFIDENCE: HIGH"
+  },
+  "15417": {
+    "description": "This feature activates on Portuguese text containing formal citations, references, and bibliographic information, particularly after source attributions marked by \"Fonte:\" or in academic/encyclopedic contexts with dates and institutional names.",
+    "phenomenon": "Citation and reference formatting patterns in Portuguese academic/formal writing",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on Portuguese text containing formal citations, references, and bibliographic information, particularly after source attributions marked by \"Fonte:\" or in academic/encyclopedic contexts with dates and institutional names.\n\nPHENOMENON: Citation and reference formatting patterns in Portuguese academic/formal writing\n\nCONFIDENCE: HIGH"
+  },
+  "4011": {
+    "description": "This feature activates on formal Portuguese text containing geographic locations, proper nouns, and administrative/technical terminology, particularly in encyclopedia-style or reference content.",
+    "phenomenon": "general",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on formal Portuguese text containing geographic locations, proper nouns, and administrative/technical terminology, particularly in encyclopedia-style or reference content.\nPHENOMENON: general\nCONFIDENCE: HIGH"
+  },
+  "7102": {
+    "description": "This feature strongly activates on the Portuguese conjunction \"que\" (meaning \"that\") when it introduces subordinate clauses, particularly in formal or literary contexts.",
+    "phenomenon": "Subordinating conjunction \"que\"",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature strongly activates on the Portuguese conjunction \"que\" (meaning \"that\") when it introduces subordinate clauses, particularly in formal or literary contexts.\n\nPHENOMENON: Subordinating conjunction \"que\"\n\nCONFIDENCE: HIGH"
+  },
+  "1215": {
+    "description": "This feature activates on Portuguese text containing formal or academic language, particularly when discussing complex topics with subordinate clauses and technical vocabulary across various domains (science, history, politics, literature).",
+    "phenomenon": "general",
+    "confidence": "MEDIUM",
+    "raw": "DESCRIPTION: This feature activates on Portuguese text containing formal or academic language, particularly when discussing complex topics with subordinate clauses and technical vocabulary across various domains (science, history, politics, literature).\n\nPHENOMENON: general\n\nCONFIDENCE: MEDIUM"
+  },
+  "11530": {
+    "description": "This feature appears to detect Portuguese text containing numbers, dates, and formal/technical content, particularly in contexts like historical records, statistics, and encyclopedia-style entries.",
+    "phenomenon": "general",
+    "confidence": "MEDIUM",
+    "raw": "DESCRIPTION: This feature appears to detect Portuguese text containing numbers, dates, and formal/technical content, particularly in contexts like historical records, statistics, and encyclopedia-style entries.\n\nPHENOMENON: general\n\nCONFIDENCE: MEDIUM"
+  },
+  "1950": {
+    "description": "This feature activates on Portuguese text containing numerical values (years, measurements, percentages) and technical/formal descriptions, particularly in academic, historical, or scientific contexts.",
+    "phenomenon": "general",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on Portuguese text containing numerical values (years, measurements, percentages) and technical/formal descriptions, particularly in academic, historical, or scientific contexts.\n\nPHENOMENON: general\n\nCONFIDENCE: HIGH"
+  },
+  "12081": {
+    "description": "This feature strongly activates on formal, encyclopedic Portuguese text, particularly academic or informational content about historical events, scientific topics, and geographical descriptions.",
+    "phenomenon": "general",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature strongly activates on formal, encyclopedic Portuguese text, particularly academic or informational content about historical events, scientific topics, and geographical descriptions.\n\nPHENOMENON: general\n\nCONFIDENCE: HIGH"
+  },
+  "5218": {
+    "description": "This feature activates on Portuguese text containing formal or technical content, particularly when discussing historical events, scientific concepts, proper nouns, and official terminology across various domains.",
+    "phenomenon": "general",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on Portuguese text containing formal or technical content, particularly when discussing historical events, scientific concepts, proper nouns, and official terminology across various domains.\n\nPHENOMENON: general\n\nCONFIDENCE: HIGH"
+  },
+  "16011": {
+    "description": "This feature activates on Portuguese text containing formal or institutional references, particularly involving proper names of places, organizations, and official titles in Brazilian Portuguese contexts.",
+    "phenomenon": "general",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on Portuguese text containing formal or institutional references, particularly involving proper names of places, organizations, and official titles in Brazilian Portuguese contexts.\nPHENOMENON: general\nCONFIDENCE: HIGH"
+  },
+  "12831": {
+    "description": "This feature activates on the Portuguese preposition \"no\" (contraction of \"em\" + \"o\"), which means \"in the\" or \"on the\" in English, consistently appearing before masculine singular nouns or contexts.",
+    "phenomenon": "Portuguese prepositional contraction (em + o = no)",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on the Portuguese preposition \"no\" (contraction of \"em\" + \"o\"), which means \"in the\" or \"on the\" in English, consistently appearing before masculine singular nouns or contexts.\n\nPHENOMENON: Portuguese prepositional contraction (em + o = no)\n\nCONFIDENCE: HIGH"
+  },
+  "5827": {
+    "description": "This feature activates strongly on Portuguese text containing numbers and dates, particularly in contexts involving years, statistics, and numerical data within formal or encyclopedic writing.",
+    "phenomenon": "Numerical expressions and date formatting in Portuguese",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates strongly on Portuguese text containing numbers and dates, particularly in contexts involving years, statistics, and numerical data within formal or encyclopedic writing.\n\nPHENOMENON: Numerical expressions and date formatting in Portuguese\n\nCONFIDENCE: HIGH"
+  },
+  "6382": {
+    "description": "This feature detects the Portuguese preposition \"Para\" (meaning \"For/To\") when it appears at the beginning of a sentence or clause, particularly in formal or academic contexts.",
+    "phenomenon": "Sentence-initial preposition \"Para\"",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature detects the Portuguese preposition \"Para\" (meaning \"For/To\") when it appears at the beginning of a sentence or clause, particularly in formal or academic contexts.\n\nPHENOMENON: Sentence-initial preposition \"Para\"\n\nCONFIDENCE: HIGH"
+  },
+  "9166": {
+    "description": "This feature activates on Portuguese text containing Greek words or transliterations (particularly with Greek letters like ἀ, Ἀ, Ε), as well as on certain Portuguese words beginning with \"des-\" (desencadeou, descentralização, desconcentração, Desambiguações).",
+    "phenomenon": "Greek loanwords/transliterations and Portuguese \"des-\" prefix",
+    "confidence": "MEDIUM",
+    "raw": "DESCRIPTION: This feature activates on Portuguese text containing Greek words or transliterations (particularly with Greek letters like ἀ, Ἀ, Ε), as well as on certain Portuguese words beginning with \"des-\" (desencadeou, descentralização, desconcentração, Desambiguações).\n\nPHENOMENON: Greek loanwords/transliterations and Portuguese \"des-\" prefix\n\nCONFIDENCE: MEDIUM"
+  },
+  "5472": {
+    "description": "This feature activates on Portuguese text containing formal or academic language, particularly historical, religious, or encyclopedic content with complex sentence structures and formal vocabulary.",
+    "phenomenon": "general",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on Portuguese text containing formal or academic language, particularly historical, religious, or encyclopedic content with complex sentence structures and formal vocabulary.\n\nPHENOMENON: general\n\nCONFIDENCE: HIGH"
+  },
+  "10995": {
+    "description": "This feature detects the Portuguese contraction \"Ao\" (preposition \"a\" + definite article \"o\"), which means \"to the\" in English and is commonly used in various contexts including temporal expressions, spatial references, and prepositional phrases.",
+    "phenomenon": "Contraction (preposition + definite article)",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature detects the Portuguese contraction \"Ao\" (preposition \"a\" + definite article \"o\"), which means \"to the\" in English and is commonly used in various contexts including temporal expressions, spatial references, and prepositional phrases.\n\nPHENOMENON: Contraction (preposition + definite article)\n\nCONFIDENCE: HIGH"
+  },
+  "3069": {
+    "description": "This feature activates on Portuguese text containing formal or technical language, particularly academic, scientific, or encyclopedic content with complex sentence structures and specialized vocabulary.",
+    "phenomenon": "general",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on Portuguese text containing formal or technical language, particularly academic, scientific, or encyclopedic content with complex sentence structures and specialized vocabulary.\nPHENOMENON: general\nCONFIDENCE: HIGH"
+  },
+  "15397": {
+    "description": "This feature activates on Portuguese text containing formal academic or encyclopedic content, particularly historical, geographical, and biographical information with specific dates, statistics, and proper nouns.",
+    "phenomenon": "general",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on Portuguese text containing formal academic or encyclopedic content, particularly historical, geographical, and biographical information with specific dates, statistics, and proper nouns.\n\nPHENOMENON: general\n\nCONFIDENCE: HIGH"
+  },
+  "5742": {
+    "description": "This feature activates on Portuguese text containing proper nouns and geographical/biographical references, particularly when preceded by prepositions or articles that form contractions or require specific Portuguese grammatical constructions (e.g., \"do\", \"da\", \"pela\", \"Délio\").",
+    "phenomenon": "Portuguese preposition-article contractions and prepositional phrases with proper nouns",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on Portuguese text containing proper nouns and geographical/biographical references, particularly when preceded by prepositions or articles that form contractions or require specific Portuguese grammatical constructions (e.g., \"do\", \"da\", \"pela\", \"Délio\").\n\nPHENOMENON: Portuguese preposition-article contractions and prepositional phrases with proper nouns\n\nCONFIDENCE: HIGH"
+  },
+  "10349": {
+    "description": "This feature activates on Portuguese text containing past participles or passive constructions, particularly those ending in \"-ado/-ada\" or \"-ido/-ida\" forms, often appearing in formal or encyclopedic contexts.",
+    "phenomenon": "Past participle forms and passive voice constructions",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on Portuguese text containing past participles or passive constructions, particularly those ending in \"-ado/-ada\" or \"-ido/-ida\" forms, often appearing in formal or encyclopedic contexts.\n\nPHENOMENON: Past participle forms and passive voice constructions\n\nCONFIDENCE: HIGH"
+  },
+  "8513": {
+    "description": "This feature activates strongly on past participle forms and gerunds in Portuguese, particularly those ending in \"-ndo\" (gerunds) and past participle constructions with auxiliary verbs.",
+    "phenomenon": "Verb forms - gerunds (-ndo) and past participles",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates strongly on past participle forms and gerunds in Portuguese, particularly those ending in \"-ndo\" (gerunds) and past participle constructions with auxiliary verbs.\n\nPHENOMENON: Verb forms - gerunds (-ndo) and past participles\n\nCONFIDENCE: HIGH"
+  },
+  "37": {
+    "description": "This feature detects the Portuguese relative pronoun \"que\" (meaning \"that/which/who\") when it appears in formal or academic Portuguese texts, particularly in historical, biographical, or encyclopedic contexts.",
+    "phenomenon": "Relative pronoun \"que\"",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature detects the Portuguese relative pronoun \"que\" (meaning \"that/which/who\") when it appears in formal or academic Portuguese texts, particularly in historical, biographical, or encyclopedic contexts.\n\nPHENOMENON: Relative pronoun \"que\"\n\nCONFIDENCE: HIGH"
+  },
+  "4613": {
+    "description": "This feature activates on Portuguese text containing dates, numbers, and formal administrative or academic references, particularly in contexts involving historical events, statistics, or institutional documentation.",
+    "phenomenon": "general",
+    "confidence": "MEDIUM",
+    "raw": "DESCRIPTION: This feature activates on Portuguese text containing dates, numbers, and formal administrative or academic references, particularly in contexts involving historical events, statistics, or institutional documentation.\n\nPHENOMENON: general\n\nCONFIDENCE: MEDIUM"
+  },
+  "6215": {
+    "description": "This feature activates strongly on Portuguese text containing parentheses with content inside them, particularly when the parenthetical content provides additional information, clarifications, or examples.",
+    "phenomenon": "Parenthetical expressions/clarifications",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates strongly on Portuguese text containing parentheses with content inside them, particularly when the parenthetical content provides additional information, clarifications, or examples.\n\nPHENOMENON: Parenthetical expressions/clarifications\n\nCONFIDENCE: HIGH"
+  },
+  "1419": {
+    "description": "This feature detects the Portuguese verb \"falar\" (to speak/talk) and its various conjugated forms (falou, fala, falando, etc.) in historical and biographical contexts.",
+    "phenomenon": "Portuguese verb conjugation (specifically forms of \"falar\")",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature detects the Portuguese verb \"falar\" (to speak/talk) and its various conjugated forms (falou, fala, falando, etc.) in historical and biographical contexts.\nPHENOMENON: Portuguese verb conjugation (specifically forms of \"falar\")\nCONFIDENCE: HIGH"
+  },
+  "13148": {
+    "description": "This feature activates on Portuguese verbs in various past tense forms (past participle, preterite, and imperfect), particularly when they appear in narrative or explanatory contexts describing past actions, attempts, or states.",
+    "phenomenon": "Portuguese past tense verb forms (participle, preterite, imperfect)",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on Portuguese verbs in various past tense forms (past participle, preterite, and imperfect), particularly when they appear in narrative or explanatory contexts describing past actions, attempts, or states.\n\nPHENOMENON: Portuguese past tense verb forms (participle, preterite, imperfect)\n\nCONFIDENCE: HIGH"
+  },
+  "15979": {
+    "description": "This feature activates strongly on the Portuguese word \"ranking\" and related concepts of classification, ordering, or positioning in lists, particularly in contexts discussing comparative positions or classifications.",
+    "phenomenon": "Lexical - specifically the loanword \"ranking\" and semantically related Portuguese words for classification/ordering (classificação, classificar, classificou)",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates strongly on the Portuguese word \"ranking\" and related concepts of classification, ordering, or positioning in lists, particularly in contexts discussing comparative positions or classifications.\n\nPHENOMENON: Lexical - specifically the loanword \"ranking\" and semantically related Portuguese words for classification/ordering (classificação, classificar, classificou)\n\nCONFIDENCE: HIGH"
+  },
+  "16369": {
+    "description": "This feature activates on words related to international relations, diplomacy, and diplomatic entities (embassies, ambassadors, UN, diplomatic relations) across both Portuguese and English texts.",
+    "phenomenon": "general",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on words related to international relations, diplomacy, and diplomatic entities (embassies, ambassadors, UN, diplomatic relations) across both Portuguese and English texts.\nPHENOMENON: general\nCONFIDENCE: HIGH"
+  },
+  "1680": {
+    "description": "This feature detects Portuguese words containing \"limit-\" stems (limitar, limitação, limitado, etc.) and their various conjugated or derived forms, representing concepts of limitation, restriction, or boundary.",
+    "phenomenon": "Portuguese lexical/morphological pattern (limit- stem words)",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature detects Portuguese words containing \"limit-\" stems (limitar, limitação, limitado, etc.) and their various conjugated or derived forms, representing concepts of limitation, restriction, or boundary.\n\nPHENOMENON: Portuguese lexical/morphological pattern (limit- stem words)\n\nCONFIDENCE: HIGH"
+  },
+  "12398": {
+    "description": "This feature activates strongly on Portuguese words related to heat, warming, and temperature, particularly in scientific contexts discussing global warming (\"aquecimento global\"), heat transfer (\"calor\"), and thermal processes.",
+    "phenomenon": "Semantic field of heat/temperature/warming in Portuguese scientific discourse",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates strongly on Portuguese words related to heat, warming, and temperature, particularly in scientific contexts discussing global warming (\"aquecimento global\"), heat transfer (\"calor\"), and thermal processes.\n\nPHENOMENON: Semantic field of heat/temperature/warming in Portuguese scientific discourse\n\nCONFIDENCE: HIGH"
+  },
+  "10499": {
+    "description": "This feature activates on fragments of academic or encyclopedic Portuguese text, particularly those containing references, lists, technical descriptions, and cross-references typical of Wikipedia or scholarly articles.",
+    "phenomenon": "general",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on fragments of academic or encyclopedic Portuguese text, particularly those containing references, lists, technical descriptions, and cross-references typical of Wikipedia or scholarly articles.\n\nPHENOMENON: general\n\nCONFIDENCE: HIGH"
+  },
+  "13718": {
+    "description": "This feature activates on Portuguese text containing proper nouns, citations, and formal references, particularly in academic, biographical, and institutional contexts.",
+    "phenomenon": "general",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on Portuguese text containing proper nouns, citations, and formal references, particularly in academic, biographical, and institutional contexts.\nPHENOMENON: general\nCONFIDENCE: HIGH"
+  },
+  "12948": {
+    "description": "This feature activates strongly on the Portuguese word \"amigo/amiga\" (friend) and its variations (amigos, amigas, amizade), appearing consistently across all examples in different grammatical forms and contexts.",
+    "phenomenon": "Portuguese lexical item - specifically the word family related to \"amigo\" (friend)",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates strongly on the Portuguese word \"amigo/amiga\" (friend) and its variations (amigos, amigas, amizade), appearing consistently across all examples in different grammatical forms and contexts.\n\nPHENOMENON: Portuguese lexical item - specifically the word family related to \"amigo\" (friend)\n\nCONFIDENCE: HIGH"
+  },
+  "5241": {
+    "description": "This feature activates on Portuguese text segments that appear to be from encyclopedic or informational sources, particularly those containing geographical, historical, or scientific content.",
+    "phenomenon": "general",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on Portuguese text segments that appear to be from encyclopedic or informational sources, particularly those containing geographical, historical, or scientific content.\nPHENOMENON: general\nCONFIDENCE: HIGH"
+  },
+  "10528": {
+    "description": "This feature activates on Portuguese text segments that contain formal or encyclopedic content, particularly those with references to proper names, titles, dates, and bibliographic information.",
+    "phenomenon": "general",
+    "confidence": "MEDIUM",
+    "raw": "DESCRIPTION: This feature activates on Portuguese text segments that contain formal or encyclopedic content, particularly those with references to proper names, titles, dates, and bibliographic information.\n\nPHENOMENON: general\n\nCONFIDENCE: MEDIUM"
+  },
+  "8310": {
+    "description": "This feature activates strongly on Portuguese text containing copular constructions with \"é\" (is), particularly when followed by articles or determiners in statements that define, characterize, or make categorical assertions about subjects.",
+    "phenomenon": "Copular verb \"é\" + article/determiner constructions",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates strongly on Portuguese text containing copular constructions with \"é\" (is), particularly when followed by articles or determiners in statements that define, characterize, or make categorical assertions about subjects.\n\nPHENOMENON: Copular verb \"é\" + article/determiner constructions\n\nCONFIDENCE: HIGH"
+  },
+  "5296": {
+    "description": "This feature activates on the Portuguese word \"autoridade\" (authority) and related words beginning with \"aut-\" or \"aud-\", showing consistent activation across different contexts involving authority, autonomy, or audio-related terms.",
+    "phenomenon": "Portuguese lexical pattern (words with \"aut-\"/\"aud-\" prefix, particularly \"autoridade\")",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on the Portuguese word \"autoridade\" (authority) and related words beginning with \"aut-\" or \"aud-\", showing consistent activation across different contexts involving authority, autonomy, or audio-related terms.\n\nPHENOMENON: Portuguese lexical pattern (words with \"aut-\"/\"aud-\" prefix, particularly \"autoridade\")\n\nCONFIDENCE: HIGH"
+  },
+  "13526": {
+    "description": "This feature appears to activate on Portuguese text containing proper names or references to people, places, and historical/religious figures, particularly in contexts involving biographical, historical, or encyclopedic information.",
+    "phenomenon": "general",
+    "confidence": "MEDIUM",
+    "raw": "DESCRIPTION: This feature appears to activate on Portuguese text containing proper names or references to people, places, and historical/religious figures, particularly in contexts involving biographical, historical, or encyclopedic information.\n\nPHENOMENON: general\n\nCONFIDENCE: MEDIUM"
+  },
+  "1131": {
+    "description": "This feature activates on Portuguese words describing fluctuation, variation, or alternating movement, particularly verbs like \"oscila/oscilam\" (oscillate), \"variam/varia\" (vary), \"alternam\" (alternate), and related nouns like \"oscilação/oscilações\" (oscillation), \"amplitudes\" (amplitudes).",
+    "phenomenon": "Lexical-semantic field of variation/oscillation in Portuguese",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on Portuguese words describing fluctuation, variation, or alternating movement, particularly verbs like \"oscila/oscilam\" (oscillate), \"variam/varia\" (vary), \"alternam\" (alternate), and related nouns like \"oscilação/oscilações\" (oscillation), \"amplitudes\" (amplitudes).\n\nPHENOMENON: Lexical-semantic field of variation/oscillation in Portuguese\n\nCONFIDENCE: HIGH"
+  },
+  "15887": {
+    "description": "This feature appears to detect tokens occurring at or near the boundaries between different text segments or entries, particularly in Portuguese encyclopedic or reference texts, often activating on tokens that precede or follow formatting elements, citations, or topic transitions.",
+    "phenomenon": "general",
+    "confidence": "MEDIUM",
+    "raw": "DESCRIPTION: This feature appears to detect tokens occurring at or near the boundaries between different text segments or entries, particularly in Portuguese encyclopedic or reference texts, often activating on tokens that precede or follow formatting elements, citations, or topic transitions.\n\nPHENOMENON: general\n\nCONFIDENCE: MEDIUM"
+  },
+  "318": {
+    "description": "This feature detects the Portuguese adjective \"clara/claro\" (meaning \"clear\") and its variations (claras, claros, claramente), primarily in contexts where it modifies nouns or describes situations of clarity, obviousness, or distinction.",
+    "phenomenon": "Portuguese adjective agreement (gender/number concordance)",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature detects the Portuguese adjective \"clara/claro\" (meaning \"clear\") and its variations (claras, claros, claramente), primarily in contexts where it modifies nouns or describes situations of clarity, obviousness, or distinction.\n\nPHENOMENON: Portuguese adjective agreement (gender/number concordance)\n\nCONFIDENCE: HIGH"
+  },
+  "1615": {
+    "description": "This feature activates strongly on the Portuguese verb \"poder\" (can/may) in its various conjugated forms, particularly \"pode\" (3rd person singular), \"podem\" (3rd person plural), and \"podendo\" (gerund form), when used to express possibility or capability.",
+    "phenomenon": "Portuguese modal verb conjugation (specifically forms of \"poder\")",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates strongly on the Portuguese verb \"poder\" (can/may) in its various conjugated forms, particularly \"pode\" (3rd person singular), \"podem\" (3rd person plural), and \"podendo\" (gerund form), when used to express possibility or capability.\n\nPHENOMENON: Portuguese modal verb conjugation (specifically forms of \"poder\")\n\nCONFIDENCE: HIGH"
+  },
+  "10973": {
+    "description": "This feature activates on Portuguese text segments that contain formal, academic, or technical language, particularly those discussing abstract concepts, conditions, or descriptive explanations across various domains (science, law, history, geography).",
+    "phenomenon": "general",
+    "confidence": "MEDIUM",
+    "raw": "DESCRIPTION: This feature activates on Portuguese text segments that contain formal, academic, or technical language, particularly those discussing abstract concepts, conditions, or descriptive explanations across various domains (science, law, history, geography).\n\nPHENOMENON: general\n\nCONFIDENCE: MEDIUM"
+  },
+  "4381": {
+    "description": "This feature activates strongly on numeric sequences, particularly those containing 5-6 digits, often appearing in contexts like population counts, postal codes, ISBN numbers, and scientific/administrative references in Portuguese text.",
+    "phenomenon": "general",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates strongly on numeric sequences, particularly those containing 5-6 digits, often appearing in contexts like population counts, postal codes, ISBN numbers, and scientific/administrative references in Portuguese text.\nPHENOMENON: general\nCONFIDENCE: HIGH"
+  },
+  "8416": {
+    "description": "This feature detects Portuguese words related to insects, arthropods, and related biological/agricultural contexts (e.g., \"insetos\", \"aracnídeos\", \"entomologia\", \"pragas\").",
+    "phenomenon": "general",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature detects Portuguese words related to insects, arthropods, and related biological/agricultural contexts (e.g., \"insetos\", \"aracnídeos\", \"entomologia\", \"pragas\").\nPHENOMENON: general\nCONFIDENCE: HIGH"
+  },
+  "12598": {
+    "description": "This feature activates strongly on Portuguese text discussing talent, creativity, and artistic/intellectual abilities, particularly in contexts describing exceptional abilities, creative works, or notable individuals.",
+    "phenomenon": "general",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates strongly on Portuguese text discussing talent, creativity, and artistic/intellectual abilities, particularly in contexts describing exceptional abilities, creative works, or notable individuals.\n\nPHENOMENON: general\n\nCONFIDENCE: HIGH"
+  },
+  "14790": {
+    "description": "This feature activates strongly on Portuguese text segments, particularly those containing scientific/technical terminology, species names, historical references, and formal/academic writing style.",
+    "phenomenon": "general",
+    "confidence": "MEDIUM",
+    "raw": "DESCRIPTION: This feature activates strongly on Portuguese text segments, particularly those containing scientific/technical terminology, species names, historical references, and formal/academic writing style.\n\nPHENOMENON: general\n\nCONFIDENCE: MEDIUM"
+  },
+  "2356": {
+    "description": "This feature activates strongly on Portuguese text containing lists or enumerations, particularly those preceded by a colon and using bullet points or line breaks to separate items.",
+    "phenomenon": "List/enumeration structures in Portuguese",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates strongly on Portuguese text containing lists or enumerations, particularly those preceded by a colon and using bullet points or line breaks to separate items.\n\nPHENOMENON: List/enumeration structures in Portuguese\n\nCONFIDENCE: HIGH"
+  },
+  "7767": {
+    "description": "This feature activates on the phrase \"Ver também\" (See also) in Portuguese texts, which is commonly used to introduce related topics or cross-references in encyclopedia-style entries and reference materials.",
+    "phenomenon": "Fixed expression/formulaic phrase",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on the phrase \"Ver também\" (See also) in Portuguese texts, which is commonly used to introduce related topics or cross-references in encyclopedia-style entries and reference materials.\n\nPHENOMENON: Fixed expression/formulaic phrase\n\nCONFIDENCE: HIGH"
+  },
+  "15157": {
+    "description": "This feature appears to activate strongly on proper nouns, particularly place names (countries, cities, regions) and personal names in Portuguese text, with especially high activation for \"Polônia\" (Poland) and names beginning with \"Raimundo/Raimundos\".",
+    "phenomenon": "Proper nouns (toponyms and anthroponyms)",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature appears to activate strongly on proper nouns, particularly place names (countries, cities, regions) and personal names in Portuguese text, with especially high activation for \"Polônia\" (Poland) and names beginning with \"Raimundo/Raimundos\".\n\nPHENOMENON: Proper nouns (toponyms and anthroponyms)\n\nCONFIDENCE: HIGH"
+  },
+  "12964": {
+    "description": "This feature activates strongly on Portuguese text segments that appear to be from encyclopedic or academic sources, particularly those containing definitions, biographical information, or explanatory content about various topics.",
+    "phenomenon": "general",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates strongly on Portuguese text segments that appear to be from encyclopedic or academic sources, particularly those containing definitions, biographical information, or explanatory content about various topics.\n\nPHENOMENON: general\n\nCONFIDENCE: HIGH"
+  },
+  "12654": {
+    "description": "This feature appears to activate on proper nouns and geographic locations across languages, particularly place names, countries, cities, and geographic features, with some activation on technical/scientific terms.",
+    "phenomenon": "general",
+    "confidence": "MEDIUM",
+    "raw": "DESCRIPTION: This feature appears to activate on proper nouns and geographic locations across languages, particularly place names, countries, cities, and geographic features, with some activation on technical/scientific terms.\n\nPHENOMENON: general\n\nCONFIDENCE: MEDIUM"
+  },
+  "10314": {
+    "description": "This feature appears to detect list-like structures and enumerations in Portuguese text, particularly academic or reference-style listings of related topics, categories, or items (e.g., \"Lista de asteroides\", \"Aves de Mato Grosso\", \"Geografia física\").",
+    "phenomenon": "general",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature appears to detect list-like structures and enumerations in Portuguese text, particularly academic or reference-style listings of related topics, categories, or items (e.g., \"Lista de asteroides\", \"Aves de Mato Grosso\", \"Geografia física\").\n\nPHENOMENON: general\n\nCONFIDENCE: HIGH"
+  },
+  "16308": {
+    "description": "This feature activates on Portuguese words related to urban areas, cities, and metropolitan regions, including adjectives like \"urbano/urbana/urbanas\", nouns like \"metrópole\", and related concepts like urbanization and city infrastructure.",
+    "phenomenon": "Portuguese urban/metropolitan vocabulary",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on Portuguese words related to urban areas, cities, and metropolitan regions, including adjectives like \"urbano/urbana/urbanas\", nouns like \"metrópole\", and related concepts like urbanization and city infrastructure.\n\nPHENOMENON: Portuguese urban/metropolitan vocabulary\n\nCONFIDENCE: HIGH"
+  },
+  "10274": {
+    "description": "This feature activates on Portuguese text segments containing numerical values, quantities, measurements, and technical/scientific data, particularly in contexts involving energy, resources, consumption, and technical specifications.",
+    "phenomenon": "general (numerical/quantitative expressions in Portuguese)",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on Portuguese text segments containing numerical values, quantities, measurements, and technical/scientific data, particularly in contexts involving energy, resources, consumption, and technical specifications.\n\nPHENOMENON: general (numerical/quantitative expressions in Portuguese)\n\nCONFIDENCE: HIGH"
+  },
+  "3816": {
+    "description": "This feature appears to activate on proper nouns and named entities in Portuguese text, particularly geographic locations, historical figures, institutions, and formal titles.",
+    "phenomenon": "Named entity recognition (proper nouns)",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature appears to activate on proper nouns and named entities in Portuguese text, particularly geographic locations, historical figures, institutions, and formal titles.\n\nPHENOMENON: Named entity recognition (proper nouns)\n\nCONFIDENCE: HIGH"
+  },
+  "13256": {
+    "description": "This feature activates on Portuguese text containing formal or technical explanations, particularly academic or encyclopedic content that includes definitions, mathematical/scientific concepts, or detailed descriptions of processes and phenomena.",
+    "phenomenon": "general",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on Portuguese text containing formal or technical explanations, particularly academic or encyclopedic content that includes definitions, mathematical/scientific concepts, or detailed descriptions of processes and phenomena.\n\nPHENOMENON: general\n\nCONFIDENCE: HIGH"
+  },
+  "10208": {
+    "description": "This feature activates on Portuguese text containing numbers, dates, and numerical references, particularly years, percentages, and other quantitative information.",
+    "phenomenon": "general",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on Portuguese text containing numbers, dates, and numerical references, particularly years, percentages, and other quantitative information.\nPHENOMENON: general\nCONFIDENCE: HIGH"
+  },
+  "11675": {
+    "description": "This feature activates strongly on Portuguese bird species names and taxonomic listings, particularly focusing on tokens that appear to be part of scientific nomenclature or common names of birds in Portuguese-language ornithological texts.",
+    "phenomenon": "Portuguese ornithological/taxonomic nomenclature",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates strongly on Portuguese bird species names and taxonomic listings, particularly focusing on tokens that appear to be part of scientific nomenclature or common names of birds in Portuguese-language ornithological texts.\n\nPHENOMENON: Portuguese ornithological/taxonomic nomenclature\n\nCONFIDENCE: HIGH"
+  },
+  "6954": {
+    "description": "This feature activates strongly on Portuguese words containing the sequence \"son\" or similar phonetic patterns (son-, sôn-, -son-), regardless of their semantic meaning or grammatical category (nouns, adjectives, verbs).",
+    "phenomenon": "Phonetic/orthographic pattern detection (specifically the \"son\" sound sequence in Portuguese)",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates strongly on Portuguese words containing the sequence \"son\" or similar phonetic patterns (son-, sôn-, -son-), regardless of their semantic meaning or grammatical category (nouns, adjectives, verbs).\n\nPHENOMENON: Phonetic/orthographic pattern detection (specifically the \"son\" sound sequence in Portuguese)\n\nCONFIDENCE: HIGH"
+  },
+  "5111": {
+    "description": "This feature activates on numerical information and dates in Portuguese text, particularly years, dates, and numerical references embedded within formal or historical contexts.",
+    "phenomenon": "Numerical expressions and temporal references",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on numerical information and dates in Portuguese text, particularly years, dates, and numerical references embedded within formal or historical contexts.\n\nPHENOMENON: Numerical expressions and temporal references\n\nCONFIDENCE: HIGH"
+  },
+  "2076": {
+    "description": "This feature activates strongly on colons (:) used to introduce explanations, definitions, or elaborations in both Portuguese and English academic or formal texts.",
+    "phenomenon": "punctuation - colon usage",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates strongly on colons (:) used to introduce explanations, definitions, or elaborations in both Portuguese and English academic or formal texts.\nPHENOMENON: punctuation - colon usage\nCONFIDENCE: HIGH"
+  },
+  "6137": {
+    "description": "This feature activates on forms of the Portuguese verb \"pensar\" (to think) and related cognates like \"considerar\" (to consider), particularly in infinitive and past tense forms, as well as related noun forms like \"pensamentos\" (thoughts).",
+    "phenomenon": "Portuguese verb conjugation and lexical family of \"pensar\" (think)",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on forms of the Portuguese verb \"pensar\" (to think) and related cognates like \"considerar\" (to consider), particularly in infinitive and past tense forms, as well as related noun forms like \"pensamentos\" (thoughts).\n\nPHENOMENON: Portuguese verb conjugation and lexical family of \"pensar\" (think)\n\nCONFIDENCE: HIGH"
+  },
+  "6490": {
+    "description": "This feature appears to detect academic or scholarly references and citations, particularly those related to historical, biographical, or scientific works across both English and Portuguese texts.",
+    "phenomenon": "Academic citation and reference patterns",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature appears to detect academic or scholarly references and citations, particularly those related to historical, biographical, or scientific works across both English and Portuguese texts.\n\nPHENOMENON: Academic citation and reference patterns\n\nCONFIDENCE: HIGH"
+  },
+  "826": {
+    "description": "This feature activates strongly on the word \"Londres\" (London in Portuguese) and \"London\" in English, particularly in bibliographic references and geographical contexts.",
+    "phenomenon": "Cross-lingual proper noun recognition (specifically the city name London/Londres)",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates strongly on the word \"Londres\" (London in Portuguese) and \"London\" in English, particularly in bibliographic references and geographical contexts.\nPHENOMENON: Cross-lingual proper noun recognition (specifically the city name London/Londres)\nCONFIDENCE: HIGH"
+  },
+  "4905": {
+    "description": "This feature activates on Portuguese text discussing abstract concepts, ideologies, principles, and socio-political topics, particularly those involving governmental, economic, or philosophical systems.",
+    "phenomenon": "general",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on Portuguese text discussing abstract concepts, ideologies, principles, and socio-political topics, particularly those involving governmental, economic, or philosophical systems.\nPHENOMENON: general\nCONFIDENCE: HIGH"
+  },
+  "11315": {
+    "description": "This feature activates on Portuguese text segments containing geographical, historical, or scientific descriptive content, particularly those with formal or academic register.",
+    "phenomenon": "general",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on Portuguese text segments containing geographical, historical, or scientific descriptive content, particularly those with formal or academic register.\nPHENOMENON: general\nCONFIDENCE: HIGH"
+  },
+  "9497": {
+    "description": "This feature appears to detect text in Portuguese, activating on a wide variety of Portuguese content including mathematical definitions, geographical descriptions, historical accounts, and general prose.",
+    "phenomenon": "general",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature appears to detect text in Portuguese, activating on a wide variety of Portuguese content including mathematical definitions, geographical descriptions, historical accounts, and general prose.\n\nPHENOMENON: general\n\nCONFIDENCE: HIGH"
+  },
+  "9326": {
+    "description": "This feature activates on ordinal numbers and edition numbers (e.g., \"3rd\", \"2nd\", \"5º\", \"56º\") in both English and Portuguese contexts, particularly in academic/reference materials and formal descriptions.",
+    "phenomenon": "Ordinal numbers and edition markers",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on ordinal numbers and edition numbers (e.g., \"3rd\", \"2nd\", \"5º\", \"56º\") in both English and Portuguese contexts, particularly in academic/reference materials and formal descriptions.\n\nPHENOMENON: Ordinal numbers and edition markers\n\nCONFIDENCE: HIGH"
+  },
+  "5032": {
+    "description": "This feature activates on Portuguese text discussing mathematical, computational, or scientific calculations and methods, particularly when describing numerical procedures, formulas, or measurement techniques.",
+    "phenomenon": "general",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on Portuguese text discussing mathematical, computational, or scientific calculations and methods, particularly when describing numerical procedures, formulas, or measurement techniques.\n\nPHENOMENON: general\n\nCONFIDENCE: HIGH"
+  },
+  "14580": {
+    "description": "This feature activates on proper nouns and formal names, particularly personal names (both first and last names) and official titles/organizations across multiple languages, with strongest activation on names containing multiple components or in formal/academic contexts.",
+    "phenomenon": "proper nouns (personal names and institutional titles)",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on proper nouns and formal names, particularly personal names (both first and last names) and official titles/organizations across multiple languages, with strongest activation on names containing multiple components or in formal/academic contexts.\n\nPHENOMENON: proper nouns (personal names and institutional titles)\n\nCONFIDENCE: HIGH"
+  },
+  "1442": {
+    "description": "This feature activates on Portuguese text segments containing numerical data, measurements, statistics, or quantitative information, particularly when preceded by prepositions or articles.",
+    "phenomenon": "general (numerical/quantitative expressions in Portuguese)",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on Portuguese text segments containing numerical data, measurements, statistics, or quantitative information, particularly when preceded by prepositions or articles.\n\nPHENOMENON: general (numerical/quantitative expressions in Portuguese)\n\nCONFIDENCE: HIGH"
+  },
+  "15985": {
+    "description": "This feature activates on formal citations and source attributions in Portuguese texts, particularly after terms like \"Fonte:\" (Source:), as well as academic/bibliographic references and definitional contexts.",
+    "phenomenon": "Citation and source attribution patterns",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on formal citations and source attributions in Portuguese texts, particularly after terms like \"Fonte:\" (Source:), as well as academic/bibliographic references and definitional contexts.\n\nPHENOMENON: Citation and source attribution patterns\n\nCONFIDENCE: HIGH"
+  },
+  "5439": {
+    "description": "This feature activates on Portuguese text discussing social and political problems, particularly corruption, hunger, unemployment, illiteracy, and environmental issues like desertification and erosion.",
+    "phenomenon": "general",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on Portuguese text discussing social and political problems, particularly corruption, hunger, unemployment, illiteracy, and environmental issues like desertification and erosion.\n\nPHENOMENON: general\n\nCONFIDENCE: HIGH"
+  },
+  "11718": {
+    "description": "This feature activates on numerical percentages and statistical estimates, particularly when describing proportions, rates, or ranges in factual/scientific contexts (e.g., \"5-13% of maternal deaths\", \"approximately 40% of the world's agricultural land\").",
+    "phenomenon": "general",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on numerical percentages and statistical estimates, particularly when describing proportions, rates, or ranges in factual/scientific contexts (e.g., \"5-13% of maternal deaths\", \"approximately 40% of the world's agricultural land\").\nPHENOMENON: general\nCONFIDENCE: HIGH"
+  },
+  "11289": {
+    "description": "This feature appears to activate on descriptive or explanatory text that provides scientific, technical, or factual information, particularly involving measurements, comparisons, or causal relationships.",
+    "phenomenon": "general",
+    "confidence": "MEDIUM",
+    "raw": "DESCRIPTION: This feature appears to activate on descriptive or explanatory text that provides scientific, technical, or factual information, particularly involving measurements, comparisons, or causal relationships.\n\nPHENOMENON: general\n\nCONFIDENCE: MEDIUM"
+  },
+  "10533": {
+    "description": "This feature appears to detect the word \"Creole\" in contexts referring to mixed cultural or ethnic populations, particularly in historical or geographical contexts.",
+    "phenomenon": "general",
+    "confidence": "LOW",
+    "raw": "DESCRIPTION: This feature appears to detect the word \"Creole\" in contexts referring to mixed cultural or ethnic populations, particularly in historical or geographical contexts.\nPHENOMENON: general\nCONFIDENCE: LOW"
+  },
+  "10531": {
+    "description": "This feature appears to detect explanatory or preventative phrases, particularly those involving causal relationships or purposes (e.g., \"thereby preventing,\" \"to prevent,\" \"to qualify,\" \"are not enough\").",
+    "phenomenon": "general",
+    "confidence": "MEDIUM",
+    "raw": "DESCRIPTION: This feature appears to detect explanatory or preventative phrases, particularly those involving causal relationships or purposes (e.g., \"thereby preventing,\" \"to prevent,\" \"to qualify,\" \"are not enough\").\nPHENOMENON: general\nCONFIDENCE: MEDIUM"
+  },
+  "1437": {
+    "description": "This feature activates on tokens that appear in formal, encyclopedic text discussing economic, political, or historical topics, particularly those involving resources (oil, gas), institutions, and major events or developments.",
+    "phenomenon": "general",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on tokens that appear in formal, encyclopedic text discussing economic, political, or historical topics, particularly those involving resources (oil, gas), institutions, and major events or developments.\n\nPHENOMENON: general\n\nCONFIDENCE: HIGH"
+  },
+  "14893": {
+    "description": "This feature activates on tokens that appear in formal, informational writing contexts, particularly in historical, political, or encyclopedic texts that describe significant events, organizations, or notable figures.",
+    "phenomenon": "general",
+    "confidence": "MEDIUM",
+    "raw": "DESCRIPTION: This feature activates on tokens that appear in formal, informational writing contexts, particularly in historical, political, or encyclopedic texts that describe significant events, organizations, or notable figures.\n\nPHENOMENON: general\n\nCONFIDENCE: MEDIUM"
+  },
+  "6632": {
+    "description": "This feature activates on technical or academic text containing factual information, particularly in scientific, historical, or encyclopedic contexts with formal register.",
+    "phenomenon": "general",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on technical or academic text containing factual information, particularly in scientific, historical, or encyclopedic contexts with formal register.\nPHENOMENON: general\nCONFIDENCE: HIGH"
+  },
+  "7187": {
+    "description": "This feature appears to detect quotation marks surrounding direct speech, specifically the opening quotation mark before spoken dialogue in English text.",
+    "phenomenon": "Punctuation - quotation marks for direct speech",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature appears to detect quotation marks surrounding direct speech, specifically the opening quotation mark before spoken dialogue in English text.\nPHENOMENON: Punctuation - quotation marks for direct speech\nCONFIDENCE: HIGH"
+  },
+  "12133": {
+    "description": "This feature appears to activate on commas that precede additional information or explanatory clauses, particularly in formal or technical writing contexts.",
+    "phenomenon": "Comma usage before supplementary/parenthetical information",
+    "confidence": "MEDIUM",
+    "raw": "DESCRIPTION: This feature appears to activate on commas that precede additional information or explanatory clauses, particularly in formal or technical writing contexts.\n\nPHENOMENON: Comma usage before supplementary/parenthetical information\n\nCONFIDENCE: MEDIUM"
+  },
+  "15473": {
+    "description": "This feature activates on possessive pronouns \"her\" and \"he\" in contexts where they refer to a person mentioned earlier in the sentence, particularly in formal or journalistic writing styles.",
+    "phenomenon": "Third-person singular pronouns (possessive and nominative)",
+    "confidence": "MEDIUM",
+    "raw": "DESCRIPTION: This feature activates on possessive pronouns \"her\" and \"he\" in contexts where they refer to a person mentioned earlier in the sentence, particularly in formal or journalistic writing styles.\nPHENOMENON: Third-person singular pronouns (possessive and nominative)\nCONFIDENCE: MEDIUM"
+  },
+  "5660": {
+    "description": "This feature activates on text segments containing biographical or descriptive information about people, places, or things, particularly those involving \"who\" clauses, professional titles, dates, and historical/geographical references.",
+    "phenomenon": "general",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on text segments containing biographical or descriptive information about people, places, or things, particularly those involving \"who\" clauses, professional titles, dates, and historical/geographical references.\nPHENOMENON: general\nCONFIDENCE: HIGH"
+  },
+  "15291": {
+    "description": "This feature activates on the word \"allow\" or \"allowing\" (and related forms like \"permits\", \"enable\") when used to describe causal relationships or mechanisms that make something possible, particularly in scientific, technical, or explanatory contexts.",
+    "phenomenon": "Causative verbs expressing enablement/permission",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on the word \"allow\" or \"allowing\" (and related forms like \"permits\", \"enable\") when used to describe causal relationships or mechanisms that make something possible, particularly in scientific, technical, or explanatory contexts.\n\nPHENOMENON: Causative verbs expressing enablement/permission\n\nCONFIDENCE: HIGH"
+  },
+  "11772": {
+    "description": "This feature appears to detect references to Persian/Arabic letters or characters, particularly in contexts discussing linguistic or orthographic elements of these languages.",
+    "phenomenon": "Non-Latin script references (specifically Persian/Arabic writing systems)",
+    "confidence": "LOW",
+    "raw": "DESCRIPTION: This feature appears to detect references to Persian/Arabic letters or characters, particularly in contexts discussing linguistic or orthographic elements of these languages.\n\nPHENOMENON: Non-Latin script references (specifically Persian/Arabic writing systems)\n\nCONFIDENCE: LOW"
+  },
+  "15001": {
+    "description": "This feature activates strongly on past tense verbs, particularly those describing completed actions or states that occurred over a period of time (e.g., \"took place,\" \"went extinct,\" \"took up,\" \"made,\" \"turned out\").",
+    "phenomenon": "Past tense verb forms",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates strongly on past tense verbs, particularly those describing completed actions or states that occurred over a period of time (e.g., \"took place,\" \"went extinct,\" \"took up,\" \"made,\" \"turned out\").\n\nPHENOMENON: Past tense verb forms\n\nCONFIDENCE: HIGH"
+  },
+  "10000": {
+    "description": "This feature activates strongly on tokens containing dashes/hyphens (–) used in compound words, names, or ranges, particularly in English text contexts.",
+    "phenomenon": "Dash/hyphen usage in compound constructions",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates strongly on tokens containing dashes/hyphens (–) used in compound words, names, or ranges, particularly in English text contexts.\nPHENOMENON: Dash/hyphen usage in compound constructions\nCONFIDENCE: HIGH"
+  },
+  "5466": {
+    "description": "This feature activates on tokens that appear in formal, academic, or encyclopedic writing contexts, particularly in passages containing factual information about historical events, scientific concepts, or biographical details.",
+    "phenomenon": "general",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on tokens that appear in formal, academic, or encyclopedic writing contexts, particularly in passages containing factual information about historical events, scientific concepts, or biographical details.\n\nPHENOMENON: general\n\nCONFIDENCE: HIGH"
+  },
+  "5448": {
+    "description": "This feature appears to activate on technical or academic text that contains precise numerical values, measurements, or quantitative comparisons, often in contexts involving scientific, mathematical, or formal descriptions.",
+    "phenomenon": "general",
+    "confidence": "MEDIUM",
+    "raw": "DESCRIPTION: This feature appears to activate on technical or academic text that contains precise numerical values, measurements, or quantitative comparisons, often in contexts involving scientific, mathematical, or formal descriptions.\n\nPHENOMENON: general\n\nCONFIDENCE: MEDIUM"
+  },
+  "11461": {
+    "description": "This feature activates on the word \"but\" when it functions as a contrastive conjunction, particularly in contexts where it introduces a contrasting or qualifying statement after presenting an initial fact or observation.",
+    "phenomenon": "Contrastive conjunction \"but\"",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on the word \"but\" when it functions as a contrastive conjunction, particularly in contexts where it introduces a contrasting or qualifying statement after presenting an initial fact or observation.\n\nPHENOMENON: Contrastive conjunction \"but\"\n\nCONFIDENCE: HIGH"
+  },
+  "6701": {
+    "description": "This feature appears to activate on formal or academic language that discusses abstract concepts, definitions, or analytical statements, particularly those involving philosophical, political, or theoretical subjects.",
+    "phenomenon": "general",
+    "confidence": "MEDIUM",
+    "raw": "DESCRIPTION: This feature appears to activate on formal or academic language that discusses abstract concepts, definitions, or analytical statements, particularly those involving philosophical, political, or theoretical subjects.\n\nPHENOMENON: general\n\nCONFIDENCE: MEDIUM"
+  },
+  "577": {
+    "description": "This feature appears to activate on technical or scientific content, particularly chemistry, physics, astronomy, and geography topics, often when discussing properties, measurements, or scientific concepts.",
+    "phenomenon": "general",
+    "confidence": "MEDIUM",
+    "raw": "DESCRIPTION: This feature appears to activate on technical or scientific content, particularly chemistry, physics, astronomy, and geography topics, often when discussing properties, measurements, or scientific concepts.\n\nPHENOMENON: general\n\nCONFIDENCE: MEDIUM"
+  },
+  "10217": {
+    "description": "This feature activates on descriptive passages containing detailed technical or scientific information, particularly those describing physical characteristics, geographical features, or specialized terminology across various domains (biology, geography, technology, architecture).",
+    "phenomenon": "general",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on descriptive passages containing detailed technical or scientific information, particularly those describing physical characteristics, geographical features, or specialized terminology across various domains (biology, geography, technology, architecture).\nPHENOMENON: general\nCONFIDENCE: HIGH"
+  },
+  "6470": {
+    "description": "This feature activates on possessive forms, particularly the possessive 's (apostrophe + s) in English, as seen in examples like \"Japan's\", \"Apple's\", \"Angola's\", \"Turing's\", \"Alaska's\", \"von Kempelen's\", \"France's\", \"NASA's\", \"Seward's\", \"woman's\", and \"body's\".",
+    "phenomenon": "English possessive marker ('s)",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on possessive forms, particularly the possessive 's (apostrophe + s) in English, as seen in examples like \"Japan's\", \"Apple's\", \"Angola's\", \"Turing's\", \"Alaska's\", \"von Kempelen's\", \"France's\", \"NASA's\", \"Seward's\", \"woman's\", and \"body's\".\n\nPHENOMENON: English possessive marker ('s)\n\nCONFIDENCE: HIGH"
+  },
+  "6132": {
+    "description": "This feature activates on quoted or reported speech/opinions, particularly when introducing assessments, evaluations, or characterizations of ideas, works, or people.",
+    "phenomenon": "Quotative/evaluative discourse markers",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on quoted or reported speech/opinions, particularly when introducing assessments, evaluations, or characterizations of ideas, works, or people.\nPHENOMENON: Quotative/evaluative discourse markers\nCONFIDENCE: HIGH"
+  },
+  "8882": {
+    "description": "This feature activates on formal, academic, or technical writing containing detailed explanations, technical terminology, and informative content across diverse fields including chemistry, engineering, history, medicine, and social sciences.",
+    "phenomenon": "general",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on formal, academic, or technical writing containing detailed explanations, technical terminology, and informative content across diverse fields including chemistry, engineering, history, medicine, and social sciences.\n\nPHENOMENON: general\n\nCONFIDENCE: HIGH"
+  },
+  "7981": {
+    "description": "This feature activates on past participles and perfect aspect constructions, particularly detecting words like \"experienced,\" \"proven,\" \"based,\" \"obtained,\" and \"performed\" that indicate completed or resultant states.",
+    "phenomenon": "Past participles and perfect aspect",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on past participles and perfect aspect constructions, particularly detecting words like \"experienced,\" \"proven,\" \"based,\" \"obtained,\" and \"performed\" that indicate completed or resultant states.\n\nPHENOMENON: Past participles and perfect aspect\n\nCONFIDENCE: HIGH"
+  },
+  "1961": {
+    "description": "This feature activates on text discussing medicinal or therapeutic substances and their applications, particularly focusing on traditional remedies, pharmaceutical preparations, and medical treatments across various contexts.",
+    "phenomenon": "general",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on text discussing medicinal or therapeutic substances and their applications, particularly focusing on traditional remedies, pharmaceutical preparations, and medical treatments across various contexts.\n\nPHENOMENON: general\n\nCONFIDENCE: HIGH"
+  },
+  "13752": {
+    "description": "This feature activates on scientific and technical text, particularly chemistry and physics content involving atomic/molecular structures, measurements, and scientific explanations.",
+    "phenomenon": "general",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on scientific and technical text, particularly chemistry and physics content involving atomic/molecular structures, measurements, and scientific explanations.\nPHENOMENON: general\nCONFIDENCE: HIGH"
+  },
+  "6027": {
+    "description": "This feature appears to activate on technical or encyclopedic content, particularly scientific terminology, definitions, and formal explanations across various domains (GMO regulations, chemistry nomenclature, physics effects, astronomy, linguistics).",
+    "phenomenon": "general",
+    "confidence": "MEDIUM",
+    "raw": "DESCRIPTION: This feature appears to activate on technical or encyclopedic content, particularly scientific terminology, definitions, and formal explanations across various domains (GMO regulations, chemistry nomenclature, physics effects, astronomy, linguistics).\nPHENOMENON: general\nCONFIDENCE: MEDIUM"
+  },
+  "7555": {
+    "description": "This feature activates on tokens that appear in formal, technical, or academic contexts, particularly when preceded by detailed explanations or descriptions of processes, systems, or concepts.",
+    "phenomenon": "general",
+    "confidence": "MEDIUM",
+    "raw": "DESCRIPTION: This feature activates on tokens that appear in formal, technical, or academic contexts, particularly when preceded by detailed explanations or descriptions of processes, systems, or concepts.\nPHENOMENON: general\nCONFIDENCE: MEDIUM"
+  },
+  "2662": {
+    "description": "This feature detects contexts involving resignation, departure, or leaving from positions, organizations, or affiliations, particularly in biographical or historical narratives.",
+    "phenomenon": "general",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature detects contexts involving resignation, departure, or leaving from positions, organizations, or affiliations, particularly in biographical or historical narratives.\n\nPHENOMENON: general\n\nCONFIDENCE: HIGH"
+  },
+  "6994": {
+    "description": "This feature activates on transitions between proper nouns (especially names of people, places, or events) and subsequent descriptive or contextual information, particularly in encyclopedia-like or biographical text.",
+    "phenomenon": "general",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on transitions between proper nouns (especially names of people, places, or events) and subsequent descriptive or contextual information, particularly in encyclopedia-like or biographical text.\n\nPHENOMENON: general\n\nCONFIDENCE: HIGH"
+  },
+  "12782": {
+    "description": "This feature activates on phrases that describe something as being \"part of\" or \"one of\" a larger whole, category, or system, particularly in formal or encyclopedic contexts.",
+    "phenomenon": "general",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on phrases that describe something as being \"part of\" or \"one of\" a larger whole, category, or system, particularly in formal or encyclopedic contexts.\nPHENOMENON: general\nCONFIDENCE: HIGH"
+  },
+  "14963": {
+    "description": "This feature appears to activate on formal, academic, or technical writing that contains complex explanatory content, particularly when discussing limitations, exceptions, or nuanced relationships between concepts.",
+    "phenomenon": "general",
+    "confidence": "MEDIUM",
+    "raw": "DESCRIPTION: This feature appears to activate on formal, academic, or technical writing that contains complex explanatory content, particularly when discussing limitations, exceptions, or nuanced relationships between concepts.\n\nPHENOMENON: general\n\nCONFIDENCE: MEDIUM"
+  },
+  "15068": {
+    "description": "This feature activates on past tense verbs describing observation or witnessing actions, particularly \"watched,\" \"observed,\" \"witnessed,\" and similar verbs indicating visual perception of events.",
+    "phenomenon": "Past tense perception verbs",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on past tense verbs describing observation or witnessing actions, particularly \"watched,\" \"observed,\" \"witnessed,\" and similar verbs indicating visual perception of events.\nPHENOMENON: Past tense perception verbs\nCONFIDENCE: HIGH"
+  },
+  "13252": {
+    "description": "This feature activates on possessive constructions, particularly those using \"'s\" (Saxon genitive) and \"of\" constructions to indicate possession, origin, or association between entities.",
+    "phenomenon": "Possessive constructions (Saxon genitive and \"of\" phrases)",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on possessive constructions, particularly those using \"'s\" (Saxon genitive) and \"of\" constructions to indicate possession, origin, or association between entities.\n\nPHENOMENON: Possessive constructions (Saxon genitive and \"of\" phrases)\n\nCONFIDENCE: HIGH"
+  },
+  "10220": {
+    "description": "This feature appears to activate on tokens that are part of formal, encyclopedic or academic text, particularly in contexts involving scientific, historical, or technical information presented in an objective, informational style.",
+    "phenomenon": "general",
+    "confidence": "MEDIUM",
+    "raw": "DESCRIPTION: This feature appears to activate on tokens that are part of formal, encyclopedic or academic text, particularly in contexts involving scientific, historical, or technical information presented in an objective, informational style.\n\nPHENOMENON: general\n\nCONFIDENCE: MEDIUM"
+  },
+  "35": {
+    "description": "This feature activates on formal, technical, or academic writing contexts, particularly when discussing dates, technical specifications, policy references, or scholarly citations.",
+    "phenomenon": "general",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on formal, technical, or academic writing contexts, particularly when discussing dates, technical specifications, policy references, or scholarly citations.\nPHENOMENON: general\nCONFIDENCE: HIGH"
+  },
+  "1866": {
+    "description": "This feature activates on commas that appear after descriptive phrases or clauses, particularly in formal or academic writing contexts where additional information follows the comma.",
+    "phenomenon": "Comma usage in complex sentences (specifically commas following descriptive/explanatory phrases)",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on commas that appear after descriptive phrases or clauses, particularly in formal or academic writing contexts where additional information follows the comma.\n\nPHENOMENON: Comma usage in complex sentences (specifically commas following descriptive/explanatory phrases)\n\nCONFIDENCE: HIGH"
+  },
+  "6576": {
+    "description": "This feature activates on technical or scientific explanations that describe how things work, their properties, or their functions, typically using formal academic language.",
+    "phenomenon": "general",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on technical or scientific explanations that describe how things work, their properties, or their functions, typically using formal academic language.\nPHENOMENON: general\nCONFIDENCE: HIGH"
+  },
+  "15450": {
+    "description": "This feature activates on academic or encyclopedic prose that describes fundamental concepts, historical developments, or scientific principles across various fields of knowledge (biology, physics, anthropology, history, etc.).",
+    "phenomenon": "general",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on academic or encyclopedic prose that describes fundamental concepts, historical developments, or scientific principles across various fields of knowledge (biology, physics, anthropology, history, etc.).\n\nPHENOMENON: general\n\nCONFIDENCE: HIGH"
+  },
+  "2370": {
+    "description": "This feature appears to activate on tokens that occur in the middle of complex, formal English sentences, particularly in academic or technical contexts where precise relationships between concepts are being explained or defined.",
+    "phenomenon": "general",
+    "confidence": "MEDIUM",
+    "raw": "DESCRIPTION: This feature appears to activate on tokens that occur in the middle of complex, formal English sentences, particularly in academic or technical contexts where precise relationships between concepts are being explained or defined.\n\nPHENOMENON: general\n\nCONFIDENCE: MEDIUM"
+  },
+  "9086": {
+    "description": "This feature activates on the conjunction \"but\" when it introduces a contrasting or adversative clause, particularly in formal or informative writing contexts.",
+    "phenomenon": "Adversative conjunction",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on the conjunction \"but\" when it introduces a contrasting or adversative clause, particularly in formal or informative writing contexts.\nPHENOMENON: Adversative conjunction\nCONFIDENCE: HIGH"
+  },
+  "14095": {
+    "description": "This feature activates on descriptions of physical movements, forces, and directional actions, particularly those involving motion dynamics, propulsion, navigation, or the physics of movement across various contexts (animals, vehicles, martial arts, etc.).",
+    "phenomenon": "general",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on descriptions of physical movements, forces, and directional actions, particularly those involving motion dynamics, propulsion, navigation, or the physics of movement across various contexts (animals, vehicles, martial arts, etc.).\n\nPHENOMENON: general\n\nCONFIDENCE: HIGH"
+  },
+  "4608": {
+    "description": "This feature activates strongly on possessive forms, specifically the apostrophe-s ('s) construction used to indicate possession or association in English.",
+    "phenomenon": "Possessive apostrophe ('s)",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates strongly on possessive forms, specifically the apostrophe-s ('s) construction used to indicate possession or association in English.\n\nPHENOMENON: Possessive apostrophe ('s)\n\nCONFIDENCE: HIGH"
+  },
+  "11300": {
+    "description": "This feature activates on diverse factual or encyclopedic content across various academic and technical domains, including history, chemistry, geography, culture, and science, typically in formal or informational contexts.",
+    "phenomenon": "general",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates on diverse factual or encyclopedic content across various academic and technical domains, including history, chemistry, geography, culture, and science, typically in formal or informational contexts.\nPHENOMENON: general\nCONFIDENCE: HIGH"
+  },
+  "12851": {
+    "description": "This feature appears to detect formal announcements or official statements, particularly those involving dates, organizations, and formal actions (e.g., \"won\", \"issued an order\", \"has committed\", \"has filed\").",
+    "phenomenon": "general",
+    "confidence": "MEDIUM",
+    "raw": "DESCRIPTION: This feature appears to detect formal announcements or official statements, particularly those involving dates, organizations, and formal actions (e.g., \"won\", \"issued an order\", \"has committed\", \"has filed\").\nPHENOMENON: general\nCONFIDENCE: MEDIUM"
+  },
+  "9173": {
+    "description": "This feature detects numerical expressions and winning/achievement statistics in sports contexts, particularly when describing match records, tournament wins, and competitive achievements.",
+    "phenomenon": "general",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature detects numerical expressions and winning/achievement statistics in sports contexts, particularly when describing match records, tournament wins, and competitive achievements.\nPHENOMENON: general\nCONFIDENCE: HIGH"
+  },
+  "960": {
+    "description": "This feature appears to activate on academic or encyclopedic text, particularly content related to historical, geographical, and scientific topics with a formal, informative register.",
+    "phenomenon": "general",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature appears to activate on academic or encyclopedic text, particularly content related to historical, geographical, and scientific topics with a formal, informative register.\n\nPHENOMENON: general\n\nCONFIDENCE: HIGH"
+  },
+  "2778": {
+    "description": "This feature activates strongly on text containing names of people (particularly historical figures, athletes, and fictional characters) followed by descriptive information about them, often including their relationships, achievements, or biographical details.",
+    "phenomenon": "general",
+    "confidence": "HIGH",
+    "raw": "DESCRIPTION: This feature activates strongly on text containing names of people (particularly historical figures, athletes, and fictional characters) followed by descriptive information about them, often including their relationships, achievements, or biographical details.\n\nPHENOMENON: general\n\nCONFIDENCE: HIGH"
+  },
+  "12573": {
+    "description": "This feature activates on text describing physical actions, movements, or mechanical processes, particularly those involving body parts, limbs, or physical manipulation (e.g., \"dig out,\" \"swim by undulating,\" \"grip and transport,\" \"cut easily with a knife\").",
+    "phenomenon": "general",
+    "confidence": "MEDIUM",
+    "raw": "DESCRIPTION: This feature activates on text describing physical actions, movements, or mechanical processes, particularly those involving body parts, limbs, or physical manipulation (e.g., \"dig out,\" \"swim by undulating,\" \"grip and transport,\" \"cut easily with a knife\").\n\nPHENOMENON: general\n\nCONFIDENCE: MEDIUM"
+  }
+}

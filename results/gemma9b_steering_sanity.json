@@ -1,0 +1,4573 @@
+{
+  "experiment": "gemma9b_steering_sanity_lasttoken",
+  "targets": {
+    "20": 3595,
+    "31": 9886
+  },
+  "results": {
+    "20": [
+      {
+        "prompt": "O secretário é muito",
+        "gender": "M",
+        "n_tokens": 6,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A diretora ficou muito",
+        "gender": "F",
+        "n_tokens": 6,
+        "n_active": 4,
+        "last_act": 11.625,
+        "max_act": 17.875,
+        "argmax_token": "ora",
+        "argmax_pos": 3
+      },
+      {
+        "prompt": "O secretário parece",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O cantor é muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O escritor ficou muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A médica parece",
+        "gender": "F",
+        "n_tokens": 4,
+        "n_active": 2,
+        "last_act": 21.875,
+        "max_act": 21.875,
+        "argmax_token": "▁parece",
+        "argmax_pos": 3
+      },
+      {
+        "prompt": "O tio é muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A secretária é muito",
+        "gender": "F",
+        "n_tokens": 6,
+        "n_active": 3,
+        "last_act": 13.875,
+        "max_act": 18.625,
+        "argmax_token": "ária",
+        "argmax_pos": 3
+      },
+      {
+        "prompt": "O aluno ficou muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A vizinha ficou muito",
+        "gender": "F",
+        "n_tokens": 6,
+        "n_active": 3,
+        "last_act": 12.1875,
+        "max_act": 16.125,
+        "argmax_token": "▁ficou",
+        "argmax_pos": 4
+      },
+      {
+        "prompt": "O avô ficou muito",
+        "gender": "M",
+        "n_tokens": 6,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O ator parece",
+        "gender": "M",
+        "n_tokens": 4,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O escritor é muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O avô parece",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A vizinha parece",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 2,
+        "last_act": 16.625,
+        "max_act": 16.625,
+        "argmax_token": "▁parece",
+        "argmax_pos": 4
+      },
+      {
+        "prompt": "O médico ficou muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O advogado parece",
+        "gender": "M",
+        "n_tokens": 4,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A filha parece",
+        "gender": "F",
+        "n_tokens": 4,
+        "n_active": 2,
+        "last_act": 16.125,
+        "max_act": 19.125,
+        "argmax_token": "▁filha",
+        "argmax_pos": 2
+      },
+      {
+        "prompt": "O aluno parece",
+        "gender": "M",
+        "n_tokens": 4,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A tia é muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 3,
+        "last_act": 14.25,
+        "max_act": 15.25,
+        "argmax_token": "▁é",
+        "argmax_pos": 3
+      },
+      {
+        "prompt": "O secretário ficou muito",
+        "gender": "M",
+        "n_tokens": 6,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O cantor é muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O médico ficou muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O aluno parece",
+        "gender": "M",
+        "n_tokens": 4,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O secretário é muito",
+        "gender": "M",
+        "n_tokens": 6,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A atriz é muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 3,
+        "last_act": 12.9375,
+        "max_act": 18.25,
+        "argmax_token": "▁é",
+        "argmax_pos": 3
+      },
+      {
+        "prompt": "A mãe ficou muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 3,
+        "last_act": 11.75,
+        "max_act": 18.0,
+        "argmax_token": "▁mãe",
+        "argmax_pos": 2
+      },
+      {
+        "prompt": "A escritora parece",
+        "gender": "F",
+        "n_tokens": 4,
+        "n_active": 2,
+        "last_act": 21.25,
+        "max_act": 21.25,
+        "argmax_token": "▁parece",
+        "argmax_pos": 3
+      },
+      {
+        "prompt": "A cantora ficou muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 3,
+        "last_act": 11.3125,
+        "max_act": 19.125,
+        "argmax_token": "▁cantora",
+        "argmax_pos": 2
+      },
+      {
+        "prompt": "O motorista parece",
+        "gender": "M",
+        "n_tokens": 4,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O cantor ficou muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O filho parece",
+        "gender": "M",
+        "n_tokens": 4,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A filha ficou muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 3,
+        "last_act": 10.75,
+        "max_act": 19.125,
+        "argmax_token": "▁filha",
+        "argmax_pos": 2
+      },
+      {
+        "prompt": "O ator ficou muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A cantora ficou muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 3,
+        "last_act": 11.3125,
+        "max_act": 19.125,
+        "argmax_token": "▁cantora",
+        "argmax_pos": 2
+      },
+      {
+        "prompt": "O secretário parece",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A advogada parece",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 3,
+        "last_act": 22.0,
+        "max_act": 22.0,
+        "argmax_token": "▁parece",
+        "argmax_pos": 4
+      },
+      {
+        "prompt": "A cozinheira é muito",
+        "gender": "F",
+        "n_tokens": 6,
+        "n_active": 3,
+        "last_act": 14.5,
+        "max_act": 19.0,
+        "argmax_token": "heira",
+        "argmax_pos": 3
+      },
+      {
+        "prompt": "A médica é muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 3,
+        "last_act": 17.5,
+        "max_act": 19.5,
+        "argmax_token": "▁é",
+        "argmax_pos": 3
+      },
+      {
+        "prompt": "O cozinheiro é muito",
+        "gender": "M",
+        "n_tokens": 6,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A atriz parece",
+        "gender": "F",
+        "n_tokens": 4,
+        "n_active": 2,
+        "last_act": 17.5,
+        "max_act": 18.0,
+        "argmax_token": "▁atriz",
+        "argmax_pos": 2
+      },
+      {
+        "prompt": "O advogado parece",
+        "gender": "M",
+        "n_tokens": 4,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O secretário é muito",
+        "gender": "M",
+        "n_tokens": 6,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A diretora é muito",
+        "gender": "F",
+        "n_tokens": 6,
+        "n_active": 4,
+        "last_act": 18.125,
+        "max_act": 19.25,
+        "argmax_token": "▁é",
+        "argmax_pos": 4
+      },
+      {
+        "prompt": "O cantor é muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A médica é muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 3,
+        "last_act": 17.5,
+        "max_act": 19.5,
+        "argmax_token": "▁é",
+        "argmax_pos": 3
+      },
+      {
+        "prompt": "O professor parece",
+        "gender": "M",
+        "n_tokens": 4,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A mãe é muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 3,
+        "last_act": 14.375,
+        "max_act": 20.375,
+        "argmax_token": "▁é",
+        "argmax_pos": 3
+      },
+      {
+        "prompt": "A secretária parece",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 2,
+        "last_act": 15.375,
+        "max_act": 18.625,
+        "argmax_token": "ária",
+        "argmax_pos": 3
+      },
+      {
+        "prompt": "O avô é muito",
+        "gender": "M",
+        "n_tokens": 6,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O irmão parece",
+        "gender": "M",
+        "n_tokens": 4,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A enfermeira ficou muito",
+        "gender": "F",
+        "n_tokens": 7,
+        "n_active": 3,
+        "last_act": 12.0625,
+        "max_act": 15.875,
+        "argmax_token": "▁ficou",
+        "argmax_pos": 5
+      },
+      {
+        "prompt": "A avó ficou muito",
+        "gender": "F",
+        "n_tokens": 6,
+        "n_active": 4,
+        "last_act": 11.6875,
+        "max_act": 18.625,
+        "argmax_token": "ó",
+        "argmax_pos": 3
+      },
+      {
+        "prompt": "O cantor parece",
+        "gender": "M",
+        "n_tokens": 4,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A vizinha parece",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 2,
+        "last_act": 16.625,
+        "max_act": 16.625,
+        "argmax_token": "▁parece",
+        "argmax_pos": 4
+      },
+      {
+        "prompt": "O secretário parece",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O filho ficou muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O menino é muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O pai é muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O motorista ficou muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O diretor parece",
+        "gender": "M",
+        "n_tokens": 4,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O médico ficou muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O irmão é muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O engenheiro é muito",
+        "gender": "M",
+        "n_tokens": 6,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A cantora ficou muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 3,
+        "last_act": 11.3125,
+        "max_act": 19.125,
+        "argmax_token": "▁cantora",
+        "argmax_pos": 2
+      },
+      {
+        "prompt": "A mãe parece",
+        "gender": "F",
+        "n_tokens": 4,
+        "n_active": 2,
+        "last_act": 16.875,
+        "max_act": 18.0,
+        "argmax_token": "▁mãe",
+        "argmax_pos": 2
+      },
+      {
+        "prompt": "O escritor parece",
+        "gender": "M",
+        "n_tokens": 4,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O irmão ficou muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O motorista parece",
+        "gender": "M",
+        "n_tokens": 4,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A vizinha é muito",
+        "gender": "F",
+        "n_tokens": 6,
+        "n_active": 3,
+        "last_act": 12.375,
+        "max_act": 14.1875,
+        "argmax_token": "inha",
+        "argmax_pos": 3
+      },
+      {
+        "prompt": "O engenheiro parece",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A cantora ficou muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 3,
+        "last_act": 11.3125,
+        "max_act": 19.125,
+        "argmax_token": "▁cantora",
+        "argmax_pos": 2
+      },
+      {
+        "prompt": "A vizinha parece",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 2,
+        "last_act": 16.625,
+        "max_act": 16.625,
+        "argmax_token": "▁parece",
+        "argmax_pos": 4
+      },
+      {
+        "prompt": "A professora é muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 3,
+        "last_act": 15.5,
+        "max_act": 20.0,
+        "argmax_token": "▁é",
+        "argmax_pos": 3
+      },
+      {
+        "prompt": "O tio ficou muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O irmão parece",
+        "gender": "M",
+        "n_tokens": 4,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O advogado ficou muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O cozinheiro ficou muito",
+        "gender": "M",
+        "n_tokens": 6,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A engenheira parece",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 2,
+        "last_act": 25.375,
+        "max_act": 25.375,
+        "argmax_token": "▁parece",
+        "argmax_pos": 4
+      },
+      {
+        "prompt": "O professor ficou muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A engenheira é muito",
+        "gender": "F",
+        "n_tokens": 6,
+        "n_active": 3,
+        "last_act": 19.875,
+        "max_act": 19.875,
+        "argmax_token": "▁muito",
+        "argmax_pos": 5
+      },
+      {
+        "prompt": "A advogada parece",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 3,
+        "last_act": 22.0,
+        "max_act": 22.0,
+        "argmax_token": "▁parece",
+        "argmax_pos": 4
+      },
+      {
+        "prompt": "A irmã parece",
+        "gender": "F",
+        "n_tokens": 4,
+        "n_active": 2,
+        "last_act": 18.875,
+        "max_act": 18.875,
+        "argmax_token": "▁parece",
+        "argmax_pos": 3
+      },
+      {
+        "prompt": "O cozinheiro é muito",
+        "gender": "M",
+        "n_tokens": 6,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A tia é muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 3,
+        "last_act": 14.25,
+        "max_act": 15.25,
+        "argmax_token": "▁é",
+        "argmax_pos": 3
+      },
+      {
+        "prompt": "O cantor parece",
+        "gender": "M",
+        "n_tokens": 4,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A cozinheira ficou muito",
+        "gender": "F",
+        "n_tokens": 6,
+        "n_active": 3,
+        "last_act": 12.0625,
+        "max_act": 19.0,
+        "argmax_token": "heira",
+        "argmax_pos": 3
+      },
+      {
+        "prompt": "O professor é muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A cozinheira parece",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 2,
+        "last_act": 19.0,
+        "max_act": 19.0,
+        "argmax_token": "heira",
+        "argmax_pos": 3
+      },
+      {
+        "prompt": "O tio ficou muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A enfermeira é muito",
+        "gender": "F",
+        "n_tokens": 7,
+        "n_active": 3,
+        "last_act": 15.375,
+        "max_act": 15.375,
+        "argmax_token": "▁muito",
+        "argmax_pos": 6
+      },
+      {
+        "prompt": "A mãe ficou muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 3,
+        "last_act": 11.75,
+        "max_act": 18.0,
+        "argmax_token": "▁mãe",
+        "argmax_pos": 2
+      },
+      {
+        "prompt": "O médico ficou muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A diretora ficou muito",
+        "gender": "F",
+        "n_tokens": 6,
+        "n_active": 4,
+        "last_act": 11.625,
+        "max_act": 17.875,
+        "argmax_token": "ora",
+        "argmax_pos": 3
+      },
+      {
+        "prompt": "A cozinheira parece",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 2,
+        "last_act": 19.0,
+        "max_act": 19.0,
+        "argmax_token": "heira",
+        "argmax_pos": 3
+      },
+      {
+        "prompt": "A engenheira parece",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 2,
+        "last_act": 25.375,
+        "max_act": 25.375,
+        "argmax_token": "▁parece",
+        "argmax_pos": 4
+      },
+      {
+        "prompt": "O cantor parece",
+        "gender": "M",
+        "n_tokens": 4,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O menino parece",
+        "gender": "M",
+        "n_tokens": 4,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O avô parece",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A cantora é muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 3,
+        "last_act": 12.1875,
+        "max_act": 19.125,
+        "argmax_token": "▁cantora",
+        "argmax_pos": 2
+      },
+      {
+        "prompt": "A avó ficou muito",
+        "gender": "F",
+        "n_tokens": 6,
+        "n_active": 4,
+        "last_act": 11.6875,
+        "max_act": 18.625,
+        "argmax_token": "ó",
+        "argmax_pos": 3
+      },
+      {
+        "prompt": "A cozinheira ficou muito",
+        "gender": "F",
+        "n_tokens": 6,
+        "n_active": 3,
+        "last_act": 12.0625,
+        "max_act": 19.0,
+        "argmax_token": "heira",
+        "argmax_pos": 3
+      },
+      {
+        "prompt": "O professor é muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O menino é muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O aluno é muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O professor ficou muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A diretora é muito",
+        "gender": "F",
+        "n_tokens": 6,
+        "n_active": 4,
+        "last_act": 18.125,
+        "max_act": 19.25,
+        "argmax_token": "▁é",
+        "argmax_pos": 4
+      },
+      {
+        "prompt": "A irmã é muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 3,
+        "last_act": 17.125,
+        "max_act": 18.75,
+        "argmax_token": "▁é",
+        "argmax_pos": 3
+      },
+      {
+        "prompt": "A engenheira parece",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 2,
+        "last_act": 25.375,
+        "max_act": 25.375,
+        "argmax_token": "▁parece",
+        "argmax_pos": 4
+      },
+      {
+        "prompt": "A aluna é muito",
+        "gender": "F",
+        "n_tokens": 6,
+        "n_active": 4,
+        "last_act": 17.25,
+        "max_act": 20.0,
+        "argmax_token": "una",
+        "argmax_pos": 3
+      },
+      {
+        "prompt": "O aluno parece",
+        "gender": "M",
+        "n_tokens": 4,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A escritora ficou muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 3,
+        "last_act": 11.5625,
+        "max_act": 18.375,
+        "argmax_token": "▁ficou",
+        "argmax_pos": 3
+      },
+      {
+        "prompt": "A professora parece",
+        "gender": "F",
+        "n_tokens": 4,
+        "n_active": 2,
+        "last_act": 19.875,
+        "max_act": 19.875,
+        "argmax_token": "▁parece",
+        "argmax_pos": 3
+      },
+      {
+        "prompt": "A motorista parece",
+        "gender": "F",
+        "n_tokens": 4,
+        "n_active": 2,
+        "last_act": 21.125,
+        "max_act": 27.625,
+        "argmax_token": "▁motorista",
+        "argmax_pos": 2
+      },
+      {
+        "prompt": "A médica é muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 3,
+        "last_act": 17.5,
+        "max_act": 19.5,
+        "argmax_token": "▁é",
+        "argmax_pos": 3
+      },
+      {
+        "prompt": "O pai ficou muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O cozinheiro é muito",
+        "gender": "M",
+        "n_tokens": 6,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O irmão é muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A médica parece",
+        "gender": "F",
+        "n_tokens": 4,
+        "n_active": 2,
+        "last_act": 21.875,
+        "max_act": 21.875,
+        "argmax_token": "▁parece",
+        "argmax_pos": 3
+      },
+      {
+        "prompt": "A enfermeira ficou muito",
+        "gender": "F",
+        "n_tokens": 7,
+        "n_active": 3,
+        "last_act": 12.0625,
+        "max_act": 15.875,
+        "argmax_token": "▁ficou",
+        "argmax_pos": 5
+      },
+      {
+        "prompt": "A tia parece",
+        "gender": "F",
+        "n_tokens": 4,
+        "n_active": 2,
+        "last_act": 16.125,
+        "max_act": 16.125,
+        "argmax_token": "▁parece",
+        "argmax_pos": 3
+      },
+      {
+        "prompt": "O ator ficou muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A motorista ficou muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 3,
+        "last_act": 14.875,
+        "max_act": 27.625,
+        "argmax_token": "▁motorista",
+        "argmax_pos": 2
+      },
+      {
+        "prompt": "A vizinha ficou muito",
+        "gender": "F",
+        "n_tokens": 6,
+        "n_active": 3,
+        "last_act": 12.1875,
+        "max_act": 16.125,
+        "argmax_token": "▁ficou",
+        "argmax_pos": 4
+      },
+      {
+        "prompt": "A tia ficou muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 3,
+        "last_act": 10.9375,
+        "max_act": 14.75,
+        "argmax_token": "▁ficou",
+        "argmax_pos": 3
+      },
+      {
+        "prompt": "O escritor ficou muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A filha parece",
+        "gender": "F",
+        "n_tokens": 4,
+        "n_active": 2,
+        "last_act": 16.125,
+        "max_act": 19.125,
+        "argmax_token": "▁filha",
+        "argmax_pos": 2
+      },
+      {
+        "prompt": "O cozinheiro ficou muito",
+        "gender": "M",
+        "n_tokens": 6,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A médica parece",
+        "gender": "F",
+        "n_tokens": 4,
+        "n_active": 2,
+        "last_act": 21.875,
+        "max_act": 21.875,
+        "argmax_token": "▁parece",
+        "argmax_pos": 3
+      },
+      {
+        "prompt": "O engenheiro ficou muito",
+        "gender": "M",
+        "n_tokens": 6,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A cozinheira parece",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 2,
+        "last_act": 19.0,
+        "max_act": 19.0,
+        "argmax_token": "heira",
+        "argmax_pos": 3
+      },
+      {
+        "prompt": "A menina é muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 3,
+        "last_act": 18.875,
+        "max_act": 20.5,
+        "argmax_token": "▁é",
+        "argmax_pos": 3
+      },
+      {
+        "prompt": "O cozinheiro é muito",
+        "gender": "M",
+        "n_tokens": 6,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O diretor parece",
+        "gender": "M",
+        "n_tokens": 4,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A diretora ficou muito",
+        "gender": "F",
+        "n_tokens": 6,
+        "n_active": 4,
+        "last_act": 11.625,
+        "max_act": 17.875,
+        "argmax_token": "ora",
+        "argmax_pos": 3
+      },
+      {
+        "prompt": "O aluno parece",
+        "gender": "M",
+        "n_tokens": 4,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O secretário ficou muito",
+        "gender": "M",
+        "n_tokens": 6,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O aluno é muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O engenheiro é muito",
+        "gender": "M",
+        "n_tokens": 6,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O ator parece",
+        "gender": "M",
+        "n_tokens": 4,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A filha ficou muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 3,
+        "last_act": 10.75,
+        "max_act": 19.125,
+        "argmax_token": "▁filha",
+        "argmax_pos": 2
+      },
+      {
+        "prompt": "A diretora é muito",
+        "gender": "F",
+        "n_tokens": 6,
+        "n_active": 4,
+        "last_act": 18.125,
+        "max_act": 19.25,
+        "argmax_token": "▁é",
+        "argmax_pos": 4
+      },
+      {
+        "prompt": "A cantora é muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 3,
+        "last_act": 12.1875,
+        "max_act": 19.125,
+        "argmax_token": "▁cantora",
+        "argmax_pos": 2
+      },
+      {
+        "prompt": "O engenheiro é muito",
+        "gender": "M",
+        "n_tokens": 6,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O irmão ficou muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A enfermeira é muito",
+        "gender": "F",
+        "n_tokens": 7,
+        "n_active": 3,
+        "last_act": 15.375,
+        "max_act": 15.375,
+        "argmax_token": "▁muito",
+        "argmax_pos": 6
+      },
+      {
+        "prompt": "A avó ficou muito",
+        "gender": "F",
+        "n_tokens": 6,
+        "n_active": 4,
+        "last_act": 11.6875,
+        "max_act": 18.625,
+        "argmax_token": "ó",
+        "argmax_pos": 3
+      },
+      {
+        "prompt": "A enfermeira é muito",
+        "gender": "F",
+        "n_tokens": 7,
+        "n_active": 3,
+        "last_act": 15.375,
+        "max_act": 15.375,
+        "argmax_token": "▁muito",
+        "argmax_pos": 6
+      },
+      {
+        "prompt": "O motorista é muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A mãe é muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 3,
+        "last_act": 14.375,
+        "max_act": 20.375,
+        "argmax_token": "▁é",
+        "argmax_pos": 3
+      },
+      {
+        "prompt": "O avô parece",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O menino é muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A atriz ficou muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 3,
+        "last_act": 11.0625,
+        "max_act": 18.0,
+        "argmax_token": "▁atriz",
+        "argmax_pos": 2
+      },
+      {
+        "prompt": "A motorista parece",
+        "gender": "F",
+        "n_tokens": 4,
+        "n_active": 2,
+        "last_act": 21.125,
+        "max_act": 27.625,
+        "argmax_token": "▁motorista",
+        "argmax_pos": 2
+      },
+      {
+        "prompt": "O ator ficou muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O irmão ficou muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A aluna parece",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 3,
+        "last_act": 21.75,
+        "max_act": 21.75,
+        "argmax_token": "▁parece",
+        "argmax_pos": 4
+      },
+      {
+        "prompt": "A secretária ficou muito",
+        "gender": "F",
+        "n_tokens": 6,
+        "n_active": 3,
+        "last_act": 14.625,
+        "max_act": 18.625,
+        "argmax_token": "ária",
+        "argmax_pos": 3
+      },
+      {
+        "prompt": "A engenheira é muito",
+        "gender": "F",
+        "n_tokens": 6,
+        "n_active": 3,
+        "last_act": 19.875,
+        "max_act": 19.875,
+        "argmax_token": "▁muito",
+        "argmax_pos": 5
+      },
+      {
+        "prompt": "A filha ficou muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 3,
+        "last_act": 10.75,
+        "max_act": 19.125,
+        "argmax_token": "▁filha",
+        "argmax_pos": 2
+      },
+      {
+        "prompt": "O avô parece",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A menina parece",
+        "gender": "F",
+        "n_tokens": 4,
+        "n_active": 2,
+        "last_act": 20.75,
+        "max_act": 20.75,
+        "argmax_token": "▁parece",
+        "argmax_pos": 3
+      },
+      {
+        "prompt": "A irmã parece",
+        "gender": "F",
+        "n_tokens": 4,
+        "n_active": 2,
+        "last_act": 18.875,
+        "max_act": 18.875,
+        "argmax_token": "▁parece",
+        "argmax_pos": 3
+      },
+      {
+        "prompt": "O filho ficou muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O menino é muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A advogada parece",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 3,
+        "last_act": 22.0,
+        "max_act": 22.0,
+        "argmax_token": "▁parece",
+        "argmax_pos": 4
+      },
+      {
+        "prompt": "A secretária parece",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 2,
+        "last_act": 15.375,
+        "max_act": 18.625,
+        "argmax_token": "ária",
+        "argmax_pos": 3
+      },
+      {
+        "prompt": "A enfermeira parece",
+        "gender": "F",
+        "n_tokens": 6,
+        "n_active": 2,
+        "last_act": 19.25,
+        "max_act": 19.25,
+        "argmax_token": "▁parece",
+        "argmax_pos": 5
+      },
+      {
+        "prompt": "O escritor ficou muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A advogada ficou muito",
+        "gender": "F",
+        "n_tokens": 6,
+        "n_active": 4,
+        "last_act": 13.8125,
+        "max_act": 19.875,
+        "argmax_token": "ogada",
+        "argmax_pos": 3
+      },
+      {
+        "prompt": "A aluna parece",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 3,
+        "last_act": 21.75,
+        "max_act": 21.75,
+        "argmax_token": "▁parece",
+        "argmax_pos": 4
+      },
+      {
+        "prompt": "O médico é muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O cantor parece",
+        "gender": "M",
+        "n_tokens": 4,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A secretária parece",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 2,
+        "last_act": 15.375,
+        "max_act": 18.625,
+        "argmax_token": "ária",
+        "argmax_pos": 3
+      },
+      {
+        "prompt": "O filho parece",
+        "gender": "M",
+        "n_tokens": 4,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A cantora ficou muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 3,
+        "last_act": 11.3125,
+        "max_act": 19.125,
+        "argmax_token": "▁cantora",
+        "argmax_pos": 2
+      },
+      {
+        "prompt": "O secretário é muito",
+        "gender": "M",
+        "n_tokens": 6,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A motorista ficou muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 3,
+        "last_act": 14.875,
+        "max_act": 27.625,
+        "argmax_token": "▁motorista",
+        "argmax_pos": 2
+      },
+      {
+        "prompt": "A cantora ficou muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 3,
+        "last_act": 11.3125,
+        "max_act": 19.125,
+        "argmax_token": "▁cantora",
+        "argmax_pos": 2
+      },
+      {
+        "prompt": "O diretor é muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A advogada parece",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 3,
+        "last_act": 22.0,
+        "max_act": 22.0,
+        "argmax_token": "▁parece",
+        "argmax_pos": 4
+      },
+      {
+        "prompt": "O filho é muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O advogado parece",
+        "gender": "M",
+        "n_tokens": 4,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A engenheira é muito",
+        "gender": "F",
+        "n_tokens": 6,
+        "n_active": 3,
+        "last_act": 19.875,
+        "max_act": 19.875,
+        "argmax_token": "▁muito",
+        "argmax_pos": 5
+      },
+      {
+        "prompt": "O advogado é muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A escritora parece",
+        "gender": "F",
+        "n_tokens": 4,
+        "n_active": 2,
+        "last_act": 21.25,
+        "max_act": 21.25,
+        "argmax_token": "▁parece",
+        "argmax_pos": 3
+      },
+      {
+        "prompt": "A aluna ficou muito",
+        "gender": "F",
+        "n_tokens": 6,
+        "n_active": 4,
+        "last_act": 13.4375,
+        "max_act": 20.0,
+        "argmax_token": "una",
+        "argmax_pos": 3
+      },
+      {
+        "prompt": "A secretária é muito",
+        "gender": "F",
+        "n_tokens": 6,
+        "n_active": 3,
+        "last_act": 13.875,
+        "max_act": 18.625,
+        "argmax_token": "ária",
+        "argmax_pos": 3
+      },
+      {
+        "prompt": "A aluna é muito",
+        "gender": "F",
+        "n_tokens": 6,
+        "n_active": 4,
+        "last_act": 17.25,
+        "max_act": 20.0,
+        "argmax_token": "una",
+        "argmax_pos": 3
+      },
+      {
+        "prompt": "O ator parece",
+        "gender": "M",
+        "n_tokens": 4,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A tia ficou muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 3,
+        "last_act": 10.9375,
+        "max_act": 14.75,
+        "argmax_token": "▁ficou",
+        "argmax_pos": 3
+      },
+      {
+        "prompt": "A escritora parece",
+        "gender": "F",
+        "n_tokens": 4,
+        "n_active": 2,
+        "last_act": 21.25,
+        "max_act": 21.25,
+        "argmax_token": "▁parece",
+        "argmax_pos": 3
+      },
+      {
+        "prompt": "A cozinheira é muito",
+        "gender": "F",
+        "n_tokens": 6,
+        "n_active": 3,
+        "last_act": 14.5,
+        "max_act": 19.0,
+        "argmax_token": "heira",
+        "argmax_pos": 3
+      },
+      {
+        "prompt": "A cantora é muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 3,
+        "last_act": 12.1875,
+        "max_act": 19.125,
+        "argmax_token": "▁cantora",
+        "argmax_pos": 2
+      },
+      {
+        "prompt": "A mãe é muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 3,
+        "last_act": 14.375,
+        "max_act": 20.375,
+        "argmax_token": "▁é",
+        "argmax_pos": 3
+      },
+      {
+        "prompt": "O cantor ficou muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O cantor parece",
+        "gender": "M",
+        "n_tokens": 4,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A menina é muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 3,
+        "last_act": 18.875,
+        "max_act": 20.5,
+        "argmax_token": "▁é",
+        "argmax_pos": 3
+      },
+      {
+        "prompt": "A médica ficou muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 3,
+        "last_act": 13.25,
+        "max_act": 19.0,
+        "argmax_token": "▁ficou",
+        "argmax_pos": 3
+      },
+      {
+        "prompt": "A menina é muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 3,
+        "last_act": 18.875,
+        "max_act": 20.5,
+        "argmax_token": "▁é",
+        "argmax_pos": 3
+      },
+      {
+        "prompt": "O tio ficou muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A motorista parece",
+        "gender": "F",
+        "n_tokens": 4,
+        "n_active": 2,
+        "last_act": 21.125,
+        "max_act": 27.625,
+        "argmax_token": "▁motorista",
+        "argmax_pos": 2
+      },
+      {
+        "prompt": "O médico ficou muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O secretário é muito",
+        "gender": "M",
+        "n_tokens": 6,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A escritora ficou muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 3,
+        "last_act": 11.5625,
+        "max_act": 18.375,
+        "argmax_token": "▁ficou",
+        "argmax_pos": 3
+      },
+      {
+        "prompt": "A avó ficou muito",
+        "gender": "F",
+        "n_tokens": 6,
+        "n_active": 4,
+        "last_act": 11.6875,
+        "max_act": 18.625,
+        "argmax_token": "ó",
+        "argmax_pos": 3
+      },
+      {
+        "prompt": "O médico ficou muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A engenheira ficou muito",
+        "gender": "F",
+        "n_tokens": 6,
+        "n_active": 3,
+        "last_act": 14.625,
+        "max_act": 20.875,
+        "argmax_token": "▁ficou",
+        "argmax_pos": 4
+      },
+      {
+        "prompt": "A filha é muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 3,
+        "last_act": 14.625,
+        "max_act": 19.125,
+        "argmax_token": "▁filha",
+        "argmax_pos": 2
+      },
+      {
+        "prompt": "O engenheiro ficou muito",
+        "gender": "M",
+        "n_tokens": 6,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A professora é muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 3,
+        "last_act": 15.5,
+        "max_act": 20.0,
+        "argmax_token": "▁é",
+        "argmax_pos": 3
+      },
+      {
+        "prompt": "O tio ficou muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A médica é muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 3,
+        "last_act": 17.5,
+        "max_act": 19.5,
+        "argmax_token": "▁é",
+        "argmax_pos": 3
+      },
+      {
+        "prompt": "O secretário é muito",
+        "gender": "M",
+        "n_tokens": 6,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O cozinheiro parece",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O menino parece",
+        "gender": "M",
+        "n_tokens": 4,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A professora é muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 3,
+        "last_act": 15.5,
+        "max_act": 20.0,
+        "argmax_token": "▁é",
+        "argmax_pos": 3
+      },
+      {
+        "prompt": "A mãe parece",
+        "gender": "F",
+        "n_tokens": 4,
+        "n_active": 2,
+        "last_act": 16.875,
+        "max_act": 18.0,
+        "argmax_token": "▁mãe",
+        "argmax_pos": 2
+      },
+      {
+        "prompt": "A avó ficou muito",
+        "gender": "F",
+        "n_tokens": 6,
+        "n_active": 4,
+        "last_act": 11.6875,
+        "max_act": 18.625,
+        "argmax_token": "ó",
+        "argmax_pos": 3
+      },
+      {
+        "prompt": "O cozinheiro é muito",
+        "gender": "M",
+        "n_tokens": 6,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O cantor parece",
+        "gender": "M",
+        "n_tokens": 4,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O escritor é muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O médico parece",
+        "gender": "M",
+        "n_tokens": 4,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O enfermeiro ficou muito",
+        "gender": "M",
+        "n_tokens": 7,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A enfermeira ficou muito",
+        "gender": "F",
+        "n_tokens": 7,
+        "n_active": 3,
+        "last_act": 12.0625,
+        "max_act": 15.875,
+        "argmax_token": "▁ficou",
+        "argmax_pos": 5
+      },
+      {
+        "prompt": "O médico é muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A motorista é muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 3,
+        "last_act": 16.625,
+        "max_act": 27.625,
+        "argmax_token": "▁motorista",
+        "argmax_pos": 2
+      },
+      {
+        "prompt": "O engenheiro ficou muito",
+        "gender": "M",
+        "n_tokens": 6,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      }
+    ],
+    "31": [
+      {
+        "prompt": "O secretário é muito",
+        "gender": "M",
+        "n_tokens": 6,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "A diretora ficou muito",
+        "gender": "F",
+        "n_tokens": 6,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O secretário parece",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "O cantor é muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "O escritor ficou muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "A médica parece",
+        "gender": "F",
+        "n_tokens": 4,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O tio é muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "A secretária é muito",
+        "gender": "F",
+        "n_tokens": 6,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O aluno ficou muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "A vizinha ficou muito",
+        "gender": "F",
+        "n_tokens": 6,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O avô ficou muito",
+        "gender": "M",
+        "n_tokens": 6,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "O ator parece",
+        "gender": "M",
+        "n_tokens": 4,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "O escritor é muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "O avô parece",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "A vizinha parece",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O médico ficou muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "O advogado parece",
+        "gender": "M",
+        "n_tokens": 4,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "A filha parece",
+        "gender": "F",
+        "n_tokens": 4,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O aluno parece",
+        "gender": "M",
+        "n_tokens": 4,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "A tia é muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O secretário ficou muito",
+        "gender": "M",
+        "n_tokens": 6,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "O cantor é muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "O médico ficou muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "O aluno parece",
+        "gender": "M",
+        "n_tokens": 4,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "O secretário é muito",
+        "gender": "M",
+        "n_tokens": 6,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "A atriz é muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A mãe ficou muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A escritora parece",
+        "gender": "F",
+        "n_tokens": 4,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A cantora ficou muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O motorista parece",
+        "gender": "M",
+        "n_tokens": 4,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "O cantor ficou muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "O filho parece",
+        "gender": "M",
+        "n_tokens": 4,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "A filha ficou muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O ator ficou muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "A cantora ficou muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O secretário parece",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "A advogada parece",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A cozinheira é muito",
+        "gender": "F",
+        "n_tokens": 6,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A médica é muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O cozinheiro é muito",
+        "gender": "M",
+        "n_tokens": 6,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "A atriz parece",
+        "gender": "F",
+        "n_tokens": 4,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O advogado parece",
+        "gender": "M",
+        "n_tokens": 4,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "O secretário é muito",
+        "gender": "M",
+        "n_tokens": 6,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "A diretora é muito",
+        "gender": "F",
+        "n_tokens": 6,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O cantor é muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "A médica é muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O professor parece",
+        "gender": "M",
+        "n_tokens": 4,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "A mãe é muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A secretária parece",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O avô é muito",
+        "gender": "M",
+        "n_tokens": 6,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "O irmão parece",
+        "gender": "M",
+        "n_tokens": 4,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "A enfermeira ficou muito",
+        "gender": "F",
+        "n_tokens": 7,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A avó ficou muito",
+        "gender": "F",
+        "n_tokens": 6,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O cantor parece",
+        "gender": "M",
+        "n_tokens": 4,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "A vizinha parece",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O secretário parece",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "O filho ficou muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "O menino é muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "O pai é muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "O motorista ficou muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "O diretor parece",
+        "gender": "M",
+        "n_tokens": 4,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "O médico ficou muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "O irmão é muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "O engenheiro é muito",
+        "gender": "M",
+        "n_tokens": 6,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "A cantora ficou muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A mãe parece",
+        "gender": "F",
+        "n_tokens": 4,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O escritor parece",
+        "gender": "M",
+        "n_tokens": 4,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "O irmão ficou muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "O motorista parece",
+        "gender": "M",
+        "n_tokens": 4,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "A vizinha é muito",
+        "gender": "F",
+        "n_tokens": 6,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O engenheiro parece",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "A cantora ficou muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A vizinha parece",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A professora é muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O tio ficou muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "O irmão parece",
+        "gender": "M",
+        "n_tokens": 4,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "O advogado ficou muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "O cozinheiro ficou muito",
+        "gender": "M",
+        "n_tokens": 6,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "A engenheira parece",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O professor ficou muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "A engenheira é muito",
+        "gender": "F",
+        "n_tokens": 6,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A advogada parece",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A irmã parece",
+        "gender": "F",
+        "n_tokens": 4,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O cozinheiro é muito",
+        "gender": "M",
+        "n_tokens": 6,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "A tia é muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O cantor parece",
+        "gender": "M",
+        "n_tokens": 4,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "A cozinheira ficou muito",
+        "gender": "F",
+        "n_tokens": 6,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O professor é muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "A cozinheira parece",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O tio ficou muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "A enfermeira é muito",
+        "gender": "F",
+        "n_tokens": 7,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A mãe ficou muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O médico ficou muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "A diretora ficou muito",
+        "gender": "F",
+        "n_tokens": 6,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A cozinheira parece",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A engenheira parece",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O cantor parece",
+        "gender": "M",
+        "n_tokens": 4,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "O menino parece",
+        "gender": "M",
+        "n_tokens": 4,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "O avô parece",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "A cantora é muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A avó ficou muito",
+        "gender": "F",
+        "n_tokens": 6,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A cozinheira ficou muito",
+        "gender": "F",
+        "n_tokens": 6,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O professor é muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "O menino é muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "O aluno é muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "O professor ficou muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "A diretora é muito",
+        "gender": "F",
+        "n_tokens": 6,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A irmã é muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A engenheira parece",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A aluna é muito",
+        "gender": "F",
+        "n_tokens": 6,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O aluno parece",
+        "gender": "M",
+        "n_tokens": 4,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "A escritora ficou muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A professora parece",
+        "gender": "F",
+        "n_tokens": 4,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A motorista parece",
+        "gender": "F",
+        "n_tokens": 4,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A médica é muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O pai ficou muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "O cozinheiro é muito",
+        "gender": "M",
+        "n_tokens": 6,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "O irmão é muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "A médica parece",
+        "gender": "F",
+        "n_tokens": 4,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A enfermeira ficou muito",
+        "gender": "F",
+        "n_tokens": 7,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A tia parece",
+        "gender": "F",
+        "n_tokens": 4,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O ator ficou muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "A motorista ficou muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A vizinha ficou muito",
+        "gender": "F",
+        "n_tokens": 6,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A tia ficou muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O escritor ficou muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "A filha parece",
+        "gender": "F",
+        "n_tokens": 4,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O cozinheiro ficou muito",
+        "gender": "M",
+        "n_tokens": 6,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "A médica parece",
+        "gender": "F",
+        "n_tokens": 4,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O engenheiro ficou muito",
+        "gender": "M",
+        "n_tokens": 6,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "A cozinheira parece",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A menina é muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O cozinheiro é muito",
+        "gender": "M",
+        "n_tokens": 6,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "O diretor parece",
+        "gender": "M",
+        "n_tokens": 4,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "A diretora ficou muito",
+        "gender": "F",
+        "n_tokens": 6,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O aluno parece",
+        "gender": "M",
+        "n_tokens": 4,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "O secretário ficou muito",
+        "gender": "M",
+        "n_tokens": 6,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "O aluno é muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "O engenheiro é muito",
+        "gender": "M",
+        "n_tokens": 6,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "O ator parece",
+        "gender": "M",
+        "n_tokens": 4,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "A filha ficou muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A diretora é muito",
+        "gender": "F",
+        "n_tokens": 6,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A cantora é muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O engenheiro é muito",
+        "gender": "M",
+        "n_tokens": 6,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "O irmão ficou muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "A enfermeira é muito",
+        "gender": "F",
+        "n_tokens": 7,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A avó ficou muito",
+        "gender": "F",
+        "n_tokens": 6,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A enfermeira é muito",
+        "gender": "F",
+        "n_tokens": 7,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O motorista é muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "A mãe é muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O avô parece",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "O menino é muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "A atriz ficou muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A motorista parece",
+        "gender": "F",
+        "n_tokens": 4,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O ator ficou muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "O irmão ficou muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "A aluna parece",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A secretária ficou muito",
+        "gender": "F",
+        "n_tokens": 6,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A engenheira é muito",
+        "gender": "F",
+        "n_tokens": 6,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A filha ficou muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O avô parece",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "A menina parece",
+        "gender": "F",
+        "n_tokens": 4,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A irmã parece",
+        "gender": "F",
+        "n_tokens": 4,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O filho ficou muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "O menino é muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "A advogada parece",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A secretária parece",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A enfermeira parece",
+        "gender": "F",
+        "n_tokens": 6,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O escritor ficou muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "A advogada ficou muito",
+        "gender": "F",
+        "n_tokens": 6,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A aluna parece",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O médico é muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "O cantor parece",
+        "gender": "M",
+        "n_tokens": 4,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "A secretária parece",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O filho parece",
+        "gender": "M",
+        "n_tokens": 4,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "A cantora ficou muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O secretário é muito",
+        "gender": "M",
+        "n_tokens": 6,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "A motorista ficou muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A cantora ficou muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O diretor é muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "A advogada parece",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O filho é muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "O advogado parece",
+        "gender": "M",
+        "n_tokens": 4,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "A engenheira é muito",
+        "gender": "F",
+        "n_tokens": 6,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O advogado é muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "A escritora parece",
+        "gender": "F",
+        "n_tokens": 4,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A aluna ficou muito",
+        "gender": "F",
+        "n_tokens": 6,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A secretária é muito",
+        "gender": "F",
+        "n_tokens": 6,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A aluna é muito",
+        "gender": "F",
+        "n_tokens": 6,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O ator parece",
+        "gender": "M",
+        "n_tokens": 4,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "A tia ficou muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A escritora parece",
+        "gender": "F",
+        "n_tokens": 4,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A cozinheira é muito",
+        "gender": "F",
+        "n_tokens": 6,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A cantora é muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A mãe é muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O cantor ficou muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "O cantor parece",
+        "gender": "M",
+        "n_tokens": 4,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "A menina é muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A médica ficou muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A menina é muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O tio ficou muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "A motorista parece",
+        "gender": "F",
+        "n_tokens": 4,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O médico ficou muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "O secretário é muito",
+        "gender": "M",
+        "n_tokens": 6,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "A escritora ficou muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A avó ficou muito",
+        "gender": "F",
+        "n_tokens": 6,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O médico ficou muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "A engenheira ficou muito",
+        "gender": "F",
+        "n_tokens": 6,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A filha é muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O engenheiro ficou muito",
+        "gender": "M",
+        "n_tokens": 6,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "A professora é muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O tio ficou muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "A médica é muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O secretário é muito",
+        "gender": "M",
+        "n_tokens": 6,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "O cozinheiro parece",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "O menino parece",
+        "gender": "M",
+        "n_tokens": 4,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "A professora é muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A mãe parece",
+        "gender": "F",
+        "n_tokens": 4,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "A avó ficou muito",
+        "gender": "F",
+        "n_tokens": 6,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O cozinheiro é muito",
+        "gender": "M",
+        "n_tokens": 6,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "O cantor parece",
+        "gender": "M",
+        "n_tokens": 4,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "O escritor é muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "O médico parece",
+        "gender": "M",
+        "n_tokens": 4,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "O enfermeiro ficou muito",
+        "gender": "M",
+        "n_tokens": 7,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "A enfermeira ficou muito",
+        "gender": "F",
+        "n_tokens": 7,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O médico é muito",
+        "gender": "M",
+        "n_tokens": 5,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      },
+      {
+        "prompt": "A motorista é muito",
+        "gender": "F",
+        "n_tokens": 5,
+        "n_active": 0,
+        "last_act": 0.0,
+        "max_act": 0.0,
+        "argmax_token": "<bos>",
+        "argmax_pos": 0
+      },
+      {
+        "prompt": "O engenheiro ficou muito",
+        "gender": "M",
+        "n_tokens": 6,
+        "n_active": 1,
+        "last_act": 0.0,
+        "max_act": 71.5,
+        "argmax_token": "O",
+        "argmax_pos": 1
+      }
+    ]
+  }
+}
