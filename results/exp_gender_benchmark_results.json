@@ -1,580 +1,580 @@
 {
-  "experiment": "gender_agreement_benchmark",
-  "n_items": 50,
-  "n_controls": 5,
-  "target_feature": 1215,
-  "target_norm": 1.0,
-  "control_features": [
-    "9859",
-    "2933",
-    "12844",
-    "5157",
-    "2678"
-  ],
-  "control_norms": {
-    "9859": 1.0,
-    "2933": 1.0,
-    "12844": 1.0,
-    "5157": 1.0,
-    "2678": 1.0
-  },
-  "baseline": {
+ "experiment": "gender_agreement_benchmark",
+ "n_items": 50,
+ "n_controls": 5,
+ "target_feature": 1215,
+ "target_norm": 1.0,
+ "control_features": [
+  "9859",
+  "2933",
+  "12844",
+  "5157",
+  "2678"
+ ],
+ "control_norms": {
+  "9859": 1.0,
+  "2933": 1.0,
+  "12844": 1.0,
+  "5157": 1.0,
+  "2678": 1.0
+ },
+ "baseline": {
+  "accuracy": 0.48,
+  "mean_margin": 2.384185791015625e-08
+ },
+ "ablated_1215": {
+  "accuracy": 0.48,
+  "mean_margin": 2.384185791015625e-08
+ },
+ "controls_summary": {
+  "mean_accuracy": 0.48,
+  "std_accuracy": 0.0,
+  "mean_margin": 2.384185791015625e-08,
+  "individual": {
+   "9859": {
     "accuracy": 0.48,
-    "mean_margin": 2.384185791015625e-08
-  },
-  "ablated_1215": {
+    "margin": 2.384185791015625e-08
+   },
+   "2933": {
     "accuracy": 0.48,
-    "mean_margin": 2.384185791015625e-08
+    "margin": 2.384185791015625e-08
+   },
+   "12844": {
+    "accuracy": 0.48,
+    "margin": 2.384185791015625e-08
+   },
+   "5157": {
+    "accuracy": 0.48,
+    "margin": 2.384185791015625e-08
+   },
+   "2678": {
+    "accuracy": 0.48,
+    "margin": 2.384185791015625e-08
+   }
+  }
+ },
+ "accuracy_drop": {
+  "feature_1215": 0.0,
+  "controls_mean": 0.0,
+  "controls_max": 0.0,
+  "specificity_ratio": 0.0
+ },
+ "by_gender": {
+  "feminine": {
+   "baseline": 0,
+   "ablated_1215": 0,
+   "total": 25
   },
-  "controls_summary": {
-    "mean_accuracy": 0.48,
-    "std_accuracy": 0.0,
-    "mean_margin": 2.384185791015625e-08,
-    "individual": {
-      "9859": {
-        "accuracy": 0.48,
-        "margin": 2.384185791015625e-08
-      },
-      "2933": {
-        "accuracy": 0.48,
-        "margin": 2.384185791015625e-08
-      },
-      "12844": {
-        "accuracy": 0.48,
-        "margin": 2.384185791015625e-08
-      },
-      "5157": {
-        "accuracy": 0.48,
-        "margin": 2.384185791015625e-08
-      },
-      "2678": {
-        "accuracy": 0.48,
-        "margin": 2.384185791015625e-08
-      }
-    }
+  "masculine": {
+   "baseline": 24,
+   "ablated_1215": 24,
+   "total": 25
+  }
+ },
+ "fisher_exact": {
+  "odds_ratio": 1.0,
+  "p_value": 1.0
+ },
+ "item_details_1215": [
+  {
+   "context": "Eu vi",
+   "noun": "menina",
+   "correct_art": "a",
+   "incorrect_art": "o",
+   "p_correct": 1.1920928955078125e-07,
+   "p_incorrect": 8.243322372436523e-05,
+   "margin": -8.231401443481445e-05,
+   "predicted": "incorrect"
   },
-  "accuracy_drop": {
-    "feature_1215": 0.0,
-    "controls_mean": 0.0,
-    "controls_max": 0.0,
-    "specificity_ratio": 0.0
+  {
+   "context": "Ele encontrou",
+   "noun": "professora",
+   "correct_art": "a",
+   "incorrect_art": "o",
+   "p_correct": 0.0,
+   "p_incorrect": 3.0994415283203125e-06,
+   "margin": -3.0994415283203125e-06,
+   "predicted": "incorrect"
   },
-  "by_gender": {
-    "feminine": {
-      "baseline": 0,
-      "ablated_1215": 0,
-      "total": 25
-    },
-    "masculine": {
-      "baseline": 24,
-      "ablated_1215": 24,
-      "total": 25
-    }
+  {
+   "context": "Nós conhecemos",
+   "noun": "diretora",
+   "correct_art": "a",
+   "incorrect_art": "o",
+   "p_correct": 0.0,
+   "p_incorrect": 7.748603820800781e-07,
+   "margin": -7.748603820800781e-07,
+   "predicted": "incorrect"
   },
-  "fisher_exact": {
-    "odds_ratio": 1.0,
-    "p_value": 1.0
+  {
+   "context": "Ela é",
+   "noun": "médica",
+   "correct_art": "a",
+   "incorrect_art": "o",
+   "p_correct": 0.0,
+   "p_incorrect": 0.0,
+   "margin": 0.0,
+   "predicted": "incorrect"
   },
-  "item_details_1215": [
-    {
-      "context": "Eu vi",
-      "noun": "menina",
-      "correct_art": "a",
-      "incorrect_art": "o",
-      "p_correct": 1.1920928955078125e-07,
-      "p_incorrect": 8.243322372436523e-05,
-      "margin": -8.231401443481445e-05,
-      "predicted": "incorrect"
-    },
-    {
-      "context": "Ele encontrou",
-      "noun": "professora",
-      "correct_art": "a",
-      "incorrect_art": "o",
-      "p_correct": 0.0,
-      "p_incorrect": 3.0994415283203125e-06,
-      "margin": -3.0994415283203125e-06,
-      "predicted": "incorrect"
-    },
-    {
-      "context": "Nós conhecemos",
-      "noun": "diretora",
-      "correct_art": "a",
-      "incorrect_art": "o",
-      "p_correct": 0.0,
-      "p_incorrect": 7.748603820800781e-07,
-      "margin": -7.748603820800781e-07,
-      "predicted": "incorrect"
-    },
-    {
-      "context": "Ela é",
-      "noun": "médica",
-      "correct_art": "a",
-      "incorrect_art": "o",
-      "p_correct": 0.0,
-      "p_incorrect": 0.0,
-      "margin": 0.0,
-      "predicted": "incorrect"
-    },
-    {
-      "context": "Eles contrataram",
-      "noun": "engenheira",
-      "correct_art": "a",
-      "incorrect_art": "o",
-      "p_correct": 0.0,
-      "p_incorrect": 3.5762786865234375e-07,
-      "margin": -3.5762786865234375e-07,
-      "predicted": "incorrect"
-    },
-    {
-      "context": "Você conhece",
-      "noun": "vizinha",
-      "correct_art": "a",
-      "incorrect_art": "o",
-      "p_correct": 0.0,
-      "p_incorrect": 0.0,
-      "margin": 0.0,
-      "predicted": "incorrect"
-    },
-    {
-      "context": "Eu comprei",
-      "noun": "casa",
-      "correct_art": "a",
-      "incorrect_art": "o",
-      "p_correct": 0.0,
-      "p_incorrect": 5.9604644775390625e-06,
-      "margin": -5.9604644775390625e-06,
-      "predicted": "incorrect"
-    },
-    {
-      "context": "Ele pintou",
-      "noun": "parede",
-      "correct_art": "a",
-      "incorrect_art": "o",
-      "p_correct": 0.0,
-      "p_incorrect": 1.2516975402832031e-06,
-      "margin": -1.2516975402832031e-06,
-      "predicted": "incorrect"
-    },
-    {
-      "context": "Nós limpamos",
-      "noun": "mesa",
-      "correct_art": "a",
-      "incorrect_art": "o",
-      "p_correct": 0.0,
-      "p_incorrect": 1.996755599975586e-05,
-      "margin": -1.996755599975586e-05,
-      "predicted": "incorrect"
-    },
-    {
-      "context": "Ela abriu",
-      "noun": "porta",
-      "correct_art": "a",
-      "incorrect_art": "o",
-      "p_correct": 0.0,
-      "p_incorrect": 1.1920928955078125e-06,
-      "margin": -1.1920928955078125e-06,
-      "predicted": "incorrect"
-    },
-    {
-      "context": "Ele lavou",
-      "noun": "roupa",
-      "correct_art": "a",
-      "incorrect_art": "o",
-      "p_correct": 0.0,
-      "p_incorrect": 6.556510925292969e-06,
-      "margin": -6.556510925292969e-06,
-      "predicted": "incorrect"
-    },
-    {
-      "context": "Eu comi",
-      "noun": "maçã",
-      "correct_art": "a",
-      "incorrect_art": "o",
-      "p_correct": 0.0,
-      "p_incorrect": 7.569789886474609e-06,
-      "margin": -7.569789886474609e-06,
-      "predicted": "incorrect"
-    },
-    {
-      "context": "Nós visitamos",
-      "noun": "escola",
-      "correct_art": "a",
-      "incorrect_art": "o",
-      "p_correct": 0.0,
-      "p_incorrect": 9.5367431640625e-07,
-      "margin": -9.5367431640625e-07,
-      "predicted": "incorrect"
-    },
-    {
-      "context": "Ele consertou",
-      "noun": "cadeira",
-      "correct_art": "a",
-      "incorrect_art": "o",
-      "p_correct": 0.0,
-      "p_incorrect": 6.854534149169922e-06,
-      "margin": -6.854534149169922e-06,
-      "predicted": "incorrect"
-    },
-    {
-      "context": "Ela perdeu",
-      "noun": "chave",
-      "correct_art": "a",
-      "incorrect_art": "o",
-      "p_correct": 0.0,
-      "p_incorrect": 1.7881393432617188e-06,
-      "margin": -1.7881393432617188e-06,
-      "predicted": "incorrect"
-    },
-    {
-      "context": "Eles fecharam",
-      "noun": "janela",
-      "correct_art": "a",
-      "incorrect_art": "o",
-      "p_correct": 0.0,
-      "p_incorrect": 5.364418029785156e-07,
-      "margin": -5.364418029785156e-07,
-      "predicted": "incorrect"
-    },
-    {
-      "context": "Eu bebi",
-      "noun": "água",
-      "correct_art": "a",
-      "incorrect_art": "o",
-      "p_correct": 5.960464477539063e-08,
-      "p_incorrect": 2.9802322387695312e-06,
-      "margin": -2.9206275939941406e-06,
-      "predicted": "incorrect"
-    },
-    {
-      "context": "Ela leu",
-      "noun": "revista",
-      "correct_art": "a",
-      "incorrect_art": "o",
-      "p_correct": 3.5762786865234375e-07,
-      "p_incorrect": 1.6808509826660156e-05,
-      "margin": -1.6450881958007812e-05,
-      "predicted": "incorrect"
-    },
-    {
-      "context": "Nós ouvimos",
-      "noun": "música",
-      "correct_art": "a",
-      "incorrect_art": "o",
-      "p_correct": 0.0,
-      "p_incorrect": 4.172325134277344e-06,
-      "margin": -4.172325134277344e-06,
-      "predicted": "incorrect"
-    },
-    {
-      "context": "Ele dirigiu",
-      "noun": "moto",
-      "correct_art": "a",
-      "incorrect_art": "o",
-      "p_correct": 0.0,
-      "p_incorrect": 6.556510925292969e-07,
-      "margin": -6.556510925292969e-07,
-      "predicted": "incorrect"
-    },
-    {
-      "context": "Ela organizou",
-      "noun": "festa",
-      "correct_art": "a",
-      "incorrect_art": "o",
-      "p_correct": 0.0,
-      "p_incorrect": 1.7881393432617188e-07,
-      "margin": -1.7881393432617188e-07,
-      "predicted": "incorrect"
-    },
-    {
-      "context": "Eu escrevi",
-      "noun": "carta",
-      "correct_art": "a",
-      "incorrect_art": "o",
-      "p_correct": 0.0,
-      "p_incorrect": 3.0994415283203125e-06,
-      "margin": -3.0994415283203125e-06,
-      "predicted": "incorrect"
-    },
-    {
-      "context": "Nós plantamos",
-      "noun": "árvore",
-      "correct_art": "a",
-      "incorrect_art": "o",
-      "p_correct": 0.0,
-      "p_incorrect": 8.344650268554688e-07,
-      "margin": -8.344650268554688e-07,
-      "predicted": "incorrect"
-    },
-    {
-      "context": "Ele comprou",
-      "noun": "bicicleta",
-      "correct_art": "a",
-      "incorrect_art": "o",
-      "p_correct": 5.960464477539063e-08,
-      "p_incorrect": 3.039836883544922e-06,
-      "margin": -2.9802322387695312e-06,
-      "predicted": "incorrect"
-    },
-    {
-      "context": "Ela quebrou",
-      "noun": "xícara",
-      "correct_art": "a",
-      "incorrect_art": "o",
-      "p_correct": 0.0,
-      "p_incorrect": 3.93986701965332e-05,
-      "margin": -3.93986701965332e-05,
-      "predicted": "incorrect"
-    },
-    {
-      "context": "Eu vi",
-      "noun": "menino",
-      "correct_art": "o",
-      "incorrect_art": "a",
-      "p_correct": 8.243322372436523e-05,
-      "p_incorrect": 1.1920928955078125e-07,
-      "margin": 8.231401443481445e-05,
-      "predicted": "correct"
-    },
-    {
-      "context": "Ela encontrou",
-      "noun": "professor",
-      "correct_art": "o",
-      "incorrect_art": "a",
-      "p_correct": 3.3974647521972656e-06,
-      "p_incorrect": 0.0,
-      "margin": 3.3974647521972656e-06,
-      "predicted": "correct"
-    },
-    {
-      "context": "Nós conhecemos",
-      "noun": "diretor",
-      "correct_art": "o",
-      "incorrect_art": "a",
-      "p_correct": 7.748603820800781e-07,
-      "p_incorrect": 0.0,
-      "margin": 7.748603820800781e-07,
-      "predicted": "correct"
-    },
-    {
-      "context": "Ele é",
-      "noun": "médico",
-      "correct_art": "o",
-      "incorrect_art": "a",
-      "p_correct": 8.940696716308594e-07,
-      "p_incorrect": 0.0,
-      "margin": 8.940696716308594e-07,
-      "predicted": "correct"
-    },
-    {
-      "context": "Eles contrataram",
-      "noun": "engenheiro",
-      "correct_art": "o",
-      "incorrect_art": "a",
-      "p_correct": 3.5762786865234375e-07,
-      "p_incorrect": 0.0,
-      "margin": 3.5762786865234375e-07,
-      "predicted": "correct"
-    },
-    {
-      "context": "Você conhece",
-      "noun": "vizinho",
-      "correct_art": "o",
-      "incorrect_art": "a",
-      "p_correct": 0.0,
-      "p_incorrect": 0.0,
-      "margin": 0.0,
-      "predicted": "incorrect"
-    },
-    {
-      "context": "Eu comprei",
-      "noun": "carro",
-      "correct_art": "o",
-      "incorrect_art": "a",
-      "p_correct": 5.9604644775390625e-06,
-      "p_incorrect": 0.0,
-      "margin": 5.9604644775390625e-06,
-      "predicted": "correct"
-    },
-    {
-      "context": "Ele pintou",
-      "noun": "muro",
-      "correct_art": "o",
-      "incorrect_art": "a",
-      "p_correct": 1.2516975402832031e-06,
-      "p_incorrect": 0.0,
-      "margin": 1.2516975402832031e-06,
-      "predicted": "correct"
-    },
-    {
-      "context": "Nós limpamos",
-      "noun": "chão",
-      "correct_art": "o",
-      "incorrect_art": "a",
-      "p_correct": 1.996755599975586e-05,
-      "p_incorrect": 0.0,
-      "margin": 1.996755599975586e-05,
-      "predicted": "correct"
-    },
-    {
-      "context": "Ela abriu",
-      "noun": "portão",
-      "correct_art": "o",
-      "incorrect_art": "a",
-      "p_correct": 1.1920928955078125e-06,
-      "p_incorrect": 0.0,
-      "margin": 1.1920928955078125e-06,
-      "predicted": "correct"
-    },
-    {
-      "context": "Ele lavou",
-      "noun": "prato",
-      "correct_art": "o",
-      "incorrect_art": "a",
-      "p_correct": 6.556510925292969e-06,
-      "p_incorrect": 0.0,
-      "margin": 6.556510925292969e-06,
-      "predicted": "correct"
-    },
-    {
-      "context": "Eu comi",
-      "noun": "bolo",
-      "correct_art": "o",
-      "incorrect_art": "a",
-      "p_correct": 7.569789886474609e-06,
-      "p_incorrect": 0.0,
-      "margin": 7.569789886474609e-06,
-      "predicted": "correct"
-    },
-    {
-      "context": "Nós visitamos",
-      "noun": "museu",
-      "correct_art": "o",
-      "incorrect_art": "a",
-      "p_correct": 9.5367431640625e-07,
-      "p_incorrect": 0.0,
-      "margin": 9.5367431640625e-07,
-      "predicted": "correct"
-    },
-    {
-      "context": "Ele consertou",
-      "noun": "telhado",
-      "correct_art": "o",
-      "incorrect_art": "a",
-      "p_correct": 6.854534149169922e-06,
-      "p_incorrect": 0.0,
-      "margin": 6.854534149169922e-06,
-      "predicted": "correct"
-    },
-    {
-      "context": "Ela perdeu",
-      "noun": "celular",
-      "correct_art": "o",
-      "incorrect_art": "a",
-      "p_correct": 1.7881393432617188e-06,
-      "p_incorrect": 0.0,
-      "margin": 1.7881393432617188e-06,
-      "predicted": "correct"
-    },
-    {
-      "context": "Eles fecharam",
-      "noun": "portão",
-      "correct_art": "o",
-      "incorrect_art": "a",
-      "p_correct": 5.364418029785156e-07,
-      "p_incorrect": 0.0,
-      "margin": 5.364418029785156e-07,
-      "predicted": "correct"
-    },
-    {
-      "context": "Eu bebi",
-      "noun": "suco",
-      "correct_art": "o",
-      "incorrect_art": "a",
-      "p_correct": 2.9802322387695312e-06,
-      "p_incorrect": 5.960464477539063e-08,
-      "margin": 2.9206275939941406e-06,
-      "predicted": "correct"
-    },
-    {
-      "context": "Ela leu",
-      "noun": "livro",
-      "correct_art": "o",
-      "incorrect_art": "a",
-      "p_correct": 1.6808509826660156e-05,
-      "p_incorrect": 3.5762786865234375e-07,
-      "margin": 1.6450881958007812e-05,
-      "predicted": "correct"
-    },
-    {
-      "context": "Nós ouvimos",
-      "noun": "barulho",
-      "correct_art": "o",
-      "incorrect_art": "a",
-      "p_correct": 4.172325134277344e-06,
-      "p_incorrect": 0.0,
-      "margin": 4.172325134277344e-06,
-      "predicted": "correct"
-    },
-    {
-      "context": "Ele dirigiu",
-      "noun": "caminhão",
-      "correct_art": "o",
-      "incorrect_art": "a",
-      "p_correct": 6.556510925292969e-07,
-      "p_incorrect": 0.0,
-      "margin": 6.556510925292969e-07,
-      "predicted": "correct"
-    },
-    {
-      "context": "Ela organizou",
-      "noun": "evento",
-      "correct_art": "o",
-      "incorrect_art": "a",
-      "p_correct": 1.7881393432617188e-07,
-      "p_incorrect": 0.0,
-      "margin": 1.7881393432617188e-07,
-      "predicted": "correct"
-    },
-    {
-      "context": "Eu escrevi",
-      "noun": "relatório",
-      "correct_art": "o",
-      "incorrect_art": "a",
-      "p_correct": 3.0994415283203125e-06,
-      "p_incorrect": 0.0,
-      "margin": 3.0994415283203125e-06,
-      "predicted": "correct"
-    },
-    {
-      "context": "Nós plantamos",
-      "noun": "jardim",
-      "correct_art": "o",
-      "incorrect_art": "a",
-      "p_correct": 8.344650268554688e-07,
-      "p_incorrect": 0.0,
-      "margin": 8.344650268554688e-07,
-      "predicted": "correct"
-    },
-    {
-      "context": "Ele comprou",
-      "noun": "apartamento",
-      "correct_art": "o",
-      "incorrect_art": "a",
-      "p_correct": 3.039836883544922e-06,
-      "p_incorrect": 5.960464477539063e-08,
-      "margin": 2.9802322387695312e-06,
-      "predicted": "correct"
-    },
-    {
-      "context": "Ela quebrou",
-      "noun": "vaso",
-      "correct_art": "o",
-      "incorrect_art": "a",
-      "p_correct": 3.93986701965332e-05,
-      "p_incorrect": 0.0,
-      "margin": 3.93986701965332e-05,
-      "predicted": "correct"
-    }
-  ]
+  {
+   "context": "Eles contrataram",
+   "noun": "engenheira",
+   "correct_art": "a",
+   "incorrect_art": "o",
+   "p_correct": 0.0,
+   "p_incorrect": 3.5762786865234375e-07,
+   "margin": -3.5762786865234375e-07,
+   "predicted": "incorrect"
+  },
+  {
+   "context": "Você conhece",
+   "noun": "vizinha",
+   "correct_art": "a",
+   "incorrect_art": "o",
+   "p_correct": 0.0,
+   "p_incorrect": 0.0,
+   "margin": 0.0,
+   "predicted": "incorrect"
+  },
+  {
+   "context": "Eu comprei",
+   "noun": "casa",
+   "correct_art": "a",
+   "incorrect_art": "o",
+   "p_correct": 0.0,
+   "p_incorrect": 5.9604644775390625e-06,
+   "margin": -5.9604644775390625e-06,
+   "predicted": "incorrect"
+  },
+  {
+   "context": "Ele pintou",
+   "noun": "parede",
+   "correct_art": "a",
+   "incorrect_art": "o",
+   "p_correct": 0.0,
+   "p_incorrect": 1.2516975402832031e-06,
+   "margin": -1.2516975402832031e-06,
+   "predicted": "incorrect"
+  },
+  {
+   "context": "Nós limpamos",
+   "noun": "mesa",
+   "correct_art": "a",
+   "incorrect_art": "o",
+   "p_correct": 0.0,
+   "p_incorrect": 1.996755599975586e-05,
+   "margin": -1.996755599975586e-05,
+   "predicted": "incorrect"
+  },
+  {
+   "context": "Ela abriu",
+   "noun": "porta",
+   "correct_art": "a",
+   "incorrect_art": "o",
+   "p_correct": 0.0,
+   "p_incorrect": 1.1920928955078125e-06,
+   "margin": -1.1920928955078125e-06,
+   "predicted": "incorrect"
+  },
+  {
+   "context": "Ele lavou",
+   "noun": "roupa",
+   "correct_art": "a",
+   "incorrect_art": "o",
+   "p_correct": 0.0,
+   "p_incorrect": 6.556510925292969e-06,
+   "margin": -6.556510925292969e-06,
+   "predicted": "incorrect"
+  },
+  {
+   "context": "Eu comi",
+   "noun": "maçã",
+   "correct_art": "a",
+   "incorrect_art": "o",
+   "p_correct": 0.0,
+   "p_incorrect": 7.569789886474609e-06,
+   "margin": -7.569789886474609e-06,
+   "predicted": "incorrect"
+  },
+  {
+   "context": "Nós visitamos",
+   "noun": "escola",
+   "correct_art": "a",
+   "incorrect_art": "o",
+   "p_correct": 0.0,
+   "p_incorrect": 9.5367431640625e-07,
+   "margin": -9.5367431640625e-07,
+   "predicted": "incorrect"
+  },
+  {
+   "context": "Ele consertou",
+   "noun": "cadeira",
+   "correct_art": "a",
+   "incorrect_art": "o",
+   "p_correct": 0.0,
+   "p_incorrect": 6.854534149169922e-06,
+   "margin": -6.854534149169922e-06,
+   "predicted": "incorrect"
+  },
+  {
+   "context": "Ela perdeu",
+   "noun": "chave",
+   "correct_art": "a",
+   "incorrect_art": "o",
+   "p_correct": 0.0,
+   "p_incorrect": 1.7881393432617188e-06,
+   "margin": -1.7881393432617188e-06,
+   "predicted": "incorrect"
+  },
+  {
+   "context": "Eles fecharam",
+   "noun": "janela",
+   "correct_art": "a",
+   "incorrect_art": "o",
+   "p_correct": 0.0,
+   "p_incorrect": 5.364418029785156e-07,
+   "margin": -5.364418029785156e-07,
+   "predicted": "incorrect"
+  },
+  {
+   "context": "Eu bebi",
+   "noun": "água",
+   "correct_art": "a",
+   "incorrect_art": "o",
+   "p_correct": 5.960464477539063e-08,
+   "p_incorrect": 2.9802322387695312e-06,
+   "margin": -2.9206275939941406e-06,
+   "predicted": "incorrect"
+  },
+  {
+   "context": "Ela leu",
+   "noun": "revista",
+   "correct_art": "a",
+   "incorrect_art": "o",
+   "p_correct": 3.5762786865234375e-07,
+   "p_incorrect": 1.6808509826660156e-05,
+   "margin": -1.6450881958007812e-05,
+   "predicted": "incorrect"
+  },
+  {
+   "context": "Nós ouvimos",
+   "noun": "música",
+   "correct_art": "a",
+   "incorrect_art": "o",
+   "p_correct": 0.0,
+   "p_incorrect": 4.172325134277344e-06,
+   "margin": -4.172325134277344e-06,
+   "predicted": "incorrect"
+  },
+  {
+   "context": "Ele dirigiu",
+   "noun": "moto",
+   "correct_art": "a",
+   "incorrect_art": "o",
+   "p_correct": 0.0,
+   "p_incorrect": 6.556510925292969e-07,
+   "margin": -6.556510925292969e-07,
+   "predicted": "incorrect"
+  },
+  {
+   "context": "Ela organizou",
+   "noun": "festa",
+   "correct_art": "a",
+   "incorrect_art": "o",
+   "p_correct": 0.0,
+   "p_incorrect": 1.7881393432617188e-07,
+   "margin": -1.7881393432617188e-07,
+   "predicted": "incorrect"
+  },
+  {
+   "context": "Eu escrevi",
+   "noun": "carta",
+   "correct_art": "a",
+   "incorrect_art": "o",
+   "p_correct": 0.0,
+   "p_incorrect": 3.0994415283203125e-06,
+   "margin": -3.0994415283203125e-06,
+   "predicted": "incorrect"
+  },
+  {
+   "context": "Nós plantamos",
+   "noun": "árvore",
+   "correct_art": "a",
+   "incorrect_art": "o",
+   "p_correct": 0.0,
+   "p_incorrect": 8.344650268554688e-07,
+   "margin": -8.344650268554688e-07,
+   "predicted": "incorrect"
+  },
+  {
+   "context": "Ele comprou",
+   "noun": "bicicleta",
+   "correct_art": "a",
+   "incorrect_art": "o",
+   "p_correct": 5.960464477539063e-08,
+   "p_incorrect": 3.039836883544922e-06,
+   "margin": -2.9802322387695312e-06,
+   "predicted": "incorrect"
+  },
+  {
+   "context": "Ela quebrou",
+   "noun": "xícara",
+   "correct_art": "a",
+   "incorrect_art": "o",
+   "p_correct": 0.0,
+   "p_incorrect": 3.93986701965332e-05,
+   "margin": -3.93986701965332e-05,
+   "predicted": "incorrect"
+  },
+  {
+   "context": "Eu vi",
+   "noun": "menino",
+   "correct_art": "o",
+   "incorrect_art": "a",
+   "p_correct": 8.243322372436523e-05,
+   "p_incorrect": 1.1920928955078125e-07,
+   "margin": 8.231401443481445e-05,
+   "predicted": "correct"
+  },
+  {
+   "context": "Ela encontrou",
+   "noun": "professor",
+   "correct_art": "o",
+   "incorrect_art": "a",
+   "p_correct": 3.3974647521972656e-06,
+   "p_incorrect": 0.0,
+   "margin": 3.3974647521972656e-06,
+   "predicted": "correct"
+  },
+  {
+   "context": "Nós conhecemos",
+   "noun": "diretor",
+   "correct_art": "o",
+   "incorrect_art": "a",
+   "p_correct": 7.748603820800781e-07,
+   "p_incorrect": 0.0,
+   "margin": 7.748603820800781e-07,
+   "predicted": "correct"
+  },
+  {
+   "context": "Ele é",
+   "noun": "médico",
+   "correct_art": "o",
+   "incorrect_art": "a",
+   "p_correct": 8.940696716308594e-07,
+   "p_incorrect": 0.0,
+   "margin": 8.940696716308594e-07,
+   "predicted": "correct"
+  },
+  {
+   "context": "Eles contrataram",
+   "noun": "engenheiro",
+   "correct_art": "o",
+   "incorrect_art": "a",
+   "p_correct": 3.5762786865234375e-07,
+   "p_incorrect": 0.0,
+   "margin": 3.5762786865234375e-07,
+   "predicted": "correct"
+  },
+  {
+   "context": "Você conhece",
+   "noun": "vizinho",
+   "correct_art": "o",
+   "incorrect_art": "a",
+   "p_correct": 0.0,
+   "p_incorrect": 0.0,
+   "margin": 0.0,
+   "predicted": "incorrect"
+  },
+  {
+   "context": "Eu comprei",
+   "noun": "carro",
+   "correct_art": "o",
+   "incorrect_art": "a",
+   "p_correct": 5.9604644775390625e-06,
+   "p_incorrect": 0.0,
+   "margin": 5.9604644775390625e-06,
+   "predicted": "correct"
+  },
+  {
+   "context": "Ele pintou",
+   "noun": "muro",
+   "correct_art": "o",
+   "incorrect_art": "a",
+   "p_correct": 1.2516975402832031e-06,
+   "p_incorrect": 0.0,
+   "margin": 1.2516975402832031e-06,
+   "predicted": "correct"
+  },
+  {
+   "context": "Nós limpamos",
+   "noun": "chão",
+   "correct_art": "o",
+   "incorrect_art": "a",
+   "p_correct": 1.996755599975586e-05,
+   "p_incorrect": 0.0,
+   "margin": 1.996755599975586e-05,
+   "predicted": "correct"
+  },
+  {
+   "context": "Ela abriu",
+   "noun": "portão",
+   "correct_art": "o",
+   "incorrect_art": "a",
+   "p_correct": 1.1920928955078125e-06,
+   "p_incorrect": 0.0,
+   "margin": 1.1920928955078125e-06,
+   "predicted": "correct"
+  },
+  {
+   "context": "Ele lavou",
+   "noun": "prato",
+   "correct_art": "o",
+   "incorrect_art": "a",
+   "p_correct": 6.556510925292969e-06,
+   "p_incorrect": 0.0,
+   "margin": 6.556510925292969e-06,
+   "predicted": "correct"
+  },
+  {
+   "context": "Eu comi",
+   "noun": "bolo",
+   "correct_art": "o",
+   "incorrect_art": "a",
+   "p_correct": 7.569789886474609e-06,
+   "p_incorrect": 0.0,
+   "margin": 7.569789886474609e-06,
+   "predicted": "correct"
+  },
+  {
+   "context": "Nós visitamos",
+   "noun": "museu",
+   "correct_art": "o",
+   "incorrect_art": "a",
+   "p_correct": 9.5367431640625e-07,
+   "p_incorrect": 0.0,
+   "margin": 9.5367431640625e-07,
+   "predicted": "correct"
+  },
+  {
+   "context": "Ele consertou",
+   "noun": "telhado",
+   "correct_art": "o",
+   "incorrect_art": "a",
+   "p_correct": 6.854534149169922e-06,
+   "p_incorrect": 0.0,
+   "margin": 6.854534149169922e-06,
+   "predicted": "correct"
+  },
+  {
+   "context": "Ela perdeu",
+   "noun": "celular",
+   "correct_art": "o",
+   "incorrect_art": "a",
+   "p_correct": 1.7881393432617188e-06,
+   "p_incorrect": 0.0,
+   "margin": 1.7881393432617188e-06,
+   "predicted": "correct"
+  },
+  {
+   "context": "Eles fecharam",
+   "noun": "portão",
+   "correct_art": "o",
+   "incorrect_art": "a",
+   "p_correct": 5.364418029785156e-07,
+   "p_incorrect": 0.0,
+   "margin": 5.364418029785156e-07,
+   "predicted": "correct"
+  },
+  {
+   "context": "Eu bebi",
+   "noun": "suco",
+   "correct_art": "o",
+   "incorrect_art": "a",
+   "p_correct": 2.9802322387695312e-06,
+   "p_incorrect": 5.960464477539063e-08,
+   "margin": 2.9206275939941406e-06,
+   "predicted": "correct"
+  },
+  {
+   "context": "Ela leu",
+   "noun": "livro",
+   "correct_art": "o",
+   "incorrect_art": "a",
+   "p_correct": 1.6808509826660156e-05,
+   "p_incorrect": 3.5762786865234375e-07,
+   "margin": 1.6450881958007812e-05,
+   "predicted": "correct"
+  },
+  {
+   "context": "Nós ouvimos",
+   "noun": "barulho",
+   "correct_art": "o",
+   "incorrect_art": "a",
+   "p_correct": 4.172325134277344e-06,
+   "p_incorrect": 0.0,
+   "margin": 4.172325134277344e-06,
+   "predicted": "correct"
+  },
+  {
+   "context": "Ele dirigiu",
+   "noun": "caminhão",
+   "correct_art": "o",
+   "incorrect_art": "a",
+   "p_correct": 6.556510925292969e-07,
+   "p_incorrect": 0.0,
+   "margin": 6.556510925292969e-07,
+   "predicted": "correct"
+  },
+  {
+   "context": "Ela organizou",
+   "noun": "evento",
+   "correct_art": "o",
+   "incorrect_art": "a",
+   "p_correct": 1.7881393432617188e-07,
+   "p_incorrect": 0.0,
+   "margin": 1.7881393432617188e-07,
+   "predicted": "correct"
+  },
+  {
+   "context": "Eu escrevi",
+   "noun": "relatório",
+   "correct_art": "o",
+   "incorrect_art": "a",
+   "p_correct": 3.0994415283203125e-06,
+   "p_incorrect": 0.0,
+   "margin": 3.0994415283203125e-06,
+   "predicted": "correct"
+  },
+  {
+   "context": "Nós plantamos",
+   "noun": "jardim",
+   "correct_art": "o",
+   "incorrect_art": "a",
+   "p_correct": 8.344650268554688e-07,
+   "p_incorrect": 0.0,
+   "margin": 8.344650268554688e-07,
+   "predicted": "correct"
+  },
+  {
+   "context": "Ele comprou",
+   "noun": "apartamento",
+   "correct_art": "o",
+   "incorrect_art": "a",
+   "p_correct": 3.039836883544922e-06,
+   "p_incorrect": 5.960464477539063e-08,
+   "margin": 2.9802322387695312e-06,
+   "predicted": "correct"
+  },
+  {
+   "context": "Ela quebrou",
+   "noun": "vaso",
+   "correct_art": "o",
+   "incorrect_art": "a",
+   "p_correct": 3.93986701965332e-05,
+   "p_incorrect": 0.0,
+   "margin": 3.93986701965332e-05,
+   "predicted": "correct"
+  }
+ ]
 }

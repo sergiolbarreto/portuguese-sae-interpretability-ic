@@ -1,527 +1,527 @@
 {
-  "experiment": "gender_agreement_benchmark_v2",
-  "task": "adjective_gender_agreement",
-  "n_items": 44,
-  "n_feminine": 22,
-  "n_masculine": 22,
-  "n_controls": 5,
-  "target_feature": 1215,
-  "target_norm": 1.0,
-  "control_features": [
-    9859,
-    2933,
-    12844,
-    5157,
-    2678
-  ],
-  "control_norms": {
-    "9859": 1.0,
-    "2933": 1.0,
-    "12844": 1.0,
-    "5157": 1.0,
-    "2678": 1.0
-  },
-  "baseline": {
+ "experiment": "gender_agreement_benchmark_v2",
+ "task": "adjective_gender_agreement",
+ "n_items": 44,
+ "n_feminine": 22,
+ "n_masculine": 22,
+ "n_controls": 5,
+ "target_feature": 1215,
+ "target_norm": 1.0,
+ "control_features": [
+  9859,
+  2933,
+  12844,
+  5157,
+  2678
+ ],
+ "control_norms": {
+  "9859": 1.0,
+  "2933": 1.0,
+  "12844": 1.0,
+  "5157": 1.0,
+  "2678": 1.0
+ },
+ "baseline": {
+  "accuracy": 0.7272727272727273,
+  "mean_margin": 1.9045860676289953e-06
+ },
+ "ablated_1215": {
+  "accuracy": 0.6363636363636364,
+  "mean_margin": 1.1112839520117012e-06
+ },
+ "controls_summary": {
+  "mean_accuracy": 0.7272727272727273,
+  "std_accuracy": 0.0,
+  "mean_margin": 1.8944168444479071e-06,
+  "individual": {
+   "9859": {
     "accuracy": 0.7272727272727273,
-    "mean_margin": 1.9045860676289953e-06
+    "margin": 1.9052113282335903e-06
+   },
+   "2933": {
+    "accuracy": 0.7272727272727273,
+    "margin": 1.851296218945891e-06
+   },
+   "12844": {
+    "accuracy": 0.7272727272727273,
+    "margin": 1.9051922250200182e-06
+   },
+   "5157": {
+    "accuracy": 0.7272727272727273,
+    "margin": 1.9051922250200182e-06
+   },
+   "2678": {
+    "accuracy": 0.7272727272727273,
+    "margin": 1.9051922250200182e-06
+   }
+  }
+ },
+ "accuracy_drop": {
+  "feature_1215": 0.09090909090909094,
+  "controls_mean": 0.0,
+  "controls_max": 0.0,
+  "specificity_ratio": 90909.09090909094
+ },
+ "by_gender": {
+  "feminine": {
+   "baseline": 14,
+   "ablated_1215": 10,
+   "total": 22
   },
-  "ablated_1215": {
-    "accuracy": 0.6363636363636364,
-    "mean_margin": 1.1112839520117012e-06
+  "masculine": {
+   "baseline": 18,
+   "ablated_1215": 18,
+   "total": 22
+  }
+ },
+ "fisher_exact": {
+  "odds_ratio": 1.5238095238095237,
+  "p_value": 0.49273862188563666
+ },
+ "fisher_feminine_only": {
+  "odds_ratio": 2.1,
+  "p_value": 0.364044295687383
+ },
+ "item_details_1215": [
+  {
+   "context": "A menina é muito",
+   "gender": "F",
+   "correct_adj": "bonita",
+   "incorrect_adj": "bonito",
+   "p_correct": 7.067440826180604e-07,
+   "p_incorrect": 2.1327856067343554e-07,
+   "margin": 4.934655219446249e-07,
+   "predicted": "correct"
   },
-  "controls_summary": {
-    "mean_accuracy": 0.7272727272727273,
-    "std_accuracy": 0.0,
-    "mean_margin": 1.8944168444479071e-06,
-    "individual": {
-      "9859": {
-        "accuracy": 0.7272727272727273,
-        "margin": 1.9052113282335903e-06
-      },
-      "2933": {
-        "accuracy": 0.7272727272727273,
-        "margin": 1.851296218945891e-06
-      },
-      "12844": {
-        "accuracy": 0.7272727272727273,
-        "margin": 1.9051922250200182e-06
-      },
-      "5157": {
-        "accuracy": 0.7272727272727273,
-        "margin": 1.9051922250200182e-06
-      },
-      "2678": {
-        "accuracy": 0.7272727272727273,
-        "margin": 1.9051922250200182e-06
-      }
-    }
+  {
+   "context": "A professora é muito",
+   "gender": "F",
+   "correct_adj": "dedicada",
+   "incorrect_adj": "dedicado",
+   "p_correct": 5.102856315275517e-08,
+   "p_incorrect": 7.827641482216485e-08,
+   "margin": -2.7247851669409684e-08,
+   "predicted": "incorrect"
   },
-  "accuracy_drop": {
-    "feature_1215": 0.09090909090909094,
-    "controls_mean": 0.0,
-    "controls_max": 0.0,
-    "specificity_ratio": 90909.09090909094
+  {
+   "context": "A médica foi muito",
+   "gender": "F",
+   "correct_adj": "elogiada",
+   "incorrect_adj": "elogiado",
+   "p_correct": 5.001165206790226e-09,
+   "p_incorrect": 9.712013362798977e-09,
+   "margin": -4.710848156008751e-09,
+   "predicted": "incorrect"
   },
-  "by_gender": {
-    "feminine": {
-      "baseline": 14,
-      "ablated_1215": 10,
-      "total": 22
-    },
-    "masculine": {
-      "baseline": 18,
-      "ablated_1215": 18,
-      "total": 22
-    }
+  {
+   "context": "A engenheira é muito",
+   "gender": "F",
+   "correct_adj": "talentosa",
+   "incorrect_adj": "talentoso",
+   "p_correct": 1.3126822382969472e-06,
+   "p_incorrect": 9.91215024990019e-07,
+   "margin": 3.214672133069281e-07,
+   "predicted": "correct"
   },
-  "fisher_exact": {
-    "odds_ratio": 1.5238095238095237,
-    "p_value": 0.49273862188563666
+  {
+   "context": "A vizinha está muito",
+   "gender": "F",
+   "correct_adj": "preocupada",
+   "incorrect_adj": "preocupado",
+   "p_correct": 0.0001228248283805522,
+   "p_incorrect": 0.00012342836904506022,
+   "margin": -6.035406645080177e-07,
+   "predicted": "incorrect"
   },
-  "fisher_feminine_only": {
-    "odds_ratio": 2.1,
-    "p_value": 0.364044295687383
+  {
+   "context": "A casa é muito",
+   "gender": "F",
+   "correct_adj": "bonita",
+   "incorrect_adj": "bonito",
+   "p_correct": 2.998475408785839e-06,
+   "p_incorrect": 8.224304046677844e-07,
+   "margin": 2.1760450041180546e-06,
+   "predicted": "correct"
   },
-  "item_details_1215": [
-    {
-      "context": "A menina é muito",
-      "gender": "F",
-      "correct_adj": "bonita",
-      "incorrect_adj": "bonito",
-      "p_correct": 7.067440826180604e-07,
-      "p_incorrect": 2.1327856067343554e-07,
-      "margin": 4.934655219446249e-07,
-      "predicted": "correct"
-    },
-    {
-      "context": "A professora é muito",
-      "gender": "F",
-      "correct_adj": "dedicada",
-      "incorrect_adj": "dedicado",
-      "p_correct": 5.102856315275517e-08,
-      "p_incorrect": 7.827641482216485e-08,
-      "margin": -2.7247851669409684e-08,
-      "predicted": "incorrect"
-    },
-    {
-      "context": "A médica foi muito",
-      "gender": "F",
-      "correct_adj": "elogiada",
-      "incorrect_adj": "elogiado",
-      "p_correct": 5.001165206790226e-09,
-      "p_incorrect": 9.712013362798977e-09,
-      "margin": -4.710848156008751e-09,
-      "predicted": "incorrect"
-    },
-    {
-      "context": "A engenheira é muito",
-      "gender": "F",
-      "correct_adj": "talentosa",
-      "incorrect_adj": "talentoso",
-      "p_correct": 1.3126822382969472e-06,
-      "p_incorrect": 9.91215024990019e-07,
-      "margin": 3.214672133069281e-07,
-      "predicted": "correct"
-    },
-    {
-      "context": "A vizinha está muito",
-      "gender": "F",
-      "correct_adj": "preocupada",
-      "incorrect_adj": "preocupado",
-      "p_correct": 0.0001228248283805522,
-      "p_incorrect": 0.00012342836904506022,
-      "margin": -6.035406645080177e-07,
-      "predicted": "incorrect"
-    },
-    {
-      "context": "A casa é muito",
-      "gender": "F",
-      "correct_adj": "bonita",
-      "incorrect_adj": "bonito",
-      "p_correct": 2.998475408785839e-06,
-      "p_incorrect": 8.224304046677844e-07,
-      "margin": 2.1760450041180546e-06,
-      "predicted": "correct"
-    },
-    {
-      "context": "A escola ficou muito",
-      "gender": "F",
-      "correct_adj": "organizada",
-      "incorrect_adj": "organizado",
-      "p_correct": 4.186312275833437e-06,
-      "p_incorrect": 5.4378049531012e-06,
-      "margin": -1.2514926772677626e-06,
-      "predicted": "incorrect"
-    },
-    {
-      "context": "A porta está",
-      "gender": "F",
-      "correct_adj": "aberta",
-      "incorrect_adj": "aberto",
-      "p_correct": 9.695203687619391e-09,
-      "p_incorrect": 1.7025502535572556e-08,
-      "margin": -7.330298847953165e-09,
-      "predicted": "incorrect"
-    },
-    {
-      "context": "A mãe estava muito",
-      "gender": "F",
-      "correct_adj": "cansada",
-      "incorrect_adj": "cansado",
-      "p_correct": 9.656959731874082e-09,
-      "p_incorrect": 1.1083423471364151e-07,
-      "margin": -1.0117727498176743e-07,
-      "predicted": "incorrect"
-    },
-    {
-      "context": "A aluna é muito",
-      "gender": "F",
-      "correct_adj": "estudiosa",
-      "incorrect_adj": "estudioso",
-      "p_correct": 3.138721748445483e-07,
-      "p_incorrect": 3.99628130794171e-08,
-      "margin": 2.739093617651312e-07,
-      "predicted": "correct"
-    },
-    {
-      "context": "A cidade está muito",
-      "gender": "F",
-      "correct_adj": "movimentada",
-      "incorrect_adj": "movimentado",
-      "p_correct": 9.097640063515655e-08,
-      "p_incorrect": 4.370780185697365e-08,
-      "margin": 4.72685987781829e-08,
-      "predicted": "correct"
-    },
-    {
-      "context": "A comida ficou muito",
-      "gender": "F",
-      "correct_adj": "salgada",
-      "incorrect_adj": "salgado",
-      "p_correct": 1.834183746551865e-08,
-      "p_incorrect": 1.6413004667592546e-06,
-      "margin": -1.622958629293736e-06,
-      "predicted": "incorrect"
-    },
-    {
-      "context": "A água está muito",
-      "gender": "F",
-      "correct_adj": "fria",
-      "incorrect_adj": "frio",
-      "p_correct": 1.25973462583584e-06,
-      "p_incorrect": 2.8082359087022724e-06,
-      "margin": -1.5485012828664324e-06,
-      "predicted": "incorrect"
-    },
-    {
-      "context": "A música é muito",
-      "gender": "F",
-      "correct_adj": "animada",
-      "incorrect_adj": "animado",
-      "p_correct": 4.379055425912659e-07,
-      "p_incorrect": 1.506141577740927e-07,
-      "margin": 2.872913848171732e-07,
-      "predicted": "correct"
-    },
-    {
-      "context": "A rua estava muito",
-      "gender": "F",
-      "correct_adj": "escura",
-      "incorrect_adj": "escuro",
-      "p_correct": 1.876070206303926e-08,
-      "p_incorrect": 3.134296379103674e-07,
-      "margin": -2.946689358473281e-07,
-      "predicted": "incorrect"
-    },
-    {
-      "context": "A mesa está muito",
-      "gender": "F",
-      "correct_adj": "suja",
-      "incorrect_adj": "sujo",
-      "p_correct": 4.147062659639114e-10,
-      "p_incorrect": 1.89157992752393e-09,
-      "margin": -1.4768736615600186e-09,
-      "predicted": "incorrect"
-    },
-    {
-      "context": "A roupa ficou muito",
-      "gender": "F",
-      "correct_adj": "molhada",
-      "incorrect_adj": "molhado",
-      "p_correct": 1.7668505936097034e-08,
-      "p_incorrect": 4.375895826247422e-09,
-      "margin": 1.3292610109849612e-08,
-      "predicted": "correct"
-    },
-    {
-      "context": "A cadeira está muito",
-      "gender": "F",
-      "correct_adj": "velha",
-      "incorrect_adj": "velho",
-      "p_correct": 1.2980848518306942e-06,
-      "p_incorrect": 1.2970329928904678e-06,
-      "margin": 1.0518589402264134e-09,
-      "predicted": "correct"
-    },
-    {
-      "context": "A praia estava muito",
-      "gender": "F",
-      "correct_adj": "lotada",
-      "incorrect_adj": "lotado",
-      "p_correct": 1.3645648637081176e-08,
-      "p_incorrect": 7.130274884241394e-08,
-      "margin": -5.765710020533277e-08,
-      "predicted": "incorrect"
-    },
-    {
-      "context": "A parede ficou muito",
-      "gender": "F",
-      "correct_adj": "manchada",
-      "incorrect_adj": "manchado",
-      "p_correct": 4.130726498641278e-06,
-      "p_incorrect": 8.506895811117698e-08,
-      "margin": 4.045657540530101e-06,
-      "predicted": "correct"
-    },
-    {
-      "context": "A festa foi muito",
-      "gender": "F",
-      "correct_adj": "animada",
-      "incorrect_adj": "animado",
-      "p_correct": 2.074746090485746e-06,
-      "p_incorrect": 1.88472754793223e-06,
-      "margin": 1.9001854255351613e-07,
-      "predicted": "correct"
-    },
-    {
-      "context": "A carta era muito",
-      "gender": "F",
-      "correct_adj": "longa",
-      "incorrect_adj": "longo",
-      "p_correct": 6.301525227181415e-07,
-      "p_incorrect": 9.92048452275185e-07,
-      "margin": -3.618959295570434e-07,
-      "predicted": "incorrect"
-    },
-    {
-      "context": "O menino é muito",
-      "gender": "M",
-      "correct_adj": "bonito",
-      "incorrect_adj": "bonita",
-      "p_correct": 1.7530244988961385e-07,
-      "p_incorrect": 1.004690078180992e-07,
-      "margin": 7.483344207151466e-08,
-      "predicted": "correct"
-    },
-    {
-      "context": "O professor é muito",
-      "gender": "M",
-      "correct_adj": "dedicado",
-      "incorrect_adj": "dedicada",
-      "p_correct": 2.7248563111426094e-07,
-      "p_incorrect": 2.8814583136194116e-08,
-      "margin": 2.436710479780668e-07,
-      "predicted": "correct"
-    },
-    {
-      "context": "O médico foi muito",
-      "gender": "M",
-      "correct_adj": "elogiado",
-      "incorrect_adj": "elogiada",
-      "p_correct": 1.6616601644539424e-07,
-      "p_incorrect": 4.0144154558711953e-10,
-      "margin": 1.6576457489980712e-07,
-      "predicted": "correct"
-    },
-    {
-      "context": "O engenheiro é muito",
-      "gender": "M",
-      "correct_adj": "talentoso",
-      "incorrect_adj": "talentosa",
-      "p_correct": 3.3876044110625267e-07,
-      "p_incorrect": 3.6157479518794666e-07,
-      "margin": -2.2814354081693994e-08,
-      "predicted": "incorrect"
-    },
-    {
-      "context": "O vizinho está muito",
-      "gender": "M",
-      "correct_adj": "preocupado",
-      "incorrect_adj": "preocupada",
-      "p_correct": 7.005397427063687e-05,
-      "p_incorrect": 6.747993235506344e-05,
-      "margin": 2.5740419155734218e-06,
-      "predicted": "correct"
-    },
-    {
-      "context": "O carro é muito",
-      "gender": "M",
-      "correct_adj": "bonito",
-      "incorrect_adj": "bonita",
-      "p_correct": 3.5245256349014653e-06,
-      "p_incorrect": 5.062737321488708e-07,
-      "margin": 3.0182519027525945e-06,
-      "predicted": "correct"
-    },
-    {
-      "context": "O museu ficou muito",
-      "gender": "M",
-      "correct_adj": "organizado",
-      "incorrect_adj": "organizada",
-      "p_correct": 1.1658176189976999e-05,
-      "p_incorrect": 1.0303988263626884e-05,
-      "margin": 1.3541879263501144e-06,
-      "predicted": "correct"
-    },
-    {
-      "context": "O portão está",
-      "gender": "M",
-      "correct_adj": "aberto",
-      "incorrect_adj": "aberta",
-      "p_correct": 8.260113287805737e-09,
-      "p_incorrect": 1.1156194897331577e-09,
-      "margin": 7.144493798072579e-09,
-      "predicted": "correct"
-    },
-    {
-      "context": "O pai estava muito",
-      "gender": "M",
-      "correct_adj": "cansado",
-      "incorrect_adj": "cansada",
-      "p_correct": 6.106727792332123e-07,
-      "p_incorrect": 1.6910517985913032e-09,
-      "margin": 6.08981727434621e-07,
-      "predicted": "correct"
-    },
-    {
-      "context": "O aluno é muito",
-      "gender": "M",
-      "correct_adj": "estudioso",
-      "incorrect_adj": "estudiosa",
-      "p_correct": 9.806807266252225e-08,
-      "p_incorrect": 1.787730750171801e-07,
-      "margin": -8.070500235465784e-08,
-      "predicted": "incorrect"
-    },
-    {
-      "context": "O centro está muito",
-      "gender": "M",
-      "correct_adj": "movimentado",
-      "incorrect_adj": "movimentada",
-      "p_correct": 5.239344333385354e-08,
-      "p_incorrect": 2.1609631040142574e-07,
-      "margin": -1.637028670675722e-07,
-      "predicted": "incorrect"
-    },
-    {
-      "context": "O bolo ficou muito",
-      "gender": "M",
-      "correct_adj": "salgado",
-      "incorrect_adj": "salgada",
-      "p_correct": 4.606912522367446e-06,
-      "p_incorrect": 6.499347851574022e-09,
-      "margin": 4.600413174515872e-06,
-      "predicted": "correct"
-    },
-    {
-      "context": "O suco está muito",
-      "gender": "M",
-      "correct_adj": "frio",
-      "incorrect_adj": "fria",
-      "p_correct": 5.6422381762288865e-06,
-      "p_incorrect": 2.553261663328782e-07,
-      "margin": 5.386912009896008e-06,
-      "predicted": "correct"
-    },
-    {
-      "context": "O barulho é muito",
-      "gender": "M",
-      "correct_adj": "alto",
-      "incorrect_adj": "alta",
-      "p_correct": 3.831270952048271e-06,
-      "p_incorrect": 3.922148650303825e-08,
-      "margin": 3.792049465545233e-06,
-      "predicted": "correct"
-    },
-    {
-      "context": "O quarto estava muito",
-      "gender": "M",
-      "correct_adj": "escuro",
-      "incorrect_adj": "escura",
-      "p_correct": 6.57446366569836e-07,
-      "p_incorrect": 1.0240724770786691e-07,
-      "margin": 5.550391188619691e-07,
-      "predicted": "correct"
-    },
-    {
-      "context": "O chão está muito",
-      "gender": "M",
-      "correct_adj": "sujo",
-      "incorrect_adj": "suja",
-      "p_correct": 3.0777889143546178e-09,
-      "p_incorrect": 2.878084574050449e-09,
-      "margin": 1.9970434030416873e-10,
-      "predicted": "correct"
-    },
-    {
-      "context": "O prato ficou muito",
-      "gender": "M",
-      "correct_adj": "molhado",
-      "incorrect_adj": "molhada",
-      "p_correct": 5.549575788493799e-09,
-      "p_incorrect": 3.841802254794802e-09,
-      "margin": 1.7077735336989974e-09,
-      "predicted": "correct"
-    },
-    {
-      "context": "O sofá está muito",
-      "gender": "M",
-      "correct_adj": "velho",
-      "incorrect_adj": "velha",
-      "p_correct": 1.505565642073714e-06,
-      "p_incorrect": 1.4902191469157167e-06,
-      "margin": 1.5346495157997353e-08,
-      "predicted": "correct"
-    },
-    {
-      "context": "O parque estava muito",
-      "gender": "M",
-      "correct_adj": "lotado",
-      "incorrect_adj": "lotada",
-      "p_correct": 1.0240306515078845e-07,
-      "p_incorrect": 1.5129628104168513e-08,
-      "margin": 8.727343704661994e-08,
-      "predicted": "correct"
-    },
-    {
-      "context": "O muro ficou muito",
-      "gender": "M",
-      "correct_adj": "manchado",
-      "incorrect_adj": "manchada",
-      "p_correct": 2.985899229526398e-07,
-      "p_incorrect": 9.25159313039034e-08,
-      "margin": 2.060739916487364e-07,
-      "predicted": "correct"
-    },
-    {
-      "context": "O evento foi muito",
-      "gender": "M",
-      "correct_adj": "animado",
-      "incorrect_adj": "animada",
-      "p_correct": 3.706359642356716e-07,
-      "p_incorrect": 3.850966251439658e-07,
-      "margin": -1.4460660908294232e-08,
-      "predicted": "incorrect"
-    },
-    {
-      "context": "O livro era muito",
-      "gender": "M",
-      "correct_adj": "longo",
-      "incorrect_adj": "longa",
-      "p_correct": 2.4525473054426428e-05,
-      "p_incorrect": 5.997752905440024e-09,
-      "margin": 2.4519475301520988e-05,
-      "predicted": "correct"
-    }
-  ]
+  {
+   "context": "A escola ficou muito",
+   "gender": "F",
+   "correct_adj": "organizada",
+   "incorrect_adj": "organizado",
+   "p_correct": 4.186312275833437e-06,
+   "p_incorrect": 5.4378049531012e-06,
+   "margin": -1.2514926772677626e-06,
+   "predicted": "incorrect"
+  },
+  {
+   "context": "A porta está",
+   "gender": "F",
+   "correct_adj": "aberta",
+   "incorrect_adj": "aberto",
+   "p_correct": 9.695203687619391e-09,
+   "p_incorrect": 1.7025502535572556e-08,
+   "margin": -7.330298847953165e-09,
+   "predicted": "incorrect"
+  },
+  {
+   "context": "A mãe estava muito",
+   "gender": "F",
+   "correct_adj": "cansada",
+   "incorrect_adj": "cansado",
+   "p_correct": 9.656959731874082e-09,
+   "p_incorrect": 1.1083423471364151e-07,
+   "margin": -1.0117727498176743e-07,
+   "predicted": "incorrect"
+  },
+  {
+   "context": "A aluna é muito",
+   "gender": "F",
+   "correct_adj": "estudiosa",
+   "incorrect_adj": "estudioso",
+   "p_correct": 3.138721748445483e-07,
+   "p_incorrect": 3.99628130794171e-08,
+   "margin": 2.739093617651312e-07,
+   "predicted": "correct"
+  },
+  {
+   "context": "A cidade está muito",
+   "gender": "F",
+   "correct_adj": "movimentada",
+   "incorrect_adj": "movimentado",
+   "p_correct": 9.097640063515655e-08,
+   "p_incorrect": 4.370780185697365e-08,
+   "margin": 4.72685987781829e-08,
+   "predicted": "correct"
+  },
+  {
+   "context": "A comida ficou muito",
+   "gender": "F",
+   "correct_adj": "salgada",
+   "incorrect_adj": "salgado",
+   "p_correct": 1.834183746551865e-08,
+   "p_incorrect": 1.6413004667592546e-06,
+   "margin": -1.622958629293736e-06,
+   "predicted": "incorrect"
+  },
+  {
+   "context": "A água está muito",
+   "gender": "F",
+   "correct_adj": "fria",
+   "incorrect_adj": "frio",
+   "p_correct": 1.25973462583584e-06,
+   "p_incorrect": 2.8082359087022724e-06,
+   "margin": -1.5485012828664324e-06,
+   "predicted": "incorrect"
+  },
+  {
+   "context": "A música é muito",
+   "gender": "F",
+   "correct_adj": "animada",
+   "incorrect_adj": "animado",
+   "p_correct": 4.379055425912659e-07,
+   "p_incorrect": 1.506141577740927e-07,
+   "margin": 2.872913848171732e-07,
+   "predicted": "correct"
+  },
+  {
+   "context": "A rua estava muito",
+   "gender": "F",
+   "correct_adj": "escura",
+   "incorrect_adj": "escuro",
+   "p_correct": 1.876070206303926e-08,
+   "p_incorrect": 3.134296379103674e-07,
+   "margin": -2.946689358473281e-07,
+   "predicted": "incorrect"
+  },
+  {
+   "context": "A mesa está muito",
+   "gender": "F",
+   "correct_adj": "suja",
+   "incorrect_adj": "sujo",
+   "p_correct": 4.147062659639114e-10,
+   "p_incorrect": 1.89157992752393e-09,
+   "margin": -1.4768736615600186e-09,
+   "predicted": "incorrect"
+  },
+  {
+   "context": "A roupa ficou muito",
+   "gender": "F",
+   "correct_adj": "molhada",
+   "incorrect_adj": "molhado",
+   "p_correct": 1.7668505936097034e-08,
+   "p_incorrect": 4.375895826247422e-09,
+   "margin": 1.3292610109849612e-08,
+   "predicted": "correct"
+  },
+  {
+   "context": "A cadeira está muito",
+   "gender": "F",
+   "correct_adj": "velha",
+   "incorrect_adj": "velho",
+   "p_correct": 1.2980848518306942e-06,
+   "p_incorrect": 1.2970329928904678e-06,
+   "margin": 1.0518589402264134e-09,
+   "predicted": "correct"
+  },
+  {
+   "context": "A praia estava muito",
+   "gender": "F",
+   "correct_adj": "lotada",
+   "incorrect_adj": "lotado",
+   "p_correct": 1.3645648637081176e-08,
+   "p_incorrect": 7.130274884241394e-08,
+   "margin": -5.765710020533277e-08,
+   "predicted": "incorrect"
+  },
+  {
+   "context": "A parede ficou muito",
+   "gender": "F",
+   "correct_adj": "manchada",
+   "incorrect_adj": "manchado",
+   "p_correct": 4.130726498641278e-06,
+   "p_incorrect": 8.506895811117698e-08,
+   "margin": 4.045657540530101e-06,
+   "predicted": "correct"
+  },
+  {
+   "context": "A festa foi muito",
+   "gender": "F",
+   "correct_adj": "animada",
+   "incorrect_adj": "animado",
+   "p_correct": 2.074746090485746e-06,
+   "p_incorrect": 1.88472754793223e-06,
+   "margin": 1.9001854255351613e-07,
+   "predicted": "correct"
+  },
+  {
+   "context": "A carta era muito",
+   "gender": "F",
+   "correct_adj": "longa",
+   "incorrect_adj": "longo",
+   "p_correct": 6.301525227181415e-07,
+   "p_incorrect": 9.92048452275185e-07,
+   "margin": -3.618959295570434e-07,
+   "predicted": "incorrect"
+  },
+  {
+   "context": "O menino é muito",
+   "gender": "M",
+   "correct_adj": "bonito",
+   "incorrect_adj": "bonita",
+   "p_correct": 1.7530244988961385e-07,
+   "p_incorrect": 1.004690078180992e-07,
+   "margin": 7.483344207151466e-08,
+   "predicted": "correct"
+  },
+  {
+   "context": "O professor é muito",
+   "gender": "M",
+   "correct_adj": "dedicado",
+   "incorrect_adj": "dedicada",
+   "p_correct": 2.7248563111426094e-07,
+   "p_incorrect": 2.8814583136194116e-08,
+   "margin": 2.436710479780668e-07,
+   "predicted": "correct"
+  },
+  {
+   "context": "O médico foi muito",
+   "gender": "M",
+   "correct_adj": "elogiado",
+   "incorrect_adj": "elogiada",
+   "p_correct": 1.6616601644539424e-07,
+   "p_incorrect": 4.0144154558711953e-10,
+   "margin": 1.6576457489980712e-07,
+   "predicted": "correct"
+  },
+  {
+   "context": "O engenheiro é muito",
+   "gender": "M",
+   "correct_adj": "talentoso",
+   "incorrect_adj": "talentosa",
+   "p_correct": 3.3876044110625267e-07,
+   "p_incorrect": 3.6157479518794666e-07,
+   "margin": -2.2814354081693994e-08,
+   "predicted": "incorrect"
+  },
+  {
+   "context": "O vizinho está muito",
+   "gender": "M",
+   "correct_adj": "preocupado",
+   "incorrect_adj": "preocupada",
+   "p_correct": 7.005397427063687e-05,
+   "p_incorrect": 6.747993235506344e-05,
+   "margin": 2.5740419155734218e-06,
+   "predicted": "correct"
+  },
+  {
+   "context": "O carro é muito",
+   "gender": "M",
+   "correct_adj": "bonito",
+   "incorrect_adj": "bonita",
+   "p_correct": 3.5245256349014653e-06,
+   "p_incorrect": 5.062737321488708e-07,
+   "margin": 3.0182519027525945e-06,
+   "predicted": "correct"
+  },
+  {
+   "context": "O museu ficou muito",
+   "gender": "M",
+   "correct_adj": "organizado",
+   "incorrect_adj": "organizada",
+   "p_correct": 1.1658176189976999e-05,
+   "p_incorrect": 1.0303988263626884e-05,
+   "margin": 1.3541879263501144e-06,
+   "predicted": "correct"
+  },
+  {
+   "context": "O portão está",
+   "gender": "M",
+   "correct_adj": "aberto",
+   "incorrect_adj": "aberta",
+   "p_correct": 8.260113287805737e-09,
+   "p_incorrect": 1.1156194897331577e-09,
+   "margin": 7.144493798072579e-09,
+   "predicted": "correct"
+  },
+  {
+   "context": "O pai estava muito",
+   "gender": "M",
+   "correct_adj": "cansado",
+   "incorrect_adj": "cansada",
+   "p_correct": 6.106727792332123e-07,
+   "p_incorrect": 1.6910517985913032e-09,
+   "margin": 6.08981727434621e-07,
+   "predicted": "correct"
+  },
+  {
+   "context": "O aluno é muito",
+   "gender": "M",
+   "correct_adj": "estudioso",
+   "incorrect_adj": "estudiosa",
+   "p_correct": 9.806807266252225e-08,
+   "p_incorrect": 1.787730750171801e-07,
+   "margin": -8.070500235465784e-08,
+   "predicted": "incorrect"
+  },
+  {
+   "context": "O centro está muito",
+   "gender": "M",
+   "correct_adj": "movimentado",
+   "incorrect_adj": "movimentada",
+   "p_correct": 5.239344333385354e-08,
+   "p_incorrect": 2.1609631040142574e-07,
+   "margin": -1.637028670675722e-07,
+   "predicted": "incorrect"
+  },
+  {
+   "context": "O bolo ficou muito",
+   "gender": "M",
+   "correct_adj": "salgado",
+   "incorrect_adj": "salgada",
+   "p_correct": 4.606912522367446e-06,
+   "p_incorrect": 6.499347851574022e-09,
+   "margin": 4.600413174515872e-06,
+   "predicted": "correct"
+  },
+  {
+   "context": "O suco está muito",
+   "gender": "M",
+   "correct_adj": "frio",
+   "incorrect_adj": "fria",
+   "p_correct": 5.6422381762288865e-06,
+   "p_incorrect": 2.553261663328782e-07,
+   "margin": 5.386912009896008e-06,
+   "predicted": "correct"
+  },
+  {
+   "context": "O barulho é muito",
+   "gender": "M",
+   "correct_adj": "alto",
+   "incorrect_adj": "alta",
+   "p_correct": 3.831270952048271e-06,
+   "p_incorrect": 3.922148650303825e-08,
+   "margin": 3.792049465545233e-06,
+   "predicted": "correct"
+  },
+  {
+   "context": "O quarto estava muito",
+   "gender": "M",
+   "correct_adj": "escuro",
+   "incorrect_adj": "escura",
+   "p_correct": 6.57446366569836e-07,
+   "p_incorrect": 1.0240724770786691e-07,
+   "margin": 5.550391188619691e-07,
+   "predicted": "correct"
+  },
+  {
+   "context": "O chão está muito",
+   "gender": "M",
+   "correct_adj": "sujo",
+   "incorrect_adj": "suja",
+   "p_correct": 3.0777889143546178e-09,
+   "p_incorrect": 2.878084574050449e-09,
+   "margin": 1.9970434030416873e-10,
+   "predicted": "correct"
+  },
+  {
+   "context": "O prato ficou muito",
+   "gender": "M",
+   "correct_adj": "molhado",
+   "incorrect_adj": "molhada",
+   "p_correct": 5.549575788493799e-09,
+   "p_incorrect": 3.841802254794802e-09,
+   "margin": 1.7077735336989974e-09,
+   "predicted": "correct"
+  },
+  {
+   "context": "O sofá está muito",
+   "gender": "M",
+   "correct_adj": "velho",
+   "incorrect_adj": "velha",
+   "p_correct": 1.505565642073714e-06,
+   "p_incorrect": 1.4902191469157167e-06,
+   "margin": 1.5346495157997353e-08,
+   "predicted": "correct"
+  },
+  {
+   "context": "O parque estava muito",
+   "gender": "M",
+   "correct_adj": "lotado",
+   "incorrect_adj": "lotada",
+   "p_correct": 1.0240306515078845e-07,
+   "p_incorrect": 1.5129628104168513e-08,
+   "margin": 8.727343704661994e-08,
+   "predicted": "correct"
+  },
+  {
+   "context": "O muro ficou muito",
+   "gender": "M",
+   "correct_adj": "manchado",
+   "incorrect_adj": "manchada",
+   "p_correct": 2.985899229526398e-07,
+   "p_incorrect": 9.25159313039034e-08,
+   "margin": 2.060739916487364e-07,
+   "predicted": "correct"
+  },
+  {
+   "context": "O evento foi muito",
+   "gender": "M",
+   "correct_adj": "animado",
+   "incorrect_adj": "animada",
+   "p_correct": 3.706359642356716e-07,
+   "p_incorrect": 3.850966251439658e-07,
+   "margin": -1.4460660908294232e-08,
+   "predicted": "incorrect"
+  },
+  {
+   "context": "O livro era muito",
+   "gender": "M",
+   "correct_adj": "longo",
+   "incorrect_adj": "longa",
+   "p_correct": 2.4525473054426428e-05,
+   "p_incorrect": 5.997752905440024e-09,
+   "margin": 2.4519475301520988e-05,
+   "predicted": "correct"
+  }
+ ]
 }

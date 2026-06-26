@@ -14,7 +14,7 @@ and Steering Portuguese Morphosyntactic Features with Sparse Autoencoders"*.
 ```
 notebooks/          # End-to-end pipeline (run in Colab or locally w/ GPU)
 results/            # Raw JSON outputs behind every table/figure in the paper
-data/fase5/         # LLM-generated feature descriptions + validation rubric
+data/phase5/         # LLM-generated feature descriptions + validation rubric
 validation_study/   # Human-in-the-loop annotation results (sanitized)
 scripts/            # Standalone analysis scripts
 requirements.txt    # Python dependencies
@@ -24,17 +24,17 @@ requirements.txt    # Python dependencies
 
 | Notebook | Phase | Reproduces |
 |---|---|---|
-| `fase1_fase2_piloto.ipynb` | 1–2 | Pilot analysis (1M tokens) |
-| `fase3_analise_completa.ipynb` | 3 | Full-scale LSI + two-level triangulation (20M tokens, 4 corpora) |
-| `fase4_probes.ipynb` | 4 | Directed linguistic probes (~170 texts, 6 phenomena) |
-| `fase5_validacao.ipynb` | 5 | Human-in-the-loop validation (30 features, 9 annotators) |
-| `fase6_steering.ipynb` | 6 | Feature steering: ablation + amplification |
+| `phase1_phase2_pilot.ipynb` | 1–2 | Pilot analysis (1M tokens) |
+| `phase3_full_analysis.ipynb` | 3 | Full-scale LSI + two-level triangulation (20M tokens, 4 corpora) |
+| `phase4_probes.ipynb` | 4 | Directed linguistic probes (~170 texts, 6 phenomena) |
+| `phase5_validation.ipynb` | 5 | Human-in-the-loop validation (30 features, 9 annotators) |
+| `phase6_steering.ipynb` | 6 | Feature steering: ablation + amplification |
 
 ### Extended experiments (Gemma 2 2B / 9B)
 
 | Notebook | Reproduces |
 |---|---|
-| `exp_controle_espanhol.ipynb` | Spanish control → Romance hierarchy |
+| `exp_spanish_control.ipynb` | Spanish control → Romance hierarchy |
 | `exp_probes_multilayer.ipynb` | Probes + causal benchmark at L9/L13/L17 |
 | `exp_gender_benchmark.ipynb` | 228-item gender benchmark |
 | `exp_multi_layer.ipynb` | Multi-layer LSI (layers 5, 9, 13, 17, 21) |
@@ -43,9 +43,9 @@ requirements.txt    # Python dependencies
 | `exp_gemma9b_steering.ipynb` | 9B steering pipeline |
 | `exp_gemma9b_lsi.ipynb` | 9B LSI |
 | `exp_gemma9b_probes.ipynb` | 9B probes |
-| `exp_amplificacao_causal.ipynb` | Causal amplification (crase, clitics, up to 16×) |
+| `exp_causal_amplification.ipynb` | Causal amplification (crase, clitics, up to 16×) |
 | `exp_sae_65k.ipynb` | Cross-scale SAE validation (65k features) |
-| `exp_robustez_layer13.ipynb` | Multi-seed robustness, bootstrap CIs |
+| `exp_robustness_layer13.ipynb` | Multi-seed robustness, bootstrap CIs |
 | `exp_register_steering_v2.ipynb` | Register steering (n=50 prompts) |
 
 ## Setup
@@ -101,3 +101,4 @@ author-anchor column is labeled `kappa_vs_anchor`.
 ## License
 
 See `LICENSE`.
+

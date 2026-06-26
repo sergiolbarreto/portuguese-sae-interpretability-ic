@@ -9,8 +9,8 @@ Roda no Google Colab com T4. Carrega modelo + SAE uma vez e executa 4 blocos:
 
 Uso:
   1. Faça upload deste script para o Colab
-  2. Execute: !python exp_robustez_layer13.py
-  3. Resultados salvos em exp_robustez_results.json
+  2. Execute: !python exp_robustness_layer13.py
+  3. Resultados salvos em exp_robustness_results.json
 
 Requer: pip install transformer_lens sae_lens torch numpy scipy
 """
@@ -182,7 +182,7 @@ def process_text(model, sae, text, hook_name, feature_indices=None):
 # =========================================================================
 #
 # Os IDs abaixo foram identificados no pipeline principal (notebooks
-# fase3_analise_completa.ipynb + fase4_probes.ipynb), processando 5M tokens
+# phase3_full_analysis.ipynb + phase4_probes.ipynb), processando 5M tokens
 # por corpus (Wikipedia PT/EN, FineWeb-2 PT, FineWeb EN). Cada feature é
 # referenciada em uma seção específica do paper:
 #
@@ -195,7 +195,7 @@ def process_text(model, sae, text, hook_name, feature_indices=None):
 #   10478 → Preposição 'por' (Tab. 3 + §4.7.5)
 #   10349 → Infinitivo pessoal (Tab. 3 top-features)
 #
-# Para reproduzir a derivação, ver results/exp_controle_espanhol_results.json
+# Para reproduzir a derivação, ver results/exp_spanish_control_results.json
 # (probe_features) e a tabela 3 do paper.
 #
 # IMPORTANTE: estes IDs assumem o SAE canônico Gemma Scope 2B layer 13 16k.
@@ -414,14 +414,14 @@ EXPANDED_PROBES = {
 # Load selected feature indices (same 150 as in the paper)
 checkpoint_dir = os.environ.get("CHECKPOINT_DIR", "./")
 try:
-    fase3 = torch.load(os.path.join(checkpoint_dir, "fase3_results.pt"), weights_only=False)
-    all_selected = fase3["selected"]["all"]
+    phase3 = torch.load(os.path.join(checkpoint_dir, "phase3_results.pt"), weights_only=False)
+    all_selected = phase3["selected"]["all"]
 except FileNotFoundError:
     try:
-        fase4 = torch.load(os.path.join(checkpoint_dir, "fase4_probes_results.pt"), weights_only=False)
-        all_selected = fase4["all_selected"]
+        phase4 = torch.load(os.path.join(checkpoint_dir, "phase4_probes_results.pt"), weights_only=False)
+        all_selected = phase4["all_selected"]
     except FileNotFoundError:
-        print("AVISO: Não encontrou fase3_results.pt nem fase4_probes_results.pt.")
+        print("AVISO: Não encontrou phase3_results.pt nem phase4_probes_results.pt.")
         print("Usando top features conhecidas do paper como fallback.")
         all_selected = list(set(
             list(FEATURES_PT.values()) +
@@ -717,7 +717,7 @@ print("\n" + "=" * 70)
 print("SALVANDO RESULTADOS")
 print("=" * 70)
 
-output_path = os.path.join(SAVE_DIR, "exp_robustez_results.json")
+output_path = os.path.join(SAVE_DIR, "exp_robustness_results.json")
 with open(output_path, "w", encoding="utf-8") as f:
     json.dump(ALL_RESULTS, f, ensure_ascii=False, indent=2)
 

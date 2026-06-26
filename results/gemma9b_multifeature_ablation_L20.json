@@ -1,19 +1,161 @@
 {
-  "experiment": "gemma9b_multifeature_ablation",
-  "model": "gemma-2-9b",
-  "sae_release": "gemma-scope-9b-pt-res-canonical",
-  "layer": 20,
-  "K_values": [
-    0,
-    1,
-    2,
-    3,
-    5,
-    10,
-    20,
-    50
-  ],
-  "top_feature_ids": [
+ "experiment": "gemma9b_multifeature_ablation",
+ "model": "gemma-2-9b",
+ "sae_release": "gemma-scope-9b-pt-res-canonical",
+ "layer": 20,
+ "K_values": [
+  0,
+  1,
+  2,
+  3,
+  5,
+  10,
+  20,
+  50
+ ],
+ "top_feature_ids": [
+  4361,
+  9016,
+  15949,
+  10243,
+  3595,
+  1115,
+  7470,
+  9140,
+  10528,
+  4835,
+  12008,
+  8180,
+  10841,
+  9249,
+  2873,
+  10448,
+  9154,
+  12237,
+  12440,
+  7839
+ ],
+ "sweep": {
+  "0": {
+   "feature_ids": [],
+   "stats": {
+    "overall": 0.9166666666666666,
+    "feminine": 0.9736842105263158,
+    "masculine": 0.8596491228070176,
+    "fem_correct": 111,
+    "masc_correct": 98,
+    "n_fem": 114,
+    "n_masc": 114
+   }
+  },
+  "1": {
+   "feature_ids": [
+    4361
+   ],
+   "stats": {
+    "overall": 0.9166666666666666,
+    "feminine": 0.9736842105263158,
+    "masculine": 0.8596491228070176,
+    "fem_correct": 111,
+    "masc_correct": 98,
+    "n_fem": 114,
+    "n_masc": 114,
+    "fisher_p_fem": 1.0,
+    "fisher_p_masc": 1.0,
+    "fem_drop_pp": 0.0,
+    "masc_drop_pp": 0.0
+   }
+  },
+  "2": {
+   "feature_ids": [
+    4361,
+    9016
+   ],
+   "stats": {
+    "overall": 0.9166666666666666,
+    "feminine": 0.9736842105263158,
+    "masculine": 0.8596491228070176,
+    "fem_correct": 111,
+    "masc_correct": 98,
+    "n_fem": 114,
+    "n_masc": 114,
+    "fisher_p_fem": 1.0,
+    "fisher_p_masc": 1.0,
+    "fem_drop_pp": 0.0,
+    "masc_drop_pp": 0.0
+   }
+  },
+  "3": {
+   "feature_ids": [
+    4361,
+    9016,
+    15949
+   ],
+   "stats": {
+    "overall": 0.9166666666666666,
+    "feminine": 0.9736842105263158,
+    "masculine": 0.8596491228070176,
+    "fem_correct": 111,
+    "masc_correct": 98,
+    "n_fem": 114,
+    "n_masc": 114,
+    "fisher_p_fem": 1.0,
+    "fisher_p_masc": 1.0,
+    "fem_drop_pp": 0.0,
+    "masc_drop_pp": 0.0
+   }
+  },
+  "5": {
+   "feature_ids": [
+    4361,
+    9016,
+    15949,
+    10243,
+    3595
+   ],
+   "stats": {
+    "overall": 0.9035087719298246,
+    "feminine": 0.9473684210526315,
+    "masculine": 0.8596491228070176,
+    "fem_correct": 108,
+    "masc_correct": 98,
+    "n_fem": 114,
+    "n_masc": 114,
+    "fisher_p_fem": 0.49896352103257624,
+    "fisher_p_masc": 1.0,
+    "fem_drop_pp": 2.6315789473684292,
+    "masc_drop_pp": 0.0
+   }
+  },
+  "10": {
+   "feature_ids": [
+    4361,
+    9016,
+    15949,
+    10243,
+    3595,
+    1115,
+    7470,
+    9140,
+    10528,
+    4835
+   ],
+   "stats": {
+    "overall": 0.8991228070175439,
+    "feminine": 0.9385964912280702,
+    "masculine": 0.8596491228070176,
+    "fem_correct": 107,
+    "masc_correct": 98,
+    "n_fem": 114,
+    "n_masc": 114,
+    "fisher_p_fem": 0.33271397397793645,
+    "fisher_p_masc": 1.0,
+    "fem_drop_pp": 3.508771929824561,
+    "masc_drop_pp": 0.0
+   }
+  },
+  "20": {
+   "feature_ids": [
     4361,
     9016,
     15949,
@@ -34,200 +176,58 @@
     12237,
     12440,
     7839
-  ],
-  "sweep": {
-    "0": {
-      "feature_ids": [],
-      "stats": {
-        "overall": 0.9166666666666666,
-        "feminine": 0.9736842105263158,
-        "masculine": 0.8596491228070176,
-        "fem_correct": 111,
-        "masc_correct": 98,
-        "n_fem": 114,
-        "n_masc": 114
-      }
-    },
-    "1": {
-      "feature_ids": [
-        4361
-      ],
-      "stats": {
-        "overall": 0.9166666666666666,
-        "feminine": 0.9736842105263158,
-        "masculine": 0.8596491228070176,
-        "fem_correct": 111,
-        "masc_correct": 98,
-        "n_fem": 114,
-        "n_masc": 114,
-        "fisher_p_fem": 1.0,
-        "fisher_p_masc": 1.0,
-        "fem_drop_pp": 0.0,
-        "masc_drop_pp": 0.0
-      }
-    },
-    "2": {
-      "feature_ids": [
-        4361,
-        9016
-      ],
-      "stats": {
-        "overall": 0.9166666666666666,
-        "feminine": 0.9736842105263158,
-        "masculine": 0.8596491228070176,
-        "fem_correct": 111,
-        "masc_correct": 98,
-        "n_fem": 114,
-        "n_masc": 114,
-        "fisher_p_fem": 1.0,
-        "fisher_p_masc": 1.0,
-        "fem_drop_pp": 0.0,
-        "masc_drop_pp": 0.0
-      }
-    },
-    "3": {
-      "feature_ids": [
-        4361,
-        9016,
-        15949
-      ],
-      "stats": {
-        "overall": 0.9166666666666666,
-        "feminine": 0.9736842105263158,
-        "masculine": 0.8596491228070176,
-        "fem_correct": 111,
-        "masc_correct": 98,
-        "n_fem": 114,
-        "n_masc": 114,
-        "fisher_p_fem": 1.0,
-        "fisher_p_masc": 1.0,
-        "fem_drop_pp": 0.0,
-        "masc_drop_pp": 0.0
-      }
-    },
-    "5": {
-      "feature_ids": [
-        4361,
-        9016,
-        15949,
-        10243,
-        3595
-      ],
-      "stats": {
-        "overall": 0.9035087719298246,
-        "feminine": 0.9473684210526315,
-        "masculine": 0.8596491228070176,
-        "fem_correct": 108,
-        "masc_correct": 98,
-        "n_fem": 114,
-        "n_masc": 114,
-        "fisher_p_fem": 0.49896352103257624,
-        "fisher_p_masc": 1.0,
-        "fem_drop_pp": 2.6315789473684292,
-        "masc_drop_pp": 0.0
-      }
-    },
-    "10": {
-      "feature_ids": [
-        4361,
-        9016,
-        15949,
-        10243,
-        3595,
-        1115,
-        7470,
-        9140,
-        10528,
-        4835
-      ],
-      "stats": {
-        "overall": 0.8991228070175439,
-        "feminine": 0.9385964912280702,
-        "masculine": 0.8596491228070176,
-        "fem_correct": 107,
-        "masc_correct": 98,
-        "n_fem": 114,
-        "n_masc": 114,
-        "fisher_p_fem": 0.33271397397793645,
-        "fisher_p_masc": 1.0,
-        "fem_drop_pp": 3.508771929824561,
-        "masc_drop_pp": 0.0
-      }
-    },
-    "20": {
-      "feature_ids": [
-        4361,
-        9016,
-        15949,
-        10243,
-        3595,
-        1115,
-        7470,
-        9140,
-        10528,
-        4835,
-        12008,
-        8180,
-        10841,
-        9249,
-        2873,
-        10448,
-        9154,
-        12237,
-        12440,
-        7839
-      ],
-      "stats": {
-        "overall": 0.6228070175438597,
-        "feminine": 0.41228070175438597,
-        "masculine": 0.8333333333333334,
-        "fem_correct": 47,
-        "masc_correct": 95,
-        "n_fem": 114,
-        "n_masc": 114,
-        "fisher_p_fem": 1.9910896539892926e-22,
-        "fisher_p_masc": 0.7137230628470541,
-        "fem_drop_pp": 56.14035087719298,
-        "masc_drop_pp": 2.631578947368418
-      }
-    },
-    "50": {
-      "feature_ids": [
-        4361,
-        9016,
-        15949,
-        10243,
-        3595,
-        1115,
-        7470,
-        9140,
-        10528,
-        4835,
-        12008,
-        8180,
-        10841,
-        9249,
-        2873,
-        10448,
-        9154,
-        12237,
-        12440,
-        7839
-      ],
-      "stats": {
-        "overall": 0.6228070175438597,
-        "feminine": 0.41228070175438597,
-        "masculine": 0.8333333333333334,
-        "fem_correct": 47,
-        "masc_correct": 95,
-        "n_fem": 114,
-        "n_masc": 114,
-        "fisher_p_fem": 1.9910896539892926e-22,
-        "fisher_p_masc": 0.7137230628470541,
-        "fem_drop_pp": 56.14035087719298,
-        "masc_drop_pp": 2.631578947368418
-      }
-    }
+   ],
+   "stats": {
+    "overall": 0.6228070175438597,
+    "feminine": 0.41228070175438597,
+    "masculine": 0.8333333333333334,
+    "fem_correct": 47,
+    "masc_correct": 95,
+    "n_fem": 114,
+    "n_masc": 114,
+    "fisher_p_fem": 1.9910896539892926e-22,
+    "fisher_p_masc": 0.7137230628470541,
+    "fem_drop_pp": 56.14035087719298,
+    "masc_drop_pp": 2.631578947368418
+   }
   },
-  "benchmark_n": 228
+  "50": {
+   "feature_ids": [
+    4361,
+    9016,
+    15949,
+    10243,
+    3595,
+    1115,
+    7470,
+    9140,
+    10528,
+    4835,
+    12008,
+    8180,
+    10841,
+    9249,
+    2873,
+    10448,
+    9154,
+    12237,
+    12440,
+    7839
+   ],
+   "stats": {
+    "overall": 0.6228070175438597,
+    "feminine": 0.41228070175438597,
+    "masculine": 0.8333333333333334,
+    "fem_correct": 47,
+    "masc_correct": 95,
+    "n_fem": 114,
+    "n_masc": 114,
+    "fisher_p_fem": 1.9910896539892926e-22,
+    "fisher_p_masc": 0.7137230628470541,
+    "fem_drop_pp": 56.14035087719298,
+    "masc_drop_pp": 2.631578947368418
+   }
+  }
+ },
+ "benchmark_n": 228
 }

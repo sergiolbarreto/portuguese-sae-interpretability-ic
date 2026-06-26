@@ -1,0 +1,179 @@
+{
+ "experiment": "Controle Romance — Espanhol",
+ "model": "gemma-2-2b",
+ "layer": 13,
+ "n_tokens_es_per_corpus": 1000000,
+ "summary": {
+  "n_active": 15735,
+  "pt_specific_vs_en": 881,
+  "genuinely_pt": 126,
+  "romance_shared": 711,
+  "es_dominant": 44,
+  "es_specific_vs_en": 1045,
+  "pct_genuinely_pt": 14.3,
+  "pct_romance_shared": 80.7
+ },
+ "correlations": {
+  "lsi_pt_en_vs_lsi_es_en": {
+   "rho": 0.9203,
+   "pval": 0.0
+  },
+  "freq_pt_vs_freq_es": {
+   "rho": 0.9825,
+   "pval": 0.0
+  }
+ },
+ "lsi_pt_es_distribution": {
+  "mean": 0.0806,
+  "median": 0.076,
+  "std": 0.2345
+ },
+ "probe_features": {
+  "Gender (1215)": {
+   "feature_id": 1215,
+   "freq_pt": 0.244619,
+   "freq_es": 0.236238,
+   "freq_en": 0.006518,
+   "lsi_pt_en": 0.9481,
+   "lsi_pt_es": 0.0174,
+   "classification": "Romance-shared"
+  },
+  "Crase (4584)": {
+   "feature_id": 4584,
+   "freq_pt": 0.0275,
+   "freq_es": 0.018447,
+   "freq_en": 6.4e-05,
+   "lsi_pt_en": 0.9953,
+   "lsi_pt_es": 0.197,
+   "classification": "Romance-shared"
+  },
+  "Enclisis (2817)": {
+   "feature_id": 2817,
+   "freq_pt": 0.166066,
+   "freq_es": 0.151143,
+   "freq_en": 0.000819,
+   "lsi_pt_en": 0.9902,
+   "lsi_pt_es": 0.047,
+   "classification": "Romance-shared"
+  },
+  "Proclisis (6215)": {
+   "feature_id": 6215,
+   "freq_pt": 0.020358,
+   "freq_es": 0.00174,
+   "freq_en": 0.001085,
+   "lsi_pt_en": 0.8988,
+   "lsi_pt_es": 0.8426,
+   "classification": "PT-specific"
+  },
+  "Contraction do (2294)": {
+   "feature_id": 2294,
+   "freq_pt": 0.048532,
+   "freq_es": 0.018007,
+   "freq_en": 0.000139,
+   "lsi_pt_en": 0.9943,
+   "lsi_pt_es": 0.4588,
+   "classification": "PT-specific"
+  },
+  "Clitic lhe (15135)": {
+   "feature_id": 15135,
+   "freq_pt": 0.008714,
+   "freq_es": 0.022135,
+   "freq_en": 2.5e-05,
+   "lsi_pt_en": 0.9943,
+   "lsi_pt_es": -0.4351,
+   "classification": "ES-dominant"
+  },
+  "Preposition por (10478)": {
+   "feature_id": 10478,
+   "freq_pt": 0.029565,
+   "freq_es": 0.054306,
+   "freq_en": 0.000118,
+   "lsi_pt_en": 0.992,
+   "lsi_pt_es": -0.295,
+   "classification": "Romance-shared"
+  },
+  "Personal inf (10349)": {
+   "feature_id": 10349,
+   "freq_pt": 0.00828,
+   "freq_es": 0.006396,
+   "freq_en": 0.000383,
+   "lsi_pt_en": 0.9117,
+   "lsi_pt_es": 0.1284,
+   "classification": "Romance-shared"
+  }
+ },
+ "top_features": {
+  "PT detector (10496)": {
+   "feature_id": 10496,
+   "freq_pt": 0.014697,
+   "freq_es": 0.012653,
+   "freq_en": 1.3e-05,
+   "lsi_pt_en": 0.9982,
+   "lsi_pt_es": 0.0747,
+   "classification": "Romance-shared"
+  },
+  "Narrative PT (1906)": {
+   "feature_id": 1906,
+   "freq_pt": 0.215058,
+   "freq_es": 0.229327,
+   "freq_en": 0.000207,
+   "lsi_pt_en": 0.9981,
+   "lsi_pt_es": -0.0321,
+   "classification": "Romance-shared"
+  },
+  "Encyclopedic PT (8718)": {
+   "feature_id": 8718,
+   "freq_pt": 0.01196,
+   "freq_es": 0.013379,
+   "freq_en": 1.4e-05,
+   "lsi_pt_en": 0.9977,
+   "lsi_pt_es": -0.056,
+   "classification": "Romance-shared"
+  },
+  "Articles PT (16057)": {
+   "feature_id": 16057,
+   "freq_pt": 0.048321,
+   "freq_es": 0.07119,
+   "freq_en": 8.4e-05,
+   "lsi_pt_en": 0.9965,
+   "lsi_pt_es": -0.1914,
+   "classification": "Romance-shared"
+  },
+  "Metadata PT (12649)": {
+   "feature_id": 12649,
+   "freq_pt": 0.045004,
+   "freq_es": 0.050607,
+   "freq_en": 0.000138,
+   "lsi_pt_en": 0.9939,
+   "lsi_pt_es": -0.0586,
+   "classification": "Romance-shared"
+  },
+  "Connectors PT (16194)": {
+   "feature_id": 16194,
+   "freq_pt": 0.02278,
+   "freq_es": 0.023283,
+   "freq_en": 9.3e-05,
+   "lsi_pt_en": 0.9919,
+   "lsi_pt_es": -0.0109,
+   "classification": "Romance-shared"
+  },
+  "Colloquial (1082)": {
+   "feature_id": 1082,
+   "freq_pt": 0.008272,
+   "freq_es": 0.01963,
+   "freq_en": 0.00018,
+   "lsi_pt_en": 0.9574,
+   "lsi_pt_es": -0.4071,
+   "classification": "ES-dominant"
+  },
+  "Scientific (5880)": {
+   "feature_id": 5880,
+   "freq_pt": 0.057129,
+   "freq_es": 0.058855,
+   "freq_en": 0.001026,
+   "lsi_pt_en": 0.9647,
+   "lsi_pt_es": -0.0149,
+   "classification": "Romance-shared"
+  }
+ }
+}
